@@ -1,0 +1,25 @@
+{
+  "practiceForm": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "gender": "Male",
+    "mobile": "1234567890"
+  },
+  "alerts": {
+    "promptText": "Hello QA"
+  },
+  "datePicker": {
+    "date": "01/01/2000"
+  },
+  "autocomplete": {
+    "colors": ["Red", "Green", "Blue"]
+  },
+  "dragDrop": {
+    "droppedText": "Dropped!"
+  },
+  "buttons": {
+    "doubleClickMessage": "You have done a double click",
+    "rightClickMessage": "You have done a right click",
+    "singleClickMessage": "You have done a dynamic click"
+  }
+}
