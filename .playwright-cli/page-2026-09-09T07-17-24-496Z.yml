@@ -1,0 +1,74 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - navigation [ref=f2e4]:
+      - link [ref=f2e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer
+      - list [ref=f2e6]:
+        - listitem [ref=f2e7]:
+          - link "Menu" [ref=f2e8] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - paragraph [ref=f2e9]: "\"INTERFOOD-IDEA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+      - generic [ref=f2e12]:
+        - generic [ref=f2e13]:
+          - generic [ref=f2e14]: Koniec sesji za 15:00
+          - generic [ref=f2e15]: "Ostatnia udana próba logowania: 09-09-2026 09:02"
+        - button "Wyloguj" [ref=f2e16] [cursor=pointer]
+  - generic [ref=f2e18]:
+    - navigation "breadcrumb" [ref=f2e19]:
+      - list [ref=f2e20]:
+        - listitem [ref=f2e21]:
+          - link "Home" [ref=f2e22] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/employer
+        - listitem [ref=f2e23]:
+          - text: /
+          - link "Dyspozycje" [ref=f2e24] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/employer/dashboard?orders=1
+        - listitem [ref=f2e25]: / Zgłoszenie wpłat
+    - heading "Zgłoszenie wpłat" [level=1] [ref=f2e26]
+    - generic [ref=f2e31]:
+      - generic [ref=f2e33]:
+        - generic [ref=f2e34]: Wpłata za okres (RRRR-MM)
+        - textbox [ref=f2e35]
+      - table [ref=f2e37]:
+        - rowgroup [ref=f2e38]:
+          - row [ref=f2e39]:
+            - columnheader "Lp." [ref=f2e40]
+            - columnheader "PESEL" [ref=f2e41]
+            - columnheader "Imię i nazwisko" [ref=f2e42]
+            - columnheader "Wpłata podstawowa pracownika " [ref=f2e43]:
+              - generic [ref=f2e44]:
+                - text: Wpłata podstawowa pracownika
+                - generic [ref=f2e45] [cursor=pointer]:  
+            - columnheader "Wpłata dodatkowa pracownika" [ref=f2e46]
+            - columnheader "Wpłata podstawowa pracodawcy " [ref=f2e47]:
+              - generic [ref=f2e48]:
+                - text: Wpłata podstawowa pracodawcy
+                - generic [ref=f2e49] [cursor=pointer]:  
+            - columnheader "Wpłata dodatkowa pracodawcy" [ref=f2e50]
+            - columnheader "Uczestnik z obniżoną wpłatą" [ref=f2e51]
+            - columnheader [ref=f2e52]
+        - rowgroup
+        - rowgroup [ref=f2e53]:
+          - row [ref=f2e54]:
+            - cell [ref=f2e55]
+            - cell [ref=f2e56]:
+              - button "Dodaj kolejną wpłatę" [ref=f2e57] [cursor=pointer]
+      - button "Dalej" [ref=f2e60] [cursor=pointer]
+  - contentinfo [ref=f2e61]:
+    - generic [ref=f2e63]:
+      - generic [ref=f2e64]:
+        - paragraph [ref=f2e65]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f2e66]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f2e68]:
+        - listitem [ref=f2e69]:
+          - link "Bezpieczeństwo" [ref=f2e70] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f2e71]:
+          - link "Polityka cookies" [ref=f2e72] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f2e73]:
+          - link "Kontakt" [ref=f2e74] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f2e75]:
+          - link "Regulamin" [ref=f2e76] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

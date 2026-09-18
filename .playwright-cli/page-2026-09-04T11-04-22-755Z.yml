@@ -1,0 +1,190 @@
+- generic [ref=f18e1]:
+  - banner [ref=f18e2]:
+    - generic [ref=f18e3]:
+      - navigation [ref=f18e4]:
+        - link [ref=f18e5] [cursor=pointer]:
+          - /url: /ppk-nnpte2/nnpte/employer
+        - list [ref=f18e6]:
+          - listitem [ref=f18e7]:
+            - link "Menu" [expanded] [active] [ref=f18e8] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - paragraph [ref=f18e9]: "\"INTERFOOD-IDEA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+        - generic [ref=f18e12]:
+          - generic [ref=f18e13]:
+            - generic [ref=f18e14]: Koniec sesji za 14:49
+            - generic [ref=f18e15]: "Ostatnia udana próba logowania: 04-09-2026 12:57"
+          - button "Wyloguj" [ref=f18e16] [cursor=pointer]
+      - generic [ref=f18e86]:
+        - generic [ref=f18e87]:
+          - generic [ref=f18e88]:
+            - generic [ref=f18e89]:
+              - heading "Panel administracyjny" [level=3] [ref=f18e90]
+              - list [ref=f18e91]:
+                - listitem [ref=f18e92]:
+                  - link "Lista użytkowników" [ref=f18e93] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/employer/admin
+            - generic [ref=f18e94]:
+              - heading "PPK" [level=3] [ref=f18e95]
+              - list [ref=f18e96]:
+                - listitem [ref=f18e97]:
+                  - link "Przekazanie plików" [ref=f18e98] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/employer/fileUpload
+                - listitem [ref=f18e99]:
+                  - link "Podgląd Uczestników" [ref=f18e100] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/employer/customer/list
+                - listitem [ref=f18e101]:
+                  - link "Raporty" [ref=f18e102] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/employer/report
+                - listitem [ref=f18e103]:
+                  - link "Dokumenty" [ref=f18e104] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/documents
+            - generic [ref=f18e105]:
+              - heading "Ustawienia" [level=3] [ref=f18e106]
+              - list [ref=f18e107]:
+                - listitem [ref=f18e108]:
+                  - link "Dane dotyczące umowy i wpłat do PPK" [ref=f18e109] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/employer/data
+                - listitem [ref=f18e110]:
+                  - link "Wspólne logowanie" [ref=f18e111] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/employer/relatedUsers
+                - listitem [ref=f18e112]:
+                  - link "Zmiana hasła" [ref=f18e113] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/passwordChange
+                - listitem [ref=f18e114]:
+                  - link "Zaufane urządzenia" [ref=f18e115] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/trusted-devices
+          - generic [ref=f18e116]:
+            - heading "Dyspozycje" [level=3] [ref=f18e117]
+            - list [ref=f18e118]:
+              - listitem [ref=f18e119]:
+                - link "Zgłoszenie pracownika" [ref=f18e120] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/employer/registration?mode=init
+              - listitem [ref=f18e121]:
+                - link "Zgłoszenie wpłat" [ref=f18e122] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/employer/contributions?mode=init
+              - listitem [ref=f18e123]:
+                - link "Zgłoszenie korekt do wpłat" [ref=f18e124] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/employer/corrections?mode=init
+              - listitem [ref=f18e125]:
+                - link "Rezygnacja z odprowadzania wpłat" [ref=f18e126] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/employer/contributioncancel/
+              - listitem [ref=f18e127]:
+                - link "Wznowienie odprowadzania wpłat" [ref=f18e128] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/employer/contributionrenewal
+              - listitem [ref=f18e129]:
+                - link "Zmiana wysokości wpłaty podstawowej Pracownika" [ref=f18e130] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/employer/contribution/primary
+              - listitem [ref=f18e131]:
+                - link "Deklaracja wpłaty dodatkowej Pracownika" [ref=f18e132] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/employer/contribution/secondary
+              - listitem [ref=f18e133]:
+                - link "Zmiana danych" [ref=f18e134] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/employer/dataChange
+              - listitem [ref=f18e135]:
+                - link "Wypłata transferowa do Nationale-Nederlanden" [ref=f18e136] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/employer/transfer
+              - listitem [ref=f18e137]:
+                - link "Zakończenie lub wznowienie zatrudnienia" [ref=f18e138] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/employer/employmentChange
+          - generic [ref=f18e139]:
+            - generic [ref=f18e140]:
+              - paragraph [ref=f18e142]: Masz pytania? Skontaktuj się z Twoim opiekunem PPK
+              - generic [ref=f18e143]:
+                - img "advisor-photo" [ref=f18e146]
+                - generic [ref=f18e148]:
+                  - paragraph [ref=f18e150]: testowy_opiekun_1
+                  - generic [ref=f18e151]:
+                    - img "phone" [ref=f18e152]
+                    - paragraph [ref=f18e153]: 501 000 000
+                  - generic [ref=f18e154]:
+                    - img "mail" [ref=f18e155]
+                    - paragraph [ref=f18e156]: dawid.wrobel.test.test.test@psfinteco.pl
+            - generic [ref=f18e157]:
+              - paragraph [ref=f18e159]: Ogólna obsługa klienta
+              - paragraph [ref=f18e162]: 22 541 77 57
+              - paragraph [ref=f18e164]: dostępna pn. - pt., godz. 9:00-17:00
+              - paragraph [ref=f18e166]: Koszt połączenia zależy od taryfy Twojego operatora.
+        - list [ref=f18e168]:
+          - listitem [ref=f18e169]: "Ostatnia udana próba logowania: 2026-09-04 12:57"
+          - listitem [ref=f18e170]: "Ostatnia nieudana próba logowania: 2026-09-04 13:00"
+  - generic [ref=f18e17]:
+    - text: /
+    - generic [ref=f18e19]:
+      - link [ref=f18e21] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/fileUpload
+        - img "Card image cap" [ref=f18e22]
+        - generic [ref=f18e23]:
+          - heading "Przekazanie plików" [level=5] [ref=f18e24]
+          - text: Zgłoś swoich pracowników do Pracowniczego Planu Kapitałowego, przekaż wpłaty i inne dyspozycje w formie pliku
+      - link [ref=f18e26] [cursor=pointer]:
+        - /url: "#"
+        - img "Card image cap" [ref=f18e27]
+        - generic [ref=f18e28]:
+          - heading "Dyspozycje" [level=5] [ref=f18e29]
+          - text: Złóż dyspozycje dotyczące uczestników Pracowniczego Planu Kapitałowego
+      - link [ref=f18e31] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/customer/list
+        - img "Card image cap" [ref=f18e32]
+        - generic [ref=f18e33]:
+          - heading "Podgląd Uczestników" [level=5] [ref=f18e34]
+          - text: Tu zobaczysz pracowników zgłoszonych do Pracowniczego Planu Kapitałowego
+      - link [ref=f18e36] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/report/
+        - img "Raporty" [ref=f18e37]
+        - generic [ref=f18e38]:
+          - heading "Raporty" [level=5] [ref=f18e39]
+          - text: Wygeneruj raporty
+      - link [ref=f18e41] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/documentsReport/
+        - img "Card image cap" [ref=f18e42]
+        - generic [ref=f18e43]:
+          - heading "Pliki zwrotne od Nationale-Nederlanden" [level=5] [ref=f18e44]
+          - text: Pobierz pliki zwrotne dotyczące uczestników Pracowniczego Planu Kapitałowego
+      - link [ref=f18e46] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/documents
+        - img "Card image cap" [ref=f18e47]
+        - generic [ref=f18e48]:
+          - heading "Dokumenty" [level=5] [ref=f18e49]
+          - text: Tu znajdziesz m.in. umowy PPK, formularze, manual, materiały marketingowe
+      - link [ref=f18e51] [cursor=pointer]:
+        - /url: https://www.nn.pl/dam/zasoby/PPK/harmonogram-jak-informowac-nowego-pracownika-o-PPK-szkoleniaEHD.pdf
+        - img "Materiały informacyjne" [ref=f18e52]
+        - generic [ref=f18e53]:
+          - heading "Materiały informacyjne" [level=5] [ref=f18e54]
+          - text: Pobierz materiały i sprawdź, kiedy informować pracownika o PPK
+      - link [ref=f18e56] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/data/
+        - img "Dane dotyczące umowy i wpłat do PPK" [ref=f18e57]
+        - generic [ref=f18e58]:
+          - heading "Dane dotyczące umowy i wpłat do PPK" [level=5] [ref=f18e59]
+          - text: Tu znajdziesz dane dotyczące zawartej umowy o zarządzenie PPK oraz rachunek bankowy do wpłat
+      - link [ref=f18e61] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/admin
+        - img "Card image cap" [ref=f18e62]
+        - generic [ref=f18e63]:
+          - heading "Uprawnienia" [level=5] [ref=f18e64]
+          - text: Zarządzaj użytkownikami Portalu Pracodawcy
+      - link [ref=f18e66] [cursor=pointer]:
+        - /url: https://www.nn.pl/szkolenia-ppk
+        - img "Szkolenia" [ref=f18e67]
+        - generic [ref=f18e68]:
+          - heading "Szkolenia" [level=5] [ref=f18e69]
+          - text: Sprawdź terminy szkoleń PPK dla Ciebie i Twoich pracowników
+  - contentinfo [ref=f18e70]:
+    - generic [ref=f18e72]:
+      - generic [ref=f18e73]:
+        - paragraph [ref=f18e74]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f18e75]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f18e77]:
+        - listitem [ref=f18e78]:
+          - link "Bezpieczeństwo" [ref=f18e79] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f18e80]:
+          - link "Polityka cookies" [ref=f18e81] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f18e82]:
+          - link "Kontakt" [ref=f18e83] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f18e84]:
+          - link "Regulamin" [ref=f18e85] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

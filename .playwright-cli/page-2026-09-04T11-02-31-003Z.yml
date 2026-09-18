@@ -1,0 +1,71 @@
+- generic [active] [ref=f17e1]:
+  - banner [ref=f17e2]:
+    - navigation [ref=f17e4]:
+      - link [ref=f17e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer
+      - list [ref=f17e6]:
+        - listitem [ref=f17e7]:
+          - link "Menu" [ref=f17e8] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - paragraph [ref=f17e9]: "\"INTERFOOD-IDEA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+      - generic [ref=f17e12]:
+        - generic [ref=f17e13]:
+          - generic [ref=f17e14]: Koniec sesji za 15:00
+          - generic [ref=f17e15]: "Ostatnia udana próba logowania: 04-09-2026 12:57"
+        - button "Wyloguj" [ref=f17e16] [cursor=pointer]
+  - generic [ref=f17e18]:
+    - navigation "breadcrumb" [ref=f17e19]:
+      - list [ref=f17e20]:
+        - listitem [ref=f17e21]:
+          - link "Home" [ref=f17e22] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/employer
+        - listitem [ref=f17e23]: / Zmiana hasła
+    - heading "Zmiana hasła" [level=1] [ref=f17e24]
+    - generic [ref=f17e26]:
+      - paragraph [ref=f17e30]: Podaj nowe hasło. Hasło musi zawierać przynajmniej 12 znaków, przynajmniej 3 litery (przynajmniej 1 dużą oraz 1 małą literę), przynajmniej 2 cyfry, przynajmniej 1 znak specjalny oraz nie może zawierać 3 lub więcej identycznych, następujących po sobie znaków.
+      - generic [ref=f17e31]:
+        - generic [ref=f17e32]:
+          - generic [ref=f17e33]: Stare hasło
+          - textbox "Stare hasło" [ref=f17e34]
+        - generic [ref=f17e35]:
+          - generic [ref=f17e36]: Nowe hasło
+          - generic [ref=f17e37]:
+            - textbox "Nowe hasło" [ref=f17e38]
+            - generic: 
+            - generic [ref=f17e39]: Hasło musi zawierać przynajmniej 12 znaków, przynajmniej 3 litery (przynajmniej 1 dużą oraz 1 małą literę), przynajmniej 2 cyfry, przynajmniej 1 znak specjalny oraz nie może zawierać 3 lub więcej identycznych, następujących po sobie znaków.
+        - generic [ref=f17e40]:
+          - generic [ref=f17e41]: Powtórz hasło
+          - generic [ref=f17e42]:
+            - textbox "Powtórz hasło" [ref=f17e43]
+            - generic: 
+        - generic [ref=f17e44]:
+          - button "Powrót" [ref=f17e45] [cursor=pointer]
+          - button "Zmień hasło" [ref=f17e46] [cursor=pointer]
+      - generic [ref=f17e47]:
+        - heading "Wymagania bezpieczeństwa:" [level=5] [ref=f17e48]
+        - list [ref=f17e49]:
+          - listitem [ref=f17e50]:  minimum 12 znaków
+          - listitem [ref=f17e51]:  maksimum 20 znaków
+          - listitem [ref=f17e52]:  minimum 1 znak specjalny
+          - listitem [ref=f17e53]:  minimum 2 cyfry
+          - listitem [ref=f17e54]:  małe i duże litery
+          - listitem [ref=f17e55]:  nie mniej niż trzy litery
+          - listitem [ref=f17e56]:  nie więcej niż dwa takie same znaki obok siebie
+  - contentinfo [ref=f17e57]:
+    - generic [ref=f17e59]:
+      - generic [ref=f17e60]:
+        - paragraph [ref=f17e61]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f17e62]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f17e64]:
+        - listitem [ref=f17e65]:
+          - link "Bezpieczeństwo" [ref=f17e66] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f17e67]:
+          - link "Polityka cookies" [ref=f17e68] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f17e69]:
+          - link "Kontakt" [ref=f17e70] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f17e71]:
+          - link "Regulamin" [ref=f17e72] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

@@ -1,71 +1,143 @@
 import { Page, Locator } from '@playwright/test';
 
-export class BasePage {
+/** Application context path shared by every page of the new N-Portal PPK app. */
+export const APP_PATH = '/ppk-nnpte2/nnpte';
+
+/**
+ * Shared elements and helpers available on every authenticated screen
+ * (header banner, Menu flyout, logout) plus generic navigation helpers.
+ */
+export default class BasePage {
   readonly page: Page;
+  readonly menuToggle: Locator;
+  readonly menuContent: Locator;
+  readonly logoutButton: Locator;
+  readonly companyName: Locator;
+  readonly sessionCountdown: Locator;
+  readonly accessDeniedHeading: Locator;
 
   constructor(page: Page) {
     this.page = page;
+    this.menuToggle = page.getByRole('link', { name: 'Menu' });
+    this.menuContent = page.locator('#nav-content');
+    this.logoutButton = page.getByRole('button', { name: 'Wyloguj' });
+    this.companyName = page.getByRole('banner').getByRole('paragraph').first();
+    this.sessionCountdown = page.getByText('Koniec sesji za');
+    this.accessDeniedHeading = page.getByRole('heading', { name: 'Brak dostępu!' });
   }
 
-  async goto(path: string) {
+  async goto(path: string): Promise<void> {
     await this.page.goto(path);
   }
 
-  async click(selector: string) {
-    await this.page.click(selector);
+  async openMenu(): Promise<void> {
+    await this.toggleMenu();
+    // The flyout is a Bootstrap collapse whose wrapper is not reported as
+    // visible; wait for a section heading inside it to render instead.
+    await this.menuSection('Dyspozycje').waitFor({ state: 'visible' });
   }
 
-  async isVisible(selector: string) {
-    return await this.page.isVisible(selector);
+  async toggleMenu(): Promise<void> {
+    await this.menuToggle.click();
   }
- 
-  buttonDynamic = async (text: string, tag: string = 'button'): Promise<Locator> => this.page.getByRole(tag as any, { name: text, exact: true });
 
-  inputDynamic = async (text: string): Promise<Locator> => this.page.getByLabel(text);
+  async logout(): Promise<void> {
+    await this.logoutButton.click();
+  }
 
-  radioDynamic = async (text: string, tag: string = 'radio'): Promise<Locator> => this.page.getByLabel(text);
+  /** Section heading inside the Menu flyout (e.g. "PPK", "Dyspozycje").
+   *  Level-3 headings appear only in the flyout, so no scoping is needed. */
+  menuSection(name: string): Locator {
+    return this.page.getByRole('heading', { level: 3, name, exact: true });
+  }
 
-  checkboxDynamic = async (text: string, tag: string = 'checkbox'): Promise<Locator> => this.page.getByLabel(text);
+  /** A link inside the Menu flyout, scoped to avoid clashing with dashboard cards. */
+  menuLink(name: string): Locator {
+    return this.menuContent.getByRole('link', { name, exact: true });
+  }
 
-  linkDynamic = async (text: string, tag: string = 'link'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+  async replaceFirstCharacterWithRandom(locator: Locator): Promise<void> {
+    const randomLetter = String.fromCharCode(
+      97 + Math.floor(Math.random() * 26)
+    );
 
-  headingDynamic = async (text: string, tag: string = 'heading'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+    await locator.click();
+    await locator.press('Home');
+    await locator.press('Shift+ArrowRight');
+    await locator.press(randomLetter);
+  }
 
-  textDynamic = async (text: string): Promise<Locator> => this.page.getByText(text, { exact: true });
+  async waitForLocatorOrClick(
+    locatorToWaitFor: Locator,
+    timeoutInSeconds: number,
+    locatorToClick: Locator,
+  ): Promise<boolean> {
+    try {
+      await locatorToWaitFor.waitFor({
+        state: 'visible',
+        timeout: timeoutInSeconds * 1000,
+      });
 
-  listitemDynamic = async (text: string, tag: string = 'li'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+      return true;
+    } catch (error) {
+      console.warn(
+        `Locator nie pojawił się w ciągu ${timeoutInSeconds}s. Klikam element zastępczy.`,
+      );
 
-  tableDynamic = async (text: string, tag: string = 'table'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+      await locatorToClick.click();
+      await locatorToWaitFor.waitFor({
+        state: 'visible',
+        timeout: timeoutInSeconds * 1000,
+      });
 
-  rowDynamic = async (text: string, tag: string = 'row'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+      return true;
+    }
+  }
 
-  cellDynamic = async (text: string, tag: string = 'cell'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
 
-  comboboxDynamic = async (text: string, tag: string = 'combobox'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+  async generateUniqueRegon(): Promise<string> {
+    const base = Date.now().toString().slice(-8);
 
-  tabDynamic = async (text: string, tag: string = 'tab'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+    const weights = [8, 9, 2, 3, 4, 5, 6, 7];
+    const digits = base.split('').map(Number);
 
-  tabpanelDynamic = async (text: string, tag: string = 'tabpanel'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+    const sum = digits.reduce(
+      (acc, digit, index) => acc + digit * weights[index],
+      0
+    );
 
-  dialogDynamic = async (text: string, tag: string = 'dialog'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+    const controlDigit = sum % 11 === 10 ? 0 : sum % 11;
 
-  alertDynamic = async (text: string, tag: string = 'alert'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+    return `${base}${controlDigit}`;
+  }
 
-  navigationDynamic = async (text: string, tag: string = 'navigation'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+  async generateNip(): Promise<string> {
+    const weights = [6, 5, 7, 2, 3, 4, 5, 6, 7];
 
-  mainDynamic = async (text: string, tag: string = 'main'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+    const digits = Array.from(
+      { length: 9 },
+      () => Math.floor(Math.random() * 10)
+    );
 
-  formDynamic = async (text: string, tag: string = 'form'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+    const sum = digits.reduce(
+      (acc, digit, index) => acc + digit * weights[index],
+      0
+    );
 
-  groupDynamic = async (text: string, tag: string = 'group'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+    const controlDigit = sum % 11;
 
-  imgDynamic = async (text: string, tag: string = 'img'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+    // jeśli cyfra kontrolna wynosi 10, generujemy ponownie
+    if (controlDigit === 10) {
+      return this.generateNip();
+    }
 
-  menuDynamic = async (text: string, tag: string = 'menu'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+    return [...digits, controlDigit].join('');
+  }
 
-  menuitemDynamic = async (text: string, tag: string = 'menuitem'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
 
-  sliderDynamic = async (text: string, tag: string = 'slider'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
-
-  progressbarDynamic = async (text: string, tag: string = 'progressbar'): Promise<Locator> => this.page.getByRole(tag as any, { name: text });
+  async generateKrs(): Promise<string> {
+    return Math.floor(Math.random() * 1_000_000_0000)
+      .toString()
+      .padStart(10, '0');
+  }
 }

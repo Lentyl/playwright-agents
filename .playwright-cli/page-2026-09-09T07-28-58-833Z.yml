@@ -1,0 +1,39 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - navigation [ref=f1e4]:
+      - link [ref=f1e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=f1e6]:
+        - listitem [ref=f1e7]:
+          - link "Menu" [ref=f1e8] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=f1e11]:
+        - generic [ref=f1e12]:
+          - generic [ref=f1e13]: Koniec sesji za 15:00
+          - generic [ref=f1e14]: "Ostatnia udana próba logowania: 09-09-2026 09:25"
+        - button "Wyloguj" [ref=f1e15] [cursor=pointer]
+  - generic [ref=f1e18]:
+    - link [ref=f1e20] [cursor=pointer]:
+      - /url: /ppk-nnpte2/nnpte/manager/contract/list/awaiting
+      - heading "Panel Instytucji Finansowej" [level=5] [ref=f1e23]
+    - link [ref=f1e25] [cursor=pointer]:
+      - /url: /ppk-nnpte2/nnpte/manager/employer/list
+      - heading "Podgląd Pracodawców" [level=5] [ref=f1e28]
+  - contentinfo [ref=f1e29]:
+    - generic [ref=f1e31]:
+      - generic [ref=f1e32]:
+        - paragraph [ref=f1e33]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f1e34]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f1e36]:
+        - listitem [ref=f1e37]:
+          - link "Bezpieczeństwo" [ref=f1e38] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f1e39]:
+          - link "Polityka cookies" [ref=f1e40] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f1e41]:
+          - link "Kontakt" [ref=f1e42] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f1e43]:
+          - link "Regulamin" [ref=f1e44] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

@@ -1,0 +1,8 @@
+[    3889ms] [WARNING] jQuery.Deferred exception: $(...).datetimepicker is not a function TypeError: $(...).datetimepicker is not a function
+    at HTMLDocument.<anonymous> (https://test.moventum.com.pl/ppk-nnpte2/nnpte/employer/documentsReport/:26056:42)
+    at e (https://test.moventum.com.pl/ppk-nnpte2/cms2/general/js/jquery.min.js:2:30038)
+    at t (https://test.moventum.com.pl/ppk-nnpte2/cms2/general/js/jquery.min.js:2:30340) undefined @ https://test.moventum.com.pl/ppk-nnpte2/cms2/general/js/jquery.min.js:1
+[    3921ms] TypeError: $(...).datetimepicker is not a function
+    at HTMLDocument.<anonymous> (https://test.moventum.com.pl/ppk-nnpte2/nnpte/employer/documentsReport/:26056:42)
+    at e (https://test.moventum.com.pl/ppk-nnpte2/cms2/general/js/jquery.min.js:2:30038)
+    at t (https://test.moventum.com.pl/ppk-nnpte2/cms2/general/js/jquery.min.js:2:30340)

@@ -1,0 +1,653 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - navigation [ref=f3e4]:
+      - link [ref=f3e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer
+      - list [ref=f3e6]:
+        - listitem [ref=f3e7]:
+          - link "Menu" [ref=f3e8] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - paragraph [ref=f3e9]: "\"INTERFOOD-IDEA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+      - generic [ref=f3e12]:
+        - generic [ref=f3e13]:
+          - generic [ref=f3e14]: Koniec sesji za 15:00
+          - generic [ref=f3e15]: "Ostatnia udana próba logowania: 04-09-2026 13:06"
+        - button "Wyloguj" [ref=f3e16] [cursor=pointer]
+  - generic [ref=f3e18]:
+    - navigation "breadcrumb" [ref=f3e19]:
+      - list [ref=f3e20]:
+        - listitem [ref=f3e21]:
+          - link "Home" [ref=f3e22] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/employer
+        - listitem [ref=f3e23]:
+          - text: /
+          - link "Dyspozycje" [ref=f3e24] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/employer/dashboard?orders=1
+        - listitem [ref=f3e25]: / Zgłoszenie pracownika
+    - heading "Zgłoszenie pracownika" [level=1] [ref=f3e26]
+    - generic [ref=f3e31]:
+      - generic [ref=f3e32]: Brak identyfikatora pracownika. Wymagany PESEL lub typ dokumentu tożsamości, numer dokumentu i data urodzenia w przypadku obywatelstwa innego niż polskie.
+      - paragraph [ref=f3e36]: Przy zgłoszeniu do PPK, podaj numer telefonu oraz adres e-mail pracownika. Dzięki temu samodzielnie zaloguje się do Moje NN.
+      - generic [ref=f3e37]:
+        - heading "Dane uczestnika" [level=2] [ref=f3e38]
+        - generic [ref=f3e39]:
+          - generic [ref=f3e40]:
+            - generic [ref=f3e41]:
+              - generic [ref=f3e42]: Imię
+              - textbox [ref=f3e43]
+              - generic [ref=f3e44]: To pole jest wymagane
+            - generic [ref=f3e45]:
+              - generic [ref=f3e46]: Drugie imię
+              - textbox [ref=f3e47]
+            - generic [ref=f3e48]:
+              - generic [ref=f3e49]: Nazwisko
+              - textbox [ref=f3e50]
+              - generic [ref=f3e51]: To pole jest wymagane
+            - generic [ref=f3e52]:
+              - generic [ref=f3e53]: PESEL
+              - textbox [ref=f3e54]
+              - generic [ref=f3e55]: Numer PESEL jest wymagany
+            - generic [ref=f3e56]:
+              - generic [ref=f3e57]: Data urodzenia (RRRR-MM-DD)
+              - textbox [ref=f3e58]
+          - generic [ref=f3e59]:
+            - generic [ref=f3e60]:
+              - generic [ref=f3e61]: Obywatelstwo
+              - combobox [ref=f3e62]:
+                - option "Afganistan"
+                - option "Aland Islands"
+                - option "Albania"
+                - option "Algieria"
+                - option "Andora"
+                - option "Angola"
+                - option "Anguilla"
+                - option "Antarktyda"
+                - option "Antigua & Barbuda"
+                - option "Antyle Holenderskie"
+                - option "Arabia Saudyjska"
+                - option "Argentyna"
+                - option "Armenia"
+                - option "Aruba"
+                - option "Australia"
+                - option "Austria"
+                - option "Azerbejdżan"
+                - option "Bahamy"
+                - option "Bahrajn"
+                - option "Bangladesz"
+                - option "Barbados"
+                - option "Belgia"
+                - option "Belize"
+                - option "Benin"
+                - option "Bermudy"
+                - option "Bhutan"
+                - option "Białoruś"
+                - option "Boliwia"
+                - option "Bonaire, Sint Eustatius i Saba"
+                - option "Bośnia i Hercegowina"
+                - option "Botswana"
+                - option "Brazylia"
+                - option "Brunei Darussalam"
+                - option "Brytyjskie Terytorium Oceanu Indyjskiego"
+                - option "Bułgaria"
+                - option "BurkinaFaso"
+                - option "Burundi"
+                - option "Chile"
+                - option "Chiny"
+                - option "Chorwacja"
+                - option "Curaçao"
+                - option "Cypr"
+                - option "Czad"
+                - option "Czarnogóra"
+                - option "Dania"
+                - option "Dominika"
+                - option "Dominikana"
+                - option "Dżibuti"
+                - option "Egipt"
+                - option "Ekwador"
+                - option "Erytrea"
+                - option "Estonia"
+                - option "Etiopia"
+                - option "Falklandy"
+                - option "Fidżi Republika"
+                - option "Filipiny"
+                - option "Finlandia"
+                - option "Francja"
+                - option "Francuskie Terytorium Południowe"
+                - option "Gabon"
+                - option "Gambia"
+                - option "Ghana"
+                - option "Gibraltar"
+                - option "Grecja"
+                - option "Grenada"
+                - option "Grenlandia"
+                - option "Gruzja"
+                - option "Guam"
+                - option "Guernsey"
+                - option "Gujana"
+                - option "Gujana Francuska"
+                - option "Gwadelupa"
+                - option "Gwatemala"
+                - option "Gwinea"
+                - option "Gwinea Równikowa"
+                - option "Gwinea-Bissau"
+                - option "Haiti"
+                - option "Hiszpania"
+                - option "Holandia"
+                - option "Honduras"
+                - option "Hongkong"
+                - option "Indie"
+                - option "Indonezja"
+                - option "Irak"
+                - option "Iran"
+                - option "Irlandia"
+                - option "Islandia"
+                - option "Isle of Man"
+                - option "Izrael"
+                - option "Jamajka"
+                - option "Japonia"
+                - option "Jemen"
+                - option "Jersey"
+                - option "Jordania"
+                - option "Kajmany"
+                - option "Kambodża"
+                - option "Kamerun"
+                - option "Kanada"
+                - option "Katar"
+                - option "Kazachstan"
+                - option "Kenia"
+                - option "Kirgistan"
+                - option "Kiribati"
+                - option "Kolumbia"
+                - option "Komory"
+                - option "Kongo"
+                - option "Kongo, Republika Demokratyczna"
+                - option "Korea Południowa"
+                - option "Korea Północna"
+                - option "Kosowo"
+                - option "Kostaryka"
+                - option "Kuba"
+                - option "Kuwejt"
+                - option "Laos"
+                - option "Lesotho"
+                - option "Liban"
+                - option "Liberia"
+                - option "Libia"
+                - option "Liechtenstein"
+                - option "Litwa"
+                - option "Luksemburg"
+                - option "Łotwa"
+                - option "Macedonia Północna"
+                - option "Madagaskar"
+                - option "Majotta"
+                - option "Makau"
+                - option "Malawi"
+                - option "Malediwy"
+                - option "Malezja"
+                - option "Mali"
+                - option "Malta"
+                - option "Mariany Północne"
+                - option "Maroko"
+                - option "Martinika"
+                - option "Mauretania"
+                - option "Mauritius"
+                - option "Meksyk"
+                - option "Mikronezja"
+                - option "Minor (Powiernicze Wyspy Pacyfiku St. Zjednoczonych)"
+                - option "Mołdawia"
+                - option "Monako"
+                - option "Mongolia"
+                - option "Montserrat"
+                - option "Mozambik"
+                - option "Myanmar (Burma)"
+                - option "Namibia"
+                - option "Nauru"
+                - option "Nepal"
+                - option "Niemcy"
+                - option "Niger"
+                - option "Nigeria"
+                - option "Nikaragua"
+                - option "Niue"
+                - option "Norfolk"
+                - option "Norwegia"
+                - option "Nowa Kaledonia"
+                - option "Nowa Zelandia"
+                - option "Okupowane Terytorium Palestyny"
+                - option "Oman"
+                - option "Pakistan"
+                - option "Palau"
+                - option "Panama"
+                - option "Papua Nowa Gwinea"
+                - option "Paragwaj"
+                - option "Peru"
+                - option "Pitcairn"
+                - option "Polinezja Francuska"
+                - option "Polska" [selected]
+                - option "Południowa Georgia i Południowe Wyspy Sandwich"
+                - option "Portugalia"
+                - option "Puerto Rico"
+                - option "Rep. Południowej Afryki"
+                - option "Rep.Środkowoafryańska"
+                - option "Republika Czeska"
+                - option "Réunion"
+                - option "Rosja"
+                - option "Rumunia"
+                - option "Rwanda"
+                - option "Sahara Zachodnia"
+                - option "Saint Barthélemy"
+                - option "Saint Martin (French part)"
+                - option "Salwador"
+                - option "Samoa"
+                - option "Samoa Amerykańskie"
+                - option "San Marino"
+                - option "Senegal"
+                - option "Serbia"
+                - option "Seszele"
+                - option "Sierra Leone"
+                - option "Singapur"
+                - option "Słowacja"
+                - option "Słowenia"
+                - option "Somalia"
+                - option "South Sudan"
+                - option "Sri Lanka"
+                - option "St. Pierre i Miquelon"
+                - option "St.Kitts i Nevis"
+                - option "St.Lucia"
+                - option "St.Vincent i Grenadyny"
+                - option "Stany Zjedn. Ameryki"
+                - option "Suazi"
+                - option "Sudan"
+                - option "Surinam"
+                - option "Svalbard & Jan Mayen Isl."
+                - option "Syria"
+                - option "Szwajcaria"
+                - option "Szwecja"
+                - option "Święta Helena"
+                - option "Tadżykistan"
+                - option "Tajlandia"
+                - option "Tajwan"
+                - option "Tanzania"
+                - option "Togo"
+                - option "Tokelau"
+                - option "Tonga"
+                - option "Trynidad i Tobago"
+                - option "Tunezja"
+                - option "Turcja"
+                - option "Turkmenistan"
+                - option "Tuvalu"
+                - option "Uganda"
+                - option "Ukraina"
+                - option "Urugwaj"
+                - option "Uzbekistan"
+                - option "Vanuatu"
+                - option "Wallis i Futuna"
+                - option "Watykan"
+                - option "Wenezuela"
+                - option "Węgry"
+                - option "Wielka Brytania"
+                - option "Wietnam"
+                - option "Włochy"
+                - option "Wschodni Timor"
+                - option "Wybrz. Kości Sł."
+                - option "Wyspa Bouveta"
+                - option "Wyspa Bożego Narodzenia"
+                - option "Wyspa Sint Maarten (część holenderska wyspy)"
+                - option "Wyspy Cooka"
+                - option "Wyspy Dziewicze-USA"
+                - option "Wyspy Dziewicze-W.B"
+                - option "Wyspy Heard i McDonald"
+                - option "Wyspy Kokosowe (Keelinga)"
+                - option "Wyspy Marshalla"
+                - option "Wyspy Owcze"
+                - option "Wyspy Salomona"
+                - option "Wyspy Św.Tomasza i Książęca"
+                - option "Wyspy Turks i Caicos"
+                - option "Zambia"
+                - option "Zielony Przylądek"
+                - option "Zimbabwe"
+                - option "Zjedn. Emiraty Arabskie"
+            - generic [ref=f3e63]:
+              - generic [ref=f3e64]: Płeć
+              - combobox [ref=f3e65]:
+                - option [selected]
+                - option "Kobieta"
+                - option "Mężczyzna"
+          - generic [ref=f3e66]:
+            - generic [ref=f3e67]:
+              - generic [ref=f3e68]: Rodzaj dokumentu
+              - combobox [ref=f3e69]:
+                - option [selected]
+                - option "Dowód osobisty"
+                - option "Inny"
+                - option "Karta stałego pobytu"
+                - option "Paszport"
+            - generic [ref=f3e70]:
+              - generic [ref=f3e71]: Numer dokumentu
+              - textbox [ref=f3e72]
+          - generic [ref=f3e73]:
+            - generic [ref=f3e74]:
+              - generic [ref=f3e75]: Numer kadrowy
+              - textbox [ref=f3e76]
+            - generic [ref=f3e77]:
+              - generic [ref=f3e78]: Email
+              - textbox [ref=f3e79]
+            - generic [ref=f3e80]:
+              - generic [ref=f3e81]: Telefon
+              - textbox [ref=f3e82]
+          - heading "Adres zamieszkania" [level=4] [ref=f3e83]
+          - generic [ref=f3e84]:
+            - generic [ref=f3e85]:
+              - generic [ref=f3e86]: Ulica
+              - textbox [ref=f3e87]
+            - generic [ref=f3e88]:
+              - generic [ref=f3e89]: Nr domu
+              - textbox [ref=f3e90]
+              - generic [ref=f3e91]: To pole jest wymagane
+            - generic [ref=f3e92]:
+              - generic [ref=f3e93]: Nr mieszkania
+              - textbox [ref=f3e94]
+          - generic [ref=f3e95]:
+            - generic [ref=f3e96]:
+              - generic [ref=f3e97]: Miejscowość
+              - textbox [ref=f3e98]
+              - generic [ref=f3e99]: To pole jest wymagane
+            - generic [ref=f3e100]:
+              - generic [ref=f3e101]: Kod pocztowy
+              - textbox [ref=f3e102]
+              - generic [ref=f3e103]: To pole jest wymagane
+            - generic [ref=f3e104]:
+              - generic [ref=f3e105]: Państwo
+              - combobox [ref=f3e106]:
+                - option
+                - option "Afganistan"
+                - option "Aland Islands"
+                - option "Albania"
+                - option "Algieria"
+                - option "Andora"
+                - option "Angola"
+                - option "Anguilla"
+                - option "Antarktyda"
+                - option "Antigua & Barbuda"
+                - option "Antyle Holenderskie"
+                - option "Arabia Saudyjska"
+                - option "Argentyna"
+                - option "Armenia"
+                - option "Aruba"
+                - option "Australia"
+                - option "Austria"
+                - option "Azerbejdżan"
+                - option "Bahamy"
+                - option "Bahrajn"
+                - option "Bangladesz"
+                - option "Barbados"
+                - option "Belgia"
+                - option "Belize"
+                - option "Benin"
+                - option "Bermudy"
+                - option "Bhutan"
+                - option "Białoruś"
+                - option "Boliwia"
+                - option "Bonaire, Sint Eustatius i Saba"
+                - option "Bośnia i Hercegowina"
+                - option "Botswana"
+                - option "Brazylia"
+                - option "Brunei Darussalam"
+                - option "Brytyjskie Terytorium Oceanu Indyjskiego"
+                - option "Bułgaria"
+                - option "BurkinaFaso"
+                - option "Burundi"
+                - option "Chile"
+                - option "Chiny"
+                - option "Chorwacja"
+                - option "Curaçao"
+                - option "Cypr"
+                - option "Czad"
+                - option "Czarnogóra"
+                - option "Dania"
+                - option "Dominika"
+                - option "Dominikana"
+                - option "Dżibuti"
+                - option "Egipt"
+                - option "Ekwador"
+                - option "Erytrea"
+                - option "Estonia"
+                - option "Etiopia"
+                - option "Falklandy"
+                - option "Fidżi Republika"
+                - option "Filipiny"
+                - option "Finlandia"
+                - option "Francja"
+                - option "Francuskie Terytorium Południowe"
+                - option "Gabon"
+                - option "Gambia"
+                - option "Ghana"
+                - option "Gibraltar"
+                - option "Grecja"
+                - option "Grenada"
+                - option "Grenlandia"
+                - option "Gruzja"
+                - option "Guam"
+                - option "Guernsey"
+                - option "Gujana"
+                - option "Gujana Francuska"
+                - option "Gwadelupa"
+                - option "Gwatemala"
+                - option "Gwinea"
+                - option "Gwinea Równikowa"
+                - option "Gwinea-Bissau"
+                - option "Haiti"
+                - option "Hiszpania"
+                - option "Holandia"
+                - option "Honduras"
+                - option "Hongkong"
+                - option "Indie"
+                - option "Indonezja"
+                - option "Irak"
+                - option "Iran"
+                - option "Irlandia"
+                - option "Islandia"
+                - option "Isle of Man"
+                - option "Izrael"
+                - option "Jamajka"
+                - option "Japonia"
+                - option "Jemen"
+                - option "Jersey"
+                - option "Jordania"
+                - option "Kajmany"
+                - option "Kambodża"
+                - option "Kamerun"
+                - option "Kanada"
+                - option "Katar"
+                - option "Kazachstan"
+                - option "Kenia"
+                - option "Kirgistan"
+                - option "Kiribati"
+                - option "Kolumbia"
+                - option "Komory"
+                - option "Kongo"
+                - option "Kongo, Republika Demokratyczna"
+                - option "Korea Południowa"
+                - option "Korea Północna"
+                - option "Kosowo"
+                - option "Kostaryka"
+                - option "Kuba"
+                - option "Kuwejt"
+                - option "Laos"
+                - option "Lesotho"
+                - option "Liban"
+                - option "Liberia"
+                - option "Libia"
+                - option "Liechtenstein"
+                - option "Litwa"
+                - option "Luksemburg"
+                - option "Łotwa"
+                - option "Macedonia Północna"
+                - option "Madagaskar"
+                - option "Majotta"
+                - option "Makau"
+                - option "Malawi"
+                - option "Malediwy"
+                - option "Malezja"
+                - option "Mali"
+                - option "Malta"
+                - option "Mariany Północne"
+                - option "Maroko"
+                - option "Martinika"
+                - option "Mauretania"
+                - option "Mauritius"
+                - option "Meksyk"
+                - option "Mikronezja"
+                - option "Minor (Powiernicze Wyspy Pacyfiku St. Zjednoczonych)"
+                - option "Mołdawia"
+                - option "Monako"
+                - option "Mongolia"
+                - option "Montserrat"
+                - option "Mozambik"
+                - option "Myanmar (Burma)"
+                - option "Namibia"
+                - option "Nauru"
+                - option "Nepal"
+                - option "Niemcy"
+                - option "Niger"
+                - option "Nigeria"
+                - option "Nikaragua"
+                - option "Niue"
+                - option "Norfolk"
+                - option "Norwegia"
+                - option "Nowa Kaledonia"
+                - option "Nowa Zelandia"
+                - option "Okupowane Terytorium Palestyny"
+                - option "Oman"
+                - option "Pakistan"
+                - option "Palau"
+                - option "Panama"
+                - option "Papua Nowa Gwinea"
+                - option "Paragwaj"
+                - option "Peru"
+                - option "Pitcairn"
+                - option "Polinezja Francuska"
+                - option "Polska" [selected]
+                - option "Południowa Georgia i Południowe Wyspy Sandwich"
+                - option "Portugalia"
+                - option "Puerto Rico"
+                - option "Rep. Południowej Afryki"
+                - option "Rep.Środkowoafryańska"
+                - option "Republika Czeska"
+                - option "Réunion"
+                - option "Rosja"
+                - option "Rumunia"
+                - option "Rwanda"
+                - option "Sahara Zachodnia"
+                - option "Saint Barthélemy"
+                - option "Saint Martin (French part)"
+                - option "Salwador"
+                - option "Samoa"
+                - option "Samoa Amerykańskie"
+                - option "San Marino"
+                - option "Senegal"
+                - option "Serbia"
+                - option "Seszele"
+                - option "Sierra Leone"
+                - option "Singapur"
+                - option "Słowacja"
+                - option "Słowenia"
+                - option "Somalia"
+                - option "South Sudan"
+                - option "Sri Lanka"
+                - option "St. Pierre i Miquelon"
+                - option "St.Kitts i Nevis"
+                - option "St.Lucia"
+                - option "St.Vincent i Grenadyny"
+                - option "Stany Zjedn. Ameryki"
+                - option "Suazi"
+                - option "Sudan"
+                - option "Surinam"
+                - option "Svalbard & Jan Mayen Isl."
+                - option "Syria"
+                - option "Szwajcaria"
+                - option "Szwecja"
+                - option "Święta Helena"
+                - option "Tadżykistan"
+                - option "Tajlandia"
+                - option "Tajwan"
+                - option "Tanzania"
+                - option "Togo"
+                - option "Tokelau"
+                - option "Tonga"
+                - option "Trynidad i Tobago"
+                - option "Tunezja"
+                - option "Turcja"
+                - option "Turkmenistan"
+                - option "Tuvalu"
+                - option "Uganda"
+                - option "Ukraina"
+                - option "Urugwaj"
+                - option "Uzbekistan"
+                - option "Vanuatu"
+                - option "Wallis i Futuna"
+                - option "Watykan"
+                - option "Wenezuela"
+                - option "Węgry"
+                - option "Wielka Brytania"
+                - option "Wietnam"
+                - option "Włochy"
+                - option "Wschodni Timor"
+                - option "Wybrz. Kości Sł."
+                - option "Wyspa Bouveta"
+                - option "Wyspa Bożego Narodzenia"
+                - option "Wyspa Sint Maarten (część holenderska wyspy)"
+                - option "Wyspy Cooka"
+                - option "Wyspy Dziewicze-USA"
+                - option "Wyspy Dziewicze-W.B"
+                - option "Wyspy Heard i McDonald"
+                - option "Wyspy Kokosowe (Keelinga)"
+                - option "Wyspy Marshalla"
+                - option "Wyspy Owcze"
+                - option "Wyspy Salomona"
+                - option "Wyspy Św.Tomasza i Książęca"
+                - option "Wyspy Turks i Caicos"
+                - option "Zambia"
+                - option "Zielony Przylądek"
+                - option "Zimbabwe"
+                - option "Zjedn. Emiraty Arabskie"
+          - heading "Adres korespondencyjny" [level=4] [ref=f3e107]
+          - generic [ref=f3e108]:
+            - generic [ref=f3e109]: Adres do korespondencji taki sam jak adres zamieszkania?
+            - generic [ref=f3e111]: Tak
+            - generic [ref=f3e113]: Nie
+          - heading "Rejestracja" [level=4] [ref=f3e115]
+          - generic [ref=f3e116]:
+            - generic [ref=f3e117]:
+              - generic [ref=f3e118]: Data obowiązku (RRRR-MM)
+              - generic [ref=f3e119] [cursor=pointer]:  
+              - textbox [ref=f3e120]
+            - generic [ref=f3e121]:
+              - generic [ref=f3e122]: Data zatrudnienia (RRRR-MM-DD)
+              - textbox [ref=f3e123]
+          - generic [ref=f3e124]:
+            - generic [ref=f3e125]:
+              - generic [ref=f3e126]: Procent składki dodatkowej pracodawcy
+              - generic [ref=f3e127] [cursor=pointer]:  
+              - textbox [ref=f3e128]
+              - generic [ref=f3e129]: To pole jest wymagane
+            - generic [ref=f3e130]:
+              - generic [ref=f3e131]: Opis składki dodatkowej pracodawcy
+              - textbox [ref=f3e132]
+        - button "Dalej" [ref=f3e135] [cursor=pointer]
+  - contentinfo [ref=f3e136]:
+    - generic [ref=f3e138]:
+      - generic [ref=f3e139]:
+        - paragraph [ref=f3e140]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f3e141]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f3e143]:
+        - listitem [ref=f3e144]:
+          - link "Bezpieczeństwo" [ref=f3e145] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f3e146]:
+          - link "Polityka cookies" [ref=f3e147] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f3e148]:
+          - link "Kontakt" [ref=f3e149] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f3e150]:
+          - link "Regulamin" [ref=f3e151] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

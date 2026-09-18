@@ -1,0 +1,3 @@
+[     569ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://test.moventum.com.pl/ppk-nnpte/nnpte/login:0
+[  859028ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://test.moventum.com.pl/ppk-nnpte/cms/general/css/images/ui-icons_444444_256x240.png:0
+[  919254ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://test.moventum.com.pl/ppk-nnpte/nnpte/login?timeout:0

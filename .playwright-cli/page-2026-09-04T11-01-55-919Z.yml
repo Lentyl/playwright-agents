@@ -1,0 +1,96 @@
+- generic [active] [ref=f15e1]:
+  - banner [ref=f15e2]:
+    - navigation [ref=f15e4]:
+      - link [ref=f15e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer
+      - list [ref=f15e6]:
+        - listitem [ref=f15e7]:
+          - link "Menu" [ref=f15e8] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - paragraph [ref=f15e9]: "\"INTERFOOD-IDEA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+      - generic [ref=f15e12]:
+        - generic [ref=f15e13]:
+          - generic [ref=f15e14]: Koniec sesji za 15:00
+          - generic [ref=f15e15]: "Ostatnia udana próba logowania: 04-09-2026 12:57"
+        - button "Wyloguj" [ref=f15e16] [cursor=pointer]
+  - generic [ref=f15e17]:
+    - text: /
+    - generic [ref=f15e19]:
+      - link [ref=f15e21] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/fileUpload
+        - img "Card image cap" [ref=f15e22]
+        - generic [ref=f15e23]:
+          - heading "Przekazanie plików" [level=5] [ref=f15e24]
+          - text: Zgłoś swoich pracowników do Pracowniczego Planu Kapitałowego, przekaż wpłaty i inne dyspozycje w formie pliku
+      - link [ref=f15e26] [cursor=pointer]:
+        - /url: "#"
+        - img "Card image cap" [ref=f15e27]
+        - generic [ref=f15e28]:
+          - heading "Dyspozycje" [level=5] [ref=f15e29]
+          - text: Złóż dyspozycje dotyczące uczestników Pracowniczego Planu Kapitałowego
+      - link [ref=f15e31] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/customer/list
+        - img "Card image cap" [ref=f15e32]
+        - generic [ref=f15e33]:
+          - heading "Podgląd Uczestników" [level=5] [ref=f15e34]
+          - text: Tu zobaczysz pracowników zgłoszonych do Pracowniczego Planu Kapitałowego
+      - link [ref=f15e36] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/report/
+        - img "Raporty" [ref=f15e37]
+        - generic [ref=f15e38]:
+          - heading "Raporty" [level=5] [ref=f15e39]
+          - text: Wygeneruj raporty
+      - link [ref=f15e41] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/documentsReport/
+        - img "Card image cap" [ref=f15e42]
+        - generic [ref=f15e43]:
+          - heading "Pliki zwrotne od Nationale-Nederlanden" [level=5] [ref=f15e44]
+          - text: Pobierz pliki zwrotne dotyczące uczestników Pracowniczego Planu Kapitałowego
+      - link [ref=f15e46] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/documents
+        - img "Card image cap" [ref=f15e47]
+        - generic [ref=f15e48]:
+          - heading "Dokumenty" [level=5] [ref=f15e49]
+          - text: Tu znajdziesz m.in. umowy PPK, formularze, manual, materiały marketingowe
+      - link [ref=f15e51] [cursor=pointer]:
+        - /url: https://www.nn.pl/dam/zasoby/PPK/harmonogram-jak-informowac-nowego-pracownika-o-PPK-szkoleniaEHD.pdf
+        - img "Materiały informacyjne" [ref=f15e52]
+        - generic [ref=f15e53]:
+          - heading "Materiały informacyjne" [level=5] [ref=f15e54]
+          - text: Pobierz materiały i sprawdź, kiedy informować pracownika o PPK
+      - link [ref=f15e56] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/data/
+        - img "Dane dotyczące umowy i wpłat do PPK" [ref=f15e57]
+        - generic [ref=f15e58]:
+          - heading "Dane dotyczące umowy i wpłat do PPK" [level=5] [ref=f15e59]
+          - text: Tu znajdziesz dane dotyczące zawartej umowy o zarządzenie PPK oraz rachunek bankowy do wpłat
+      - link [ref=f15e61] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer/admin
+        - img "Card image cap" [ref=f15e62]
+        - generic [ref=f15e63]:
+          - heading "Uprawnienia" [level=5] [ref=f15e64]
+          - text: Zarządzaj użytkownikami Portalu Pracodawcy
+      - link [ref=f15e66] [cursor=pointer]:
+        - /url: https://www.nn.pl/szkolenia-ppk
+        - img "Szkolenia" [ref=f15e67]
+        - generic [ref=f15e68]:
+          - heading "Szkolenia" [level=5] [ref=f15e69]
+          - text: Sprawdź terminy szkoleń PPK dla Ciebie i Twoich pracowników
+  - contentinfo [ref=f15e70]:
+    - generic [ref=f15e72]:
+      - generic [ref=f15e73]:
+        - paragraph [ref=f15e74]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f15e75]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f15e77]:
+        - listitem [ref=f15e78]:
+          - link "Bezpieczeństwo" [ref=f15e79] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f15e80]:
+          - link "Polityka cookies" [ref=f15e81] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f15e82]:
+          - link "Kontakt" [ref=f15e83] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f15e84]:
+          - link "Regulamin" [ref=f15e85] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

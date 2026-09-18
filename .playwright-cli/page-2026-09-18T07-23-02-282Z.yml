@@ -1,0 +1,107 @@
+- generic [active] [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - navigation [ref=f8e4]:
+      - link [ref=f8e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=f8e7]:
+        - listitem [ref=f8e8]:
+          - link "Menu" [ref=f8e9] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=f8e12]:
+        - generic [ref=f8e13]:
+          - generic [ref=f8e14]: Koniec sesji za 15:00
+          - generic [ref=f8e15]: "Ostatnia udana próba logowania: 18-09-2026 09:13"
+          - generic [ref=f8e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+        - button "Wyloguj" [ref=f8e17] [cursor=pointer]
+  - generic [ref=f8e19]:
+    - navigation "breadcrumb" [ref=f8e20]:
+      - list [ref=f8e21]:
+        - listitem [ref=f8e22]:
+          - link "Home" [ref=f8e23] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/login/fork
+        - listitem [ref=f8e24]: / Podgląd uczestników
+    - heading "Podgląd Uczestników" [level=1] [ref=f8e25]
+    - generic [ref=f8e27]:
+      - generic [ref=f8e31]:
+        - generic [ref=f8e32]: Wyszukiwanie Uczestników
+        - generic [ref=f8e33]:
+          - textbox "Wyszukiwanie Uczestników" [ref=f8e34]
+          - button "Więcej" [ref=f8e36] [cursor=pointer]
+      - generic [ref=f8e37]:
+        - generic [ref=f8e38]:
+          - generic [ref=f8e41]:
+            - text: Pokaż
+            - combobox "Pokaż pozycji" [ref=f8e42]:
+              - option "10" [selected]
+              - option "25"
+              - option "50"
+              - option "100"
+            - text: pozycji
+          - generic [ref=f8e44]:
+            - generic [ref=f8e45]: "Szukaj:"
+            - searchbox "Szukaj:" [ref=f8e46]
+        - generic [ref=f8e48]:
+          - status [ref=f8e49]:
+            - generic [ref=f8e50]: 
+            - generic [ref=f8e51]: Loading...
+          - table [ref=f8e52]:
+            - rowgroup [ref=f8e63]:
+              - row [ref=f8e64]:
+                - columnheader "Lp." [ref=f8e65]
+                - 'columnheader "Imię Imię: Activate to sort" [ref=f8e69] [cursor=pointer]':
+                  - generic [ref=f8e70]:
+                    - generic [ref=f8e71]: Imię
+                    - 'button "Imię: Activate to sort" [ref=f8e72]'
+                - 'columnheader "Nazwisko Nazwisko: Activate to sort" [ref=f8e73] [cursor=pointer]':
+                  - generic [ref=f8e74]:
+                    - generic [ref=f8e75]: Nazwisko
+                    - 'button "Nazwisko: Activate to sort" [ref=f8e76]'
+                - 'columnheader "PESEL PESEL: Activate to sort" [ref=f8e77] [cursor=pointer]':
+                  - generic [ref=f8e78]:
+                    - generic [ref=f8e79]: PESEL
+                    - 'button "PESEL: Activate to sort" [ref=f8e80]'
+                - 'columnheader "Numer kadrowy Numer kadrowy: Activate to sort" [ref=f8e81] [cursor=pointer]':
+                  - generic [ref=f8e82]:
+                    - generic [ref=f8e83]: Numer kadrowy
+                    - 'button "Numer kadrowy: Activate to sort" [ref=f8e84]'
+                - 'columnheader "Dokument Dokument: Activate to sort" [ref=f8e85] [cursor=pointer]':
+                  - generic [ref=f8e86]:
+                    - generic [ref=f8e87]: Dokument
+                    - 'button "Dokument: Activate to sort" [ref=f8e88]'
+                - 'columnheader "Adres email Adres email: Activate to sort" [ref=f8e89] [cursor=pointer]':
+                  - generic [ref=f8e90]:
+                    - generic [ref=f8e91]: Adres email
+                    - 'button "Adres email: Activate to sort" [ref=f8e92]'
+                - 'columnheader "Numer Telefonu Numer Telefonu: Activate to sort" [ref=f8e93] [cursor=pointer]':
+                  - generic [ref=f8e94]:
+                    - generic [ref=f8e95]: Numer Telefonu
+                    - 'button "Numer Telefonu: Activate to sort" [ref=f8e96]'
+                - columnheader "Zlecenie" [ref=f8e97]
+            - rowgroup [ref=f8e100]:
+              - row [ref=f8e101]:
+                - cell "Wczytywanie..." [ref=f8e102]
+        - generic:
+          - generic:
+            - status
+          - generic:
+            - generic:
+              - navigation "pagination"
+      - text:  
+  - contentinfo [ref=f8e103]:
+    - generic [ref=f8e105]:
+      - generic [ref=f8e106]:
+        - paragraph [ref=f8e107]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f8e108]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f8e110]:
+        - listitem [ref=f8e111]:
+          - link "Bezpieczeństwo" [ref=f8e112] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f8e113]:
+          - link "Polityka cookies" [ref=f8e114] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f8e115]:
+          - link "Kontakt" [ref=f8e116] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f8e117]:
+          - link "Regulamin" [ref=f8e118] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

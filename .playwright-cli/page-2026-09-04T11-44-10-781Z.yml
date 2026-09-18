@@ -1,0 +1,41 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - generic [ref=f2e4]:
+      - link [ref=f2e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/
+      - heading [level=2] [ref=f2e9]:
+        - paragraph [ref=f2e10]:
+          - generic [ref=f2e11]: Logowanie do N-Portalu PPK dla firm
+      - link " Przejdź do portalu dla uczestnika PPK" [ref=f2e15] [cursor=pointer]:
+        - /url: https://s5moje.nn.pl/
+  - generic [ref=f2e23]:
+    - paragraph [ref=f2e25]: Nieprawidłowy identyfikator lub hasło
+    - generic [ref=f2e26]:
+      - generic [ref=f2e27]:
+        - generic [ref=f2e28]: Identyfikator
+        - textbox "Identyfikator" [ref=f2e29]
+      - generic [ref=f2e31]:
+        - generic [ref=f2e32]:
+          - generic [ref=f2e33]: Hasło
+          - link "Nie pamiętam hasła" [ref=f2e34] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/passwordReset
+        - textbox "Hasło" [ref=f2e35]
+    - button "Zaloguj się" [ref=f2e38] [cursor=pointer]
+  - contentinfo [ref=f2e39]:
+    - generic [ref=f2e41]:
+      - generic [ref=f2e42]:
+        - paragraph [ref=f2e43]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f2e44]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f2e46]:
+        - listitem [ref=f2e47]:
+          - link "Bezpieczeństwo" [ref=f2e48] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f2e49]:
+          - link "Polityka cookies" [ref=f2e50] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f2e51]:
+          - link "Kontakt" [ref=f2e52] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f2e53]:
+          - link "Regulamin" [ref=f2e54] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

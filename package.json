@@ -1,14 +1,19 @@
 {
-  "name": "ai-presentation",
+  "name": "ppk-nn-pt",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:focused": "playwright test --no-deps",
+    "test:only": "playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
-    "@types/node": "^25.3.5"
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2"
   }
 }

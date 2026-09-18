@@ -1,0 +1,12 @@
+[   22392ms] ReferenceError: checkPasswordStrengthNNPTE is not defined
+    at HTMLInputElement.<anonymous> (https://test.moventum.com.pl/ppk-nnpte2/nnpte/passwordChange:25921:19)
+    at HTMLInputElement.dispatch (https://test.moventum.com.pl/ppk-nnpte2/cms2/general/js/jquery.min.js:2:43064)
+    at v.handle (https://test.moventum.com.pl/ppk-nnpte2/cms2/general/js/jquery.min.js:2:41048)
+[   25329ms] ReferenceError: checkPasswordStrengthNNPTE is not defined
+    at HTMLInputElement.<anonymous> (https://test.moventum.com.pl/ppk-nnpte2/nnpte/passwordChange:25921:19)
+    at HTMLInputElement.dispatch (https://test.moventum.com.pl/ppk-nnpte2/cms2/general/js/jquery.min.js:2:43064)
+    at v.handle (https://test.moventum.com.pl/ppk-nnpte2/cms2/general/js/jquery.min.js:2:41048)
+[   28206ms] ReferenceError: checkPasswordStrengthNNPTE is not defined
+    at HTMLInputElement.<anonymous> (https://test.moventum.com.pl/ppk-nnpte2/nnpte/passwordChange:25921:19)
+    at HTMLInputElement.dispatch (https://test.moventum.com.pl/ppk-nnpte2/cms2/general/js/jquery.min.js:2:43064)
+    at v.handle (https://test.moventum.com.pl/ppk-nnpte2/cms2/general/js/jquery.min.js:2:41048)

@@ -1,0 +1,36 @@
+- generic [active] [ref=f12e1]:
+  - banner [ref=f12e2]:
+    - navigation [ref=f12e4]:
+      - link [ref=f12e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer
+      - list [ref=f12e6]:
+        - listitem [ref=f12e7]:
+          - link "Menu" [ref=f12e8] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - paragraph [ref=f12e9]: "\"INTERFOOD-IDEA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+      - generic [ref=f12e12]:
+        - generic [ref=f12e13]:
+          - generic [ref=f12e14]: Koniec sesji za 15:00
+          - generic [ref=f12e15]: "Ostatnia udana próba logowania: 04-09-2026 12:21"
+        - button "Wyloguj" [ref=f12e16] [cursor=pointer]
+  - generic [ref=f12e20]:
+    - heading "Brak dostępu!" [level=1] [ref=f12e21]
+    - paragraph [ref=f12e22]: Nie posiadasz uprawnień do żądanej treści, skontaktuj się ze swoim administratorem w celu uzgodnienia uprawnień.
+  - contentinfo [ref=f12e23]:
+    - generic [ref=f12e25]:
+      - generic [ref=f12e26]:
+        - paragraph [ref=f12e27]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f12e28]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f12e30]:
+        - listitem [ref=f12e31]:
+          - link "Bezpieczeństwo" [ref=f12e32] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f12e33]:
+          - link "Polityka cookies" [ref=f12e34] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f12e35]:
+          - link "Kontakt" [ref=f12e36] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f12e37]:
+          - link "Regulamin" [ref=f12e38] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

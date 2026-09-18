@@ -1,0 +1,314 @@
+- generic [active] [ref=f6e1]:
+  - banner [ref=f6e2]:
+    - navigation [ref=f6e4]:
+      - link [ref=f6e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer
+      - list [ref=f6e6]:
+        - listitem [ref=f6e7]:
+          - link "Menu" [ref=f6e8] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - paragraph [ref=f6e9]: "\"INTERFOOD-IDEA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+      - generic [ref=f6e12]:
+        - generic [ref=f6e13]:
+          - generic [ref=f6e14]: Koniec sesji za 15:00
+          - generic [ref=f6e15]: "Ostatnia udana próba logowania: 04-09-2026 12:21"
+        - button "Wyloguj" [ref=f6e16] [cursor=pointer]
+  - generic [ref=f6e18]:
+    - navigation "breadcrumb" [ref=f6e19]:
+      - list [ref=f6e20]:
+        - listitem [ref=f6e21]:
+          - link "Home" [ref=f6e22] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/employer
+        - listitem [ref=f6e23]: / Dokumenty
+    - heading "Dokumenty" [level=1] [ref=f6e24]
+    - generic [ref=f6e26]:
+      - strong [ref=f6e27]: Umowa
+      - list [ref=f6e28]:
+        - listitem [ref=f6e29]:
+          - link " Umowa o zarządzanie PPK" [ref=f6e30] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/CONTRACT_MANAGEMENT_AGREEMENT
+            - generic [ref=f6e31]: 
+            - text: Umowa o zarządzanie PPK
+        - listitem [ref=f6e32]:
+          - link " Umowa o prowadzenie PPK" [ref=f6e33] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/CONTRACT_CONDUCT_AGREEMENT
+            - generic [ref=f6e34]: 
+            - text: Umowa o prowadzenie PPK
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem [ref=f6e35]:
+          - link " 1.pdf" [ref=f6e36] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/ATTACHMENT_NO_3_CONTRACT_MANAGEMENT/fileId/249591
+            - generic [ref=f6e37]: 
+            - text: 1.pdf
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem [ref=f6e38]:
+          - link " ANEKS_UOZ_1.pdf" [ref=f6e39] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/ANNEX_CONTRACT_MANAGEMENT_AGREEMENT/fileId/189264
+            - generic [ref=f6e40]: 
+            - text: ANEKS_UOZ_1.pdf
+        - listitem [ref=f6e41]:
+          - link " ANEKS_UOZ_2.pdf" [ref=f6e42] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/ANNEX_CONTRACT_MANAGEMENT_AGREEMENT/fileId/189265
+            - generic [ref=f6e43]: 
+            - text: ANEKS_UOZ_2.pdf
+        - listitem [ref=f6e44]:
+          - link " ANEKS_UOZ_3.pdf" [ref=f6e45] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/ANNEX_CONTRACT_MANAGEMENT_AGREEMENT/fileId/189267
+            - generic [ref=f6e46]: 
+            - text: ANEKS_UOZ_3.pdf
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem [ref=f6e47]:
+          - link " 2022-03-17 08_39_04-Window.png" [ref=f6e48] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/ANNEX_CONTRACT_MANAGEMENT_AGREEMENT/fileId/189310
+            - generic [ref=f6e49]: 
+            - text: 2022-03-17 08_39_04-Window.png
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem [ref=f6e50]:
+          - link " ANEKS_UOP_1.pdf" [ref=f6e51] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/ANNEX_CONTRACT_CONDUCT_AGREEMENT/fileId/189269
+            - generic [ref=f6e52]: 
+            - text: ANEKS_UOP_1.pdf
+        - listitem [ref=f6e53]:
+          - link " ANEKS_UOP_2.pdf" [ref=f6e54] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/ANNEX_CONTRACT_CONDUCT_AGREEMENT/fileId/189271
+            - generic [ref=f6e55]: 
+            - text: ANEKS_UOP_2.pdf
+        - listitem [ref=f6e56]:
+          - link " ANEKS_UOP_3.pdf" [ref=f6e57] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/ANNEX_CONTRACT_CONDUCT_AGREEMENT/fileId/189272
+            - generic [ref=f6e58]: 
+            - text: ANEKS_UOP_3.pdf
+        - listitem [ref=f6e59]:
+          - link " 2022-03-17 08_39_04-Window.png" [ref=f6e60] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/ANNEX_CONTRACT_CONDUCT_AGREEMENT/fileId/189308
+            - generic [ref=f6e61]: 
+            - text: 2022-03-17 08_39_04-Window.png
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem [ref=f6e62]:
+          - link " 1.pdf" [ref=f6e63] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/ANNEX_CONTRACT_CONDUCT_AGREEMENT/fileId/249594
+            - generic [ref=f6e64]: 
+            - text: 1.pdf
+        - listitem [ref=f6e65]:
+          - link " 1.pdf" [ref=f6e66] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/documents/contract/download/filetype/ANNEX_CONTRACT_CONDUCT_AGREEMENT/fileId/249595
+            - generic [ref=f6e67]: 
+            - text: 1.pdf
+      - strong [ref=f6e68]: Manual
+      - list [ref=f6e69]:
+        - listitem [ref=f6e70]:
+          - link " Manual" [ref=f6e71] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:2f46e136-afb8-4e21-aaf2-6afc8e8928e1/Manual%20Operacyjny%20PPK.pdf
+            - generic [ref=f6e72]: 
+            - text: Manual
+        - listitem [ref=f6e73]:
+          - link " Zakres i format plików przesyłanych do instytucji finansowej" [ref=f6e74] [cursor=pointer]:
+            - /url: /ppk-nnpte2/cms2/general/docs/PPK_zakres_danych_i_struktura_pliku.pdf
+            - generic [ref=f6e75]: 
+            - text: Zakres i format plików przesyłanych do instytucji finansowej
+      - strong [ref=f6e76]: Formularze
+      - list [ref=f6e77]:
+        - listitem [ref=f6e78]:
+          - link " Dane kontaktowe PPK" [ref=f6e79] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Dane_kontaktowe_w_PPK.pdf
+            - generic [ref=f6e80]: 
+            - text: Dane kontaktowe PPK
+        - listitem [ref=f6e81]:
+          - link " Rezygnacja z dokonywania wpłat do PPK" [ref=f6e82] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:42253761-7cff-42be-ac92-7a35e859a982/Rezygnacja%20z%20dokonywania%20wp%C5%82at%20do%20PPK.pdf
+            - generic [ref=f6e83]: 
+            - text: Rezygnacja z dokonywania wpłat do PPK
+        - listitem [ref=f6e84]:
+          - link " Wniosek o dokonanie transferu środków" [ref=f6e85] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:e245c5da-4856-4ccf-9e8c-505ef1ab63b3/Wniosek%20o%20dokonanie%20transferu%20%C5%9Brodk%C3%B3w%20z%20PPK.pdf
+            - generic [ref=f6e86]: 
+            - text: Wniosek o dokonanie transferu środków
+        - listitem [ref=f6e87]:
+          - link " Wniosek o przystąpienie do PPK (55-70 lat)" [ref=f6e88] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:894f7e31-a21f-4c1a-b0f0-6895e4c9b4a2/Wniosek%20o%20przyst%C4%85pienie%20do%20PPK%20(dotyczy%20os%C3%B3b%20w%20wieku%2055-70%20lat).pdf
+            - generic [ref=f6e89]: 
+            - text: Wniosek o przystąpienie do PPK (55-70 lat)
+        - listitem [ref=f6e90]:
+          - link " Wznowienie wpłat do PPK" [ref=f6e91] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:2e20d6db-ad8a-49e5-b419-44ff75a87660/Wznowienie%20wp%C5%82at%20do%20PPK.pdf
+            - generic [ref=f6e92]: 
+            - text: Wznowienie wpłat do PPK
+        - listitem [ref=f6e93]:
+          - link " Zmiana danych uczestnika PPK" [ref=f6e94] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:75992229-d1b1-4f22-a063-b6d616356fba/Zmiana%20danych%20Uczestnika%20PPK.pdf
+            - generic [ref=f6e95]: 
+            - text: Zmiana danych uczestnika PPK
+        - listitem [ref=f6e96]:
+          - link " Zmiana wpłaty podstawowej uczestnika PPK" [ref=f6e97] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:db2fe322-0f76-44d0-9f61-2815f4216f01/Zmiana%20wp%C5%82aty%20podstawowej%20uczestnika%20PPK.pdf
+            - generic [ref=f6e98]: 
+            - text: Zmiana wpłaty podstawowej uczestnika PPK
+        - listitem [ref=f6e99]:
+          - link " Wpłata dodatkowa uczestnika PPK" [ref=f6e100] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:0ff33200-e0d1-410a-bc83-62ea65f5a7df/Wplata%20dodatkowa%20do%20PPK%20-%20deklaracja%20zmiana%20rezygnacja.pdf
+            - generic [ref=f6e101]: 
+            - text: Wpłata dodatkowa uczestnika PPK
+        - listitem [ref=f6e102]:
+          - link " Deklaracja kontynuowania wpłat pracownika na podstawie art. 25 ust. 5 Ustawy o PPK" [ref=f6e103] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/zasoby/PPK/dokumenty/deklaracja-kontynuowania-wplat-do-ppk.pdf
+            - generic [ref=f6e104]: 
+            - text: Deklaracja kontynuowania wpłat pracownika na podstawie art. 25 ust. 5 Ustawy o PPK
+        - listitem [ref=f6e105]:
+          - link " Oświadczenie o braku zgody na transfer" [ref=f6e106] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/dokumenty/PPK/portal-pracodawcy/oswiadczenie-o-braku-zgody-na-dokonanie-wyplaty-transferowej.pdf
+            - generic [ref=f6e107]: 
+            - text: Oświadczenie o braku zgody na transfer
+      - strong [ref=f6e108]: Regulamin
+      - list [ref=f6e109]:
+        - listitem [ref=f6e110]:
+          - link " Regulamin Świadczenia Usług Drogą Elektroniczną" [ref=f6e111] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf
+            - generic [ref=f6e112]: 
+            - text: Regulamin Świadczenia Usług Drogą Elektroniczną
+      - strong [ref=f6e113]: Zasady zrównoważonego rozwoju
+      - list [ref=f6e114]:
+        - listitem [ref=f6e115]:
+          - link " Zasady zrównoważonego rozwoju" [ref=f6e116] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/Zasady-zrownowazonego-rozwoju.pdf
+            - generic [ref=f6e117]: 
+            - text: Zasady zrównoważonego rozwoju
+      - strong [ref=f6e118]: Materiały informacyjne
+      - list [ref=f6e119]:
+        - listitem [ref=f6e120]:
+          - link " Mailing obowiązek informacyjny o PPK" [ref=f6e121] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/825-NN-2025_mailing-obowiazek-informacyjny-PPK.pdf
+            - generic [ref=f6e122]: 
+            - text: Mailing obowiązek informacyjny o PPK
+        - listitem [ref=f6e123]:
+          - link " Ulotka obowiązek informacyjny o PPK" [ref=f6e124] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/825-NN-2025_Obowiazek-informacyjny-o-PPK_ulotka.pdf
+            - generic [ref=f6e125]: 
+            - text: Ulotka obowiązek informacyjny o PPK
+        - listitem [ref=f6e126]:
+          - link " Ulotka dla nowozatrudnionych 5 tys. zł" [ref=f6e127] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Ulota_dla_nowozatrudnionych_5tys.pdf
+            - generic [ref=f6e128]: 
+            - text: Ulotka dla nowozatrudnionych 5 tys. zł
+        - listitem [ref=f6e129]:
+          - link " Ulotka dla nowozatrudnionych 3 tys. zł" [ref=f6e130] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Ulota_dla_nowozatrudnionych_3tys.pdf
+            - generic [ref=f6e131]: 
+            - text: Ulotka dla nowozatrudnionych 3 tys. zł
+        - listitem [ref=f6e132]:
+          - link " Mailing PPK krok po kroku pdf" [ref=f6e133] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Mailing_PPK_krok_po_kroku.pdf
+            - generic [ref=f6e134]: 
+            - text: Mailing PPK krok po kroku pdf
+        - listitem [ref=f6e135]:
+          - link " Ulotka PPK krok po kroku" [ref=f6e136] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Ulotka_PPK_krok_po_kroku.pdf
+            - generic [ref=f6e137]: 
+            - text: Ulotka PPK krok po kroku
+        - listitem [ref=f6e138]:
+          - link " Mailing PPK krok po kroku html" [ref=f6e139] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Mailing_PPK_krok_po_kroku_html.zip
+            - generic [ref=f6e140]: 
+            - text: Mailing PPK krok po kroku html
+        - listitem [ref=f6e141]:
+          - link " Plakat korzyści PPK" [ref=f6e142] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Plakat_korzysci_PPK.pdf
+            - generic [ref=f6e143]: 
+            - text: Plakat korzyści PPK
+        - listitem [ref=f6e144]:
+          - link " Materiał logowanie PPK" [ref=f6e145] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Material_logowanie_PPK.pdf
+            - generic [ref=f6e146]: 
+            - text: Materiał logowanie PPK
+        - listitem [ref=f6e147]:
+          - link " Materiał logowanie PPK numer rachunku" [ref=f6e148] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Material_logowanie_PPK_nr_rachunku.pdf
+            - generic [ref=f6e149]: 
+            - text: Materiał logowanie PPK numer rachunku
+        - listitem [ref=f6e150]:
+          - link " Ulotka o dziedziczeniu" [ref=f6e151] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Ulotka_wyplata_srodkow_po_smierci.pdf
+            - generic [ref=f6e152]: 
+            - text: Ulotka o dziedziczeniu
+        - listitem [ref=f6e153]:
+          - link " Ulotka jak inwestujemy w PPK" [ref=f6e154] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Ulotka_jak_inwestujemy_w_PPK.pdf
+            - generic [ref=f6e155]: 
+            - text: Ulotka jak inwestujemy w PPK
+        - listitem [ref=f6e156]:
+          - link " Ulotka jak możesz wypłacić pieniądze z PPK" [ref=f6e157] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Ulotka_jak_mozesz_wyplacic_pieniadze_z_PPK.pdf
+            - generic [ref=f6e158]: 
+            - text: Ulotka jak możesz wypłacić pieniądze z PPK
+        - listitem [ref=f6e159]:
+          - link " Ulotka jak zrobić transfer" [ref=f6e160] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Ulotka_jak_zrobic_transfer.pdf
+            - generic [ref=f6e161]: 
+            - text: Ulotka jak zrobić transfer
+        - listitem [ref=f6e162]:
+          - link " Mailing rezygnacja z PPK html" [ref=f6e163] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Mailing_rezygnacja_z_PPK_html.zip
+            - generic [ref=f6e164]: 
+            - text: Mailing rezygnacja z PPK html
+        - listitem [ref=f6e165]:
+          - link " Mailing rezygnacja z PPK pdf" [ref=f6e166] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Mailing_rezygnacja_z_PPK.pdf
+            - generic [ref=f6e167]: 
+            - text: Mailing rezygnacja z PPK pdf
+        - listitem [ref=f6e168]:
+          - link " Ulotka rezygnacja z PPK" [ref=f6e169] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Ulotka_rezygnacja_z_PPK.pdf
+            - generic [ref=f6e170]: 
+            - text: Ulotka rezygnacja z PPK
+  - contentinfo [ref=f6e171]:
+    - generic [ref=f6e173]:
+      - generic [ref=f6e174]:
+        - paragraph [ref=f6e175]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f6e176]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f6e178]:
+        - listitem [ref=f6e179]:
+          - link "Bezpieczeństwo" [ref=f6e180] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f6e181]:
+          - link "Polityka cookies" [ref=f6e182] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f6e183]:
+          - link "Kontakt" [ref=f6e184] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f6e185]:
+          - link "Regulamin" [ref=f6e186] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

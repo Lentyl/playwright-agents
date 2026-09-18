@@ -1,0 +1,128 @@
+- generic [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - navigation [ref=f2e4]:
+      - link [ref=f2e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer
+      - paragraph [ref=f2e6]: "\"INTERFOOD-IDEA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+      - generic [ref=f2e9]:
+        - generic [ref=f2e10]:
+          - generic [ref=f2e11]: Koniec sesji za 14:50
+          - generic [ref=f2e12]: "Ostatnia udana próba logowania: 17-09-2026 09:13"
+          - generic [ref=f2e13]: "Ostatnia nieudana próba logowania: 17-09-2026 09:13"
+        - button "Wyloguj" [ref=f2e14] [cursor=pointer]
+  - generic [ref=f2e16]:
+    - navigation "breadcrumb" [ref=f2e17]:
+      - list [ref=f2e18]:
+        - listitem [ref=f2e19]:
+          - link "Home" [ref=f2e20] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/employer
+        - listitem [ref=f2e21]: / Podgląd uczestników
+    - heading "Podgląd Uczestników" [level=1] [ref=f2e22]
+    - generic [ref=f2e24]:
+      - generic [ref=f2e28]:
+        - generic [ref=f2e29]:
+          - generic [ref=f2e30]:
+            - generic [ref=f2e31]: Imię
+            - textbox "Imię" [ref=f2e32]
+          - generic [ref=f2e33]:
+            - generic [ref=f2e34]: Nazwisko
+            - textbox "Nazwisko" [ref=f2e35]
+          - generic [ref=f2e36]:
+            - generic [ref=f2e37]: PESEL
+            - textbox "PESEL" [ref=f2e38]: "4405140135"
+        - generic [ref=f2e39]:
+          - generic [ref=f2e40]:
+            - generic [ref=f2e41]: Rezygnacja
+            - combobox "Rezygnacja" [ref=f2e42]:
+              - option "Wszystkie" [selected]
+              - option "TAK"
+              - option "NIE"
+          - generic [ref=f2e43]:
+            - generic [ref=f2e44]: Zatrudniony
+            - combobox "Zatrudniony" [ref=f2e45]:
+              - option "Wszystkie"
+              - option "TAK" [selected]
+              - option "NIE"
+        - button "Wyszukaj" [active] [ref=f2e46] [cursor=pointer]
+      - generic [ref=f2e47]:
+        - generic [ref=f2e48]:
+          - generic [ref=f2e51]:
+            - text: Pokaż
+            - combobox "Pokaż pozycji" [ref=f2e52]:
+              - option "10" [selected]
+              - option "25"
+              - option "50"
+              - option "100"
+            - text: pozycji
+          - generic [ref=f2e54]:
+            - generic [ref=f2e55]: "Szukaj:"
+            - searchbox "Szukaj:" [ref=f2e56]
+        - generic [ref=f2e58]:
+          - text: 
+          - table [ref=f2e59]:
+            - rowgroup [ref=f2e75]:
+              - row [ref=f2e76]:
+                - columnheader [ref=f2e77]
+                - columnheader "Lp." [ref=f2e78]
+                - 'columnheader "Imię Imię: Activate to sort" [ref=f2e81] [cursor=pointer]':
+                  - generic [ref=f2e82]:
+                    - generic [ref=f2e83]: Imię
+                    - 'button "Imię: Activate to sort" [ref=f2e84]'
+                - 'columnheader "Nazwisko Nazwisko: Activate to sort" [ref=f2e85] [cursor=pointer]':
+                  - generic [ref=f2e86]:
+                    - generic [ref=f2e87]: Nazwisko
+                    - 'button "Nazwisko: Activate to sort" [ref=f2e88]'
+                - 'columnheader "PESEL PESEL: Activate to sort" [ref=f2e89] [cursor=pointer]':
+                  - generic [ref=f2e90]:
+                    - generic [ref=f2e91]: PESEL
+                    - 'button "PESEL: Activate to sort" [ref=f2e92]'
+                - 'columnheader "Numer kadrowy Numer kadrowy: Activate to sort" [ref=f2e93] [cursor=pointer]':
+                  - generic [ref=f2e94]:
+                    - generic [ref=f2e95]: Numer kadrowy
+                    - 'button "Numer kadrowy: Activate to sort" [ref=f2e96]'
+                - 'columnheader "Dokument Dokument: Activate to sort" [ref=f2e97] [cursor=pointer]':
+                  - generic [ref=f2e98]:
+                    - generic [ref=f2e99]: Dokument
+                    - 'button "Dokument: Activate to sort" [ref=f2e100]'
+                - 'columnheader "Adres email Adres email: Activate to sort" [ref=f2e101] [cursor=pointer]':
+                  - generic [ref=f2e102]:
+                    - generic [ref=f2e103]: Adres email
+                    - 'button "Adres email: Activate to sort" [ref=f2e104]'
+                - 'columnheader "Numer Telefonu Numer Telefonu: Activate to sort" [ref=f2e105] [cursor=pointer]':
+                  - generic [ref=f2e106]:
+                    - generic [ref=f2e107]: Numer Telefonu
+                    - 'button "Numer Telefonu: Activate to sort" [ref=f2e108]'
+                - columnheader "Rezygnacja" [ref=f2e109]
+                - columnheader "Zatrudniony" [ref=f2e112]
+                - columnheader "Wypłata po 60 r." [ref=f2e115]
+                - columnheader "Zlecenie" [ref=f2e118]
+            - rowgroup [ref=f2e121]:
+              - row [ref=f2e154]:
+                - cell "Nie znaleziono pasujących pozycji" [ref=f2e155]
+        - generic [ref=f2e124]:
+          - status [ref=f2e126]: Pozycji 0 z 0 dostępnych (filtrowanie spośród 1,332 dostępnych pozycji)
+          - navigation "pagination" [ref=f2e129]:
+            - list [ref=f2e156]:
+              - listitem [ref=f2e157]:
+                - link "Previous" [disabled]: Poprzednia
+              - listitem [ref=f2e158]:
+                - link "Next" [disabled]: Następna
+      - text:   
+  - contentinfo [ref=f2e133]:
+    - generic [ref=f2e135]:
+      - generic [ref=f2e136]:
+        - paragraph [ref=f2e137]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f2e138]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f2e140]:
+        - listitem [ref=f2e141]:
+          - link "Bezpieczeństwo" [ref=f2e142] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f2e143]:
+          - link "Polityka cookies" [ref=f2e144] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f2e145]:
+          - link "Kontakt" [ref=f2e146] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f2e147]:
+          - link "Regulamin" [ref=f2e148] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf
