@@ -1,0 +1,42 @@
+- generic [active] [ref=f19e1]:
+  - banner [ref=f19e2]:
+    - navigation [ref=f19e4]:
+      - link [ref=f19e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=f19e7]:
+        - listitem [ref=f19e8]:
+          - link "Menu" [ref=f19e9] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=f19e12]:
+        - generic [ref=f19e13]:
+          - generic [ref=f19e14]: Koniec sesji za 15:00
+          - generic [ref=f19e15]: "Ostatnia udana próba logowania: 18-09-2026 12:47"
+          - generic [ref=f19e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+        - button "Wyloguj" [ref=f19e17] [cursor=pointer]
+  - generic [ref=f19e19]:
+    - navigation "breadcrumb" [ref=f19e20]:
+      - list [ref=f19e21]:
+        - listitem [ref=f19e22]:
+          - link "Home" [ref=f19e23] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/login/fork
+        - listitem [ref=f19e24]: / Konwersja
+    - heading "Konwersja" [level=1] [ref=f19e25]
+    - generic [ref=f19e26]: 
+  - contentinfo [ref=f19e27]:
+    - generic [ref=f19e29]:
+      - generic [ref=f19e30]:
+        - paragraph [ref=f19e31]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f19e32]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f19e34]:
+        - listitem [ref=f19e35]:
+          - link "Bezpieczeństwo" [ref=f19e36] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f19e37]:
+          - link "Polityka cookies" [ref=f19e38] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f19e39]:
+          - link "Kontakt" [ref=f19e40] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f19e41]:
+          - link "Regulamin" [ref=f19e42] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

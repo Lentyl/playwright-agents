@@ -8,10 +8,8 @@ test.describe('TC-FI — Financial Institution authentication', () => {
         financialInstitutionDashboardPage,
         financialInstitutionRegistrationPage: registrationPage,
         loginAsFinancialInstitution,
-        page,
     }) => {
         await loginAsFinancialInstitution();
-        await page.pause();
         await expect(financialInstitutionDashboardPage.heading).toBeVisible();
         await expect(financialInstitutionDashboardPage.employerPreviewHeading).toBeVisible();
         await expect(financialInstitutionDashboardPage.cardLink(financialInstitutionDashboardPage.heading)).toHaveAttribute(

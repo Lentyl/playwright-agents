@@ -1,5 +1,5 @@
 ---
-name: 'update portable markdown'
+name: 'update .md files'
 description: 'Update a reusable Markdown file under .github or .claude without adding project-specific assumptions.'
 argument-hint: 'Provide the Markdown file path and the exact update you need.'
 agent: 'agent'

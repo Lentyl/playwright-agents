@@ -1,0 +1,120 @@
+- generic [active] [ref=f19e1]:
+  - banner [ref=f19e2]:
+    - navigation [ref=f19e4]:
+      - link [ref=f19e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=f19e7]:
+        - listitem [ref=f19e8]:
+          - link "Menu" [ref=f19e9] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=f19e12]:
+        - generic [ref=f19e13]:
+          - generic [ref=f19e14]: Koniec sesji za 15:00
+          - generic [ref=f19e15]: "Ostatnia udana próba logowania: 18-09-2026 14:33"
+          - generic [ref=f19e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+        - button "Wyloguj" [ref=f19e17] [cursor=pointer]
+  - generic [ref=f19e19]:
+    - navigation "breadcrumb" [ref=f19e20]:
+      - list [ref=f19e21]:
+        - listitem [ref=f19e22]:
+          - link "Home" [ref=f19e23] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/login/fork
+        - listitem [ref=f19e24]: / Dokumenty
+    - heading "Dokumenty" [level=1] [ref=f19e25]
+    - generic [ref=f19e27]:
+      - strong [ref=f19e28]: Manual
+      - list [ref=f19e29]:
+        - listitem [ref=f19e30]:
+          - link " Manual" [ref=f19e31] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:2f46e136-afb8-4e21-aaf2-6afc8e8928e1/Manual%20Operacyjny%20PPK.pdf
+            - generic [ref=f19e32]: 
+            - text: Manual
+        - listitem [ref=f19e33]:
+          - link " Zakres i format plików przesyłanych do instytucji finansowej" [ref=f19e34] [cursor=pointer]:
+            - /url: /ppk-nnpte2/cms2/general/docs/PPK_zakres_danych_i_struktura_pliku.pdf
+            - generic [ref=f19e35]: 
+            - text: Zakres i format plików przesyłanych do instytucji finansowej
+      - strong [ref=f19e36]: Formularze
+      - list [ref=f19e37]:
+        - listitem [ref=f19e38]:
+          - link " Dane kontaktowe PPK" [ref=f19e39] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/materialy-PPK-pojedyncze/Dane_kontaktowe_w_PPK.pdf
+            - generic [ref=f19e40]: 
+            - text: Dane kontaktowe PPK
+        - listitem [ref=f19e41]:
+          - link " Rezygnacja z dokonywania wpłat do PPK" [ref=f19e42] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:42253761-7cff-42be-ac92-7a35e859a982/Rezygnacja%20z%20dokonywania%20wp%C5%82at%20do%20PPK.pdf
+            - generic [ref=f19e43]: 
+            - text: Rezygnacja z dokonywania wpłat do PPK
+        - listitem [ref=f19e44]:
+          - link " Wniosek o dokonanie transferu środków" [ref=f19e45] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:e245c5da-4856-4ccf-9e8c-505ef1ab63b3/Wniosek%20o%20dokonanie%20transferu%20%C5%9Brodk%C3%B3w%20z%20PPK.pdf
+            - generic [ref=f19e46]: 
+            - text: Wniosek o dokonanie transferu środków
+        - listitem [ref=f19e47]:
+          - link " Wniosek o przystąpienie do PPK (55-70 lat)" [ref=f19e48] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:894f7e31-a21f-4c1a-b0f0-6895e4c9b4a2/Wniosek%20o%20przyst%C4%85pienie%20do%20PPK%20(dotyczy%20os%C3%B3b%20w%20wieku%2055-70%20lat).pdf
+            - generic [ref=f19e49]: 
+            - text: Wniosek o przystąpienie do PPK (55-70 lat)
+        - listitem [ref=f19e50]:
+          - link " Wznowienie wpłat do PPK" [ref=f19e51] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:2e20d6db-ad8a-49e5-b419-44ff75a87660/Wznowienie%20wp%C5%82at%20do%20PPK.pdf
+            - generic [ref=f19e52]: 
+            - text: Wznowienie wpłat do PPK
+        - listitem [ref=f19e53]:
+          - link " Zmiana danych uczestnika PPK" [ref=f19e54] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:75992229-d1b1-4f22-a063-b6d616356fba/Zmiana%20danych%20Uczestnika%20PPK.pdf
+            - generic [ref=f19e55]: 
+            - text: Zmiana danych uczestnika PPK
+        - listitem [ref=f19e56]:
+          - link " Zmiana wpłaty podstawowej uczestnika PPK" [ref=f19e57] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:db2fe322-0f76-44d0-9f61-2815f4216f01/Zmiana%20wp%C5%82aty%20podstawowej%20uczestnika%20PPK.pdf
+            - generic [ref=f19e58]: 
+            - text: Zmiana wpłaty podstawowej uczestnika PPK
+        - listitem [ref=f19e59]:
+          - link " Wpłata dodatkowa uczestnika PPK" [ref=f19e60] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:0ff33200-e0d1-410a-bc83-62ea65f5a7df/Wplata%20dodatkowa%20do%20PPK%20-%20deklaracja%20zmiana%20rezygnacja.pdf
+            - generic [ref=f19e61]: 
+            - text: Wpłata dodatkowa uczestnika PPK
+        - listitem [ref=f19e62]:
+          - link " Deklaracja kontynuowania wpłat pracownika na podstawie art. 25 ust. 5 Ustawy o PPK" [ref=f19e63] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/zasoby/PPK/dokumenty/deklaracja-kontynuowania-wplat-do-ppk.pdf
+            - generic [ref=f19e64]: 
+            - text: Deklaracja kontynuowania wpłat pracownika na podstawie art. 25 ust. 5 Ustawy o PPK
+        - listitem [ref=f19e65]:
+          - link " Oświadczenie o braku zgody na transfer" [ref=f19e66] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/dokumenty/PPK/portal-pracodawcy/oswiadczenie-o-braku-zgody-na-dokonanie-wyplaty-transferowej.pdf
+            - generic [ref=f19e67]: 
+            - text: Oświadczenie o braku zgody na transfer
+      - strong [ref=f19e68]: Regulamin
+      - list [ref=f19e69]:
+        - listitem [ref=f19e70]:
+          - link " Regulamin Świadczenia Usług Drogą Elektroniczną" [ref=f19e71] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf
+            - generic [ref=f19e72]: 
+            - text: Regulamin Świadczenia Usług Drogą Elektroniczną
+      - strong [ref=f19e73]: Zasady zrównoważonego rozwoju
+      - list [ref=f19e74]:
+        - listitem [ref=f19e75]:
+          - link " Zasady zrównoważonego rozwoju" [ref=f19e76] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/produkty/dla-fimy/PPK/Zasady-zrownowazonego-rozwoju.pdf
+            - generic [ref=f19e77]: 
+            - text: Zasady zrównoważonego rozwoju
+  - contentinfo [ref=f19e78]:
+    - generic [ref=f19e80]:
+      - generic [ref=f19e81]:
+        - paragraph [ref=f19e82]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f19e83]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f19e85]:
+        - listitem [ref=f19e86]:
+          - link "Bezpieczeństwo" [ref=f19e87] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f19e88]:
+          - link "Polityka cookies" [ref=f19e89] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f19e90]:
+          - link "Kontakt" [ref=f19e91] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f19e92]:
+          - link "Regulamin" [ref=f19e93] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

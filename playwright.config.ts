@@ -77,7 +77,7 @@ export default defineConfig({
       use: {
         ...devices['Desktop Chrome'],
         channel: 'chrome',
-        viewport: { width: 1500, height: 900 },
+        viewport: { width: 1700, height: 1000 },
         storageState: financialInstitutionStorageState,
       },
     },

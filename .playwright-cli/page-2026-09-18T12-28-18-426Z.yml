@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e4]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Menu" [ref=e9] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: Koniec sesji za 15:00
+          - generic [ref=e15]: "Ostatnia udana próba logowania: 18-09-2026 12:47"
+          - generic [ref=e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+        - button "Wyloguj" [ref=e17] [cursor=pointer]
+  - banner [ref=e18]:
+    - generic [ref=e20]:
+      - link [ref=e21] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/
+      - heading [level=2] [ref=e25]:
+        - paragraph [ref=e26]:
+          - generic [ref=e27]: Logowanie do N-Portalu PPK dla firm
+      - link " Przejdź do portalu dla uczestnika PPK" [ref=e31] [cursor=pointer]:
+        - /url: https://s5moje.nn.pl/
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]: Identyfikator
+        - textbox "Identyfikator" [ref=e43]
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: Hasło
+          - link "Nie pamiętam hasła" [ref=e48] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/passwordReset
+        - textbox "Hasło" [ref=e49]
+    - button "Zaloguj się" [ref=e52] [cursor=pointer]
+  - contentinfo [ref=e53]:
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - paragraph [ref=e57]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=e58]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "Bezpieczeństwo" [ref=e62] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=e63]:
+          - link "Polityka cookies" [ref=e64] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=e65]:
+          - link "Kontakt" [ref=e66] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=e67]:
+          - link "Regulamin" [ref=e68] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

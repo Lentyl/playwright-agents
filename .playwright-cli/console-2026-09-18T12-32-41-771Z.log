@@ -1,0 +1,2 @@
+[    1303ms] ReferenceError: bindClickHandler is not defined
+    at HTMLDocument.<anonymous> (https://test.moventum.com.pl/ppk-nnpte2/nnpte/manager/exchange:261:11)

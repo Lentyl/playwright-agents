@@ -1,0 +1,54 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - navigation [ref=f2e4]:
+      - link [ref=f2e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=f2e7]:
+        - listitem [ref=f2e8]:
+          - link "Menu" [ref=f2e9] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=f2e12]:
+        - generic [ref=f2e13]:
+          - generic [ref=f2e14]: Koniec sesji za 15:00
+          - generic [ref=f2e15]: "Ostatnia udana próba logowania: 18-09-2026 14:58"
+          - generic [ref=f2e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+        - button "Wyloguj" [ref=f2e17] [cursor=pointer]
+  - generic [ref=f2e19]:
+    - navigation "breadcrumb" [ref=f2e20]:
+      - list [ref=f2e21]:
+        - listitem [ref=f2e22]:
+          - link "Home" [ref=f2e23] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/login/fork
+        - listitem [ref=f2e24]: / Raporty
+    - heading "Raporty" [level=1] [ref=f2e25]
+    - generic [ref=f2e27]:
+      - paragraph [ref=f2e31]: Wybierz raport z listy rozwijalnej
+      - group [ref=f2e32]:
+        - generic [ref=f2e34]:
+          - generic [ref=f2e35]: "Nazwa raportu:"
+          - combobox "Nazwa raportu:" [ref=f2e36]:
+            - option
+            - option "Umowy PPK"
+            - option "Użytkownicy serwisu PPK"
+            - option "Raport z informacją o linkach" [selected]
+            - option "Raport firm przesyłających korekty"
+            - option "Raport z rozliczenia skladek"
+        - button "Generuj raport" [ref=f2e40] [cursor=pointer]
+  - contentinfo [ref=f2e41]:
+    - generic [ref=f2e43]:
+      - generic [ref=f2e44]:
+        - paragraph [ref=f2e45]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f2e46]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f2e48]:
+        - listitem [ref=f2e49]:
+          - link "Bezpieczeństwo" [ref=f2e50] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f2e51]:
+          - link "Polityka cookies" [ref=f2e52] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f2e53]:
+          - link "Kontakt" [ref=f2e54] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f2e55]:
+          - link "Regulamin" [ref=f2e56] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

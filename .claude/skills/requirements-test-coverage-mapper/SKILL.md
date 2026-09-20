@@ -73,6 +73,8 @@ For each requirement, propose coverage across:
 
 Use risk-based thinking: assign impact (H/M/L) and likelihood (H/M/L), and derive priority and test depth from risk.
 
+When a requirement includes a reusable UI component, apply the mandatory component-coverage rules from `designing-functional-tests`. The RTM must map the required checks to scenarios or explicitly state why a relevant check cannot be covered.
+
 ### Phase 3b: Cross-Check the Backward Direction
 
 The RTM table has one row per requirement, so it can only ever show requirements with no test. When tests already exist, also run the other direction: **which existing tests map to no requirement?**
@@ -117,6 +119,7 @@ Before final output:
 - [ ] Ambiguities are captured as explicit questions
 - [ ] Risk is assigned and used to prioritize
 - [ ] Non-functional coverage is addressed where relevant
+- [ ] Mandatory coverage for relevant reusable UI components is mapped or explicitly limited
 - [ ] Assumptions are listed explicitly
 
 ## Resource Map

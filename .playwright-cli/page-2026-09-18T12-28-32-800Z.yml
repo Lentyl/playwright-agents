@@ -1,0 +1,143 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /ppk-nnpte2/nnpte/manager/login/fork
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Menu" [expanded] [active] [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - generic [ref=e14]: Koniec sesji za 14:46
+            - generic [ref=e15]: "Ostatnia udana próba logowania: 18-09-2026 12:47"
+            - generic [ref=e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+          - button "Wyloguj" [ref=e17] [cursor=pointer]
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - heading "Uprawnienia" [level=3] [ref=e72]
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "Użytkownicy" [ref=e75] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/admin/users
+              - listitem [ref=e76]:
+                - link "Grupy uprawnień" [ref=e77] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/admin/roles
+          - generic [ref=e78]:
+            - heading "PPK" [level=3] [ref=e79]
+            - list [ref=e80]:
+              - listitem [ref=e81]:
+                - link "Rejestracja umowy PPK" [ref=e82] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/registration?mode=init
+              - listitem [ref=e83]:
+                - link "Umowy PPK - nowe" [ref=e84] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/contract/list/awaiting
+              - listitem [ref=e85]:
+                - link "Umowy PPK - zaakceptowane" [ref=e86] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/contract/list/accepted
+              - listitem [ref=e87]:
+                - link "Lista uczestników" [ref=e88] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/customer/list
+              - listitem [ref=e89]:
+                - link "Raporty" [ref=e90] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/report
+              - listitem [ref=e91]:
+                - link "Informacje i dokumenty" [ref=e92] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/documents
+              - listitem [ref=e93]:
+                - link "Zlecenia do akceptacji" [ref=e94] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/reqtrade/list/awaiting
+              - listitem [ref=e95]:
+                - link "Wypowiedzenie UoZ" [ref=e96] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/contract/termination/search
+          - generic [ref=e97]:
+            - heading "Dyspozycje" [level=3] [ref=e98]
+            - list [ref=e99]:
+              - listitem [ref=e100]:
+                - link "Dodanie osób uprawnionych" [ref=e101] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e102]:
+                - link "Konwersja" [ref=e103] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/exchange
+              - listitem [ref=e104]:
+                - link "Zwrot" [ref=e105] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/redemption?mode=init
+              - listitem [ref=e106]:
+                - link "Poważne zachorowanie" [ref=e107] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e108]:
+                - link "Wkład własny" [ref=e109] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e110]:
+                - link "Wypłata po osiągnięciu 60 lat" [ref=e111] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e112]:
+                - link "Zmiana liczby rat do wypłaty" [ref=e113] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e114]:
+                - link "Wypłata transferowa" [ref=e115] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e116]:
+                - link "Świadczenie małżeńskie" [ref=e117] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e118]:
+            - heading "Ustawienia" [level=3] [ref=e119]
+            - list [ref=e120]:
+              - listitem [ref=e121]:
+                - link "Zmiana hasła" [ref=e122] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/passwordChange
+              - listitem [ref=e123]:
+                - link "Zaufane urządzenia" [ref=e124] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/trusted-devices
+            - generic [ref=e126]:
+              - heading "Kontakt" [level=3] [ref=e127]
+              - list [ref=e128]:
+                - listitem [ref=e129]:
+                  - link "Formularz kontaktowy" [ref=e130] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/contact
+                - listitem [ref=e131]:
+                  - heading "22 541 77 57" [level=2] [ref=e132]
+        - list [ref=e135]:
+          - listitem [ref=e136]: "Ostatnia udana próba logowania: 2026-09-18 12:47"
+          - listitem [ref=e137]: "Ostatnia nieudana próba logowania: 2026-08-24 11:24"
+  - banner [ref=e18]:
+    - generic [ref=e20]:
+      - link [ref=e21] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/
+      - heading [level=2] [ref=e25]:
+        - paragraph [ref=e26]:
+          - generic [ref=e27]: Logowanie do N-Portalu PPK dla firm
+      - link " Przejdź do portalu dla uczestnika PPK" [ref=e31] [cursor=pointer]:
+        - /url: https://s5moje.nn.pl/
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]: Identyfikator
+        - textbox "Identyfikator" [ref=e43]
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: Hasło
+          - link "Nie pamiętam hasła" [ref=e48] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/passwordReset
+        - textbox "Hasło" [ref=e49]
+    - button "Zaloguj się" [ref=e52] [cursor=pointer]
+  - contentinfo [ref=e53]:
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - paragraph [ref=e57]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=e58]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "Bezpieczeństwo" [ref=e62] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=e63]:
+          - link "Polityka cookies" [ref=e64] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=e65]:
+          - link "Kontakt" [ref=e66] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=e67]:
+          - link "Regulamin" [ref=e68] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

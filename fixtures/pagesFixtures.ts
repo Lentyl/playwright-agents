@@ -19,6 +19,11 @@ import FinancialInstitutionParticipantListPage from '../pages/FinancialInstituti
 import FinancialInstitutionRegistrationPage from '../pages/FinancialInstitutionRegistrationPage';
 import FinancialInstitutionAgreementPage from '../pages/FinancialInstitutionAgreementPage';
 import PermissionGroupsPage from '../pages/PermissionGroupsPage';
+import FinancialInstitutionReportsPage from '../pages/FinancialInstitutionReportsPage';
+import FinancialInstitutionDocumentsPage from '../pages/FinancialInstitutionDocumentsPage';
+import FinancialInstitutionAwaitingOrdersPage from '../pages/FinancialInstitutionAwaitingOrdersPage';
+import FinancialInstitutionTerminationPage from '../pages/FinancialInstitutionTerminationPage';
+import FinancialInstitutionConversionPage from '../pages/FinancialInstitutionConversionPage';
 
 /**
  * Credentials are read from environment variables first so passwords do not
@@ -55,6 +60,11 @@ type Pages = {
   financialInstitutionParticipantListPage: FinancialInstitutionParticipantListPage;
   financialInstitutionRegistrationPage: FinancialInstitutionRegistrationPage;
   financialInstitutionAgreementPage: FinancialInstitutionAgreementPage;
+  financialInstitutionReportsPage: FinancialInstitutionReportsPage;
+  financialInstitutionDocumentsPage: FinancialInstitutionDocumentsPage;
+  financialInstitutionAwaitingOrdersPage: FinancialInstitutionAwaitingOrdersPage;
+  financialInstitutionTerminationPage: FinancialInstitutionTerminationPage;
+  financialInstitutionConversionPage: FinancialInstitutionConversionPage;
   permissionGroupsPage: PermissionGroupsPage;
   loginAsEmployer: () => Promise<void>;
   loginAsFinancialInstitution: () => Promise<void>;
@@ -79,6 +89,11 @@ export const test = base.extend<Pages>({
   financialInstitutionParticipantListPage: async ({ page }, use) => { await use(new FinancialInstitutionParticipantListPage(page)); },
   financialInstitutionRegistrationPage: async ({ page }, use) => { await use(new FinancialInstitutionRegistrationPage(page)); },
   financialInstitutionAgreementPage: async ({ page }, use) => { await use(new FinancialInstitutionAgreementPage(page)); },
+  financialInstitutionReportsPage: async ({ page }, use) => { await use(new FinancialInstitutionReportsPage(page)); },
+  financialInstitutionDocumentsPage: async ({ page }, use) => { await use(new FinancialInstitutionDocumentsPage(page)); },
+  financialInstitutionAwaitingOrdersPage: async ({ page }, use) => { await use(new FinancialInstitutionAwaitingOrdersPage(page)); },
+  financialInstitutionTerminationPage: async ({ page }, use) => { await use(new FinancialInstitutionTerminationPage(page)); },
+  financialInstitutionConversionPage: async ({ page }, use) => { await use(new FinancialInstitutionConversionPage(page)); },
   permissionGroupsPage: async ({ page }, use) => { await use(new PermissionGroupsPage(page)); },
 
   loginAsEmployer: async ({ loginPage, page }, use) => {
