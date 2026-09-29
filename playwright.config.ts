@@ -60,7 +60,7 @@ export default defineConfig({
     {
       name: 'Employer',
       testIgnore: /auth\..*\.setup\.ts/,
-      testMatch: /employer\/.*\.spec\.ts/,
+      testMatch: /^employer\/.*\.spec\.ts/,
       dependencies: ['setup-employer'],
       use: {
         ...devices['Desktop Chrome'],
@@ -72,7 +72,29 @@ export default defineConfig({
     {
       name: 'Financial Institution',
       testIgnore: /auth\..*\.setup\.ts/,
-      testMatch: /financial-institution\/.*\.spec\.ts/,
+      testMatch: /^financial-institution\/.*\.spec\.ts/,
+      dependencies: ['setup-financial-institution'],
+      use: {
+        ...devices['Desktop Chrome'],
+        channel: 'chrome',
+        viewport: { width: 1700, height: 1000 },
+        storageState: financialInstitutionStorageState,
+      },
+    },
+    {
+      name: 'Document employer cases',
+      testMatch: /przypadki-doc\/employer\/.*\.spec\.ts/,
+      dependencies: ['setup-employer'],
+      use: {
+        ...devices['Desktop Chrome'],
+        channel: 'chrome',
+        viewport: { width: 1500, height: 900 },
+        storageState: employerStorageState,
+      },
+    },
+    {
+      name: 'Document financial institution cases',
+      testMatch: /przypadki-doc\/financial-institution\/.*\.spec\.ts/,
       dependencies: ['setup-financial-institution'],
       use: {
         ...devices['Desktop Chrome'],

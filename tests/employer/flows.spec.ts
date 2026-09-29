@@ -22,7 +22,7 @@ test.describe('TC-FLOW — Full flows', () => {
     await expect(dashboardPage.logoutButton).toBeHidden();
   });
 
-  test('TC-FLOW-002 invalid login then successful recovery', async ({ loginPage, dashboardPage, page }) => {
+  test.only('TC-FLOW-002 invalid login then successful recovery', async ({ loginPage, dashboardPage, page }) => {
     await loginPage.open();
     await loginPage.login(credentials.employer.login, testData.invalid.password);
     await expect(page).toHaveURL(/login\?error=true/);

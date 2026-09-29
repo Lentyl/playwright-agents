@@ -59,7 +59,7 @@ test.describe('TC-LIST — Tables & Filters', () => {
     }
   });
 
-  test('TC-LIST-006 admin user table columns and search', async ({ userAdminPage }) => {
+  test('TC-LIST-006 admin user table columns and search', async ({ userAdminPage, page }) => {
     await userAdminPage.open();
     await expect(userAdminPage.heading).toBeVisible();
 

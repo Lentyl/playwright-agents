@@ -8,6 +8,7 @@ import ReportsPage from '../pages/ReportsPage';
 import ReturnedFilesPage from '../pages/ReturnedFilesPage';
 import DocumentsPage from '../pages/DocumentsPage';
 import PasswordChangePage from '../pages/PasswordChangePage';
+import PasswordResetPage from '../pages/PasswordResetPage';
 import ContractDataPage from '../pages/ContractDataPage';
 import RelatedUsersPage from '../pages/RelatedUsersPage';
 import TrustedDevicesPage from '../pages/TrustedDevicesPage';
@@ -50,6 +51,7 @@ type Pages = {
   returnedFilesPage: ReturnedFilesPage;
   documentsPage: DocumentsPage;
   passwordChangePage: PasswordChangePage;
+  passwordResetPage: PasswordResetPage;
   contractDataPage: ContractDataPage;
   relatedUsersPage: RelatedUsersPage;
   trustedDevicesPage: TrustedDevicesPage;
@@ -79,6 +81,7 @@ export const test = base.extend<Pages>({
   returnedFilesPage: async ({ page }, use) => { await use(new ReturnedFilesPage(page)); },
   documentsPage: async ({ page }, use) => { await use(new DocumentsPage(page)); },
   passwordChangePage: async ({ page }, use) => { await use(new PasswordChangePage(page)); },
+  passwordResetPage: async ({ page }, use) => { await use(new PasswordResetPage(page)); },
   contractDataPage: async ({ page }, use) => { await use(new ContractDataPage(page)); },
   relatedUsersPage: async ({ page }, use) => { await use(new RelatedUsersPage(page)); },
   trustedDevicesPage: async ({ page }, use) => { await use(new TrustedDevicesPage(page)); },

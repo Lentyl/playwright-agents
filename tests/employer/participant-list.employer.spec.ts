@@ -56,6 +56,9 @@ test.describe('TC-EMP-PLIST — Participant List', () => {
   test('TC-EMP-PLIST-005 returns an empty state for a 10-digit PESEL', async ({ participantListPage }) => {
     await participantListPage.search({ pesel: testData.pesel.tooShort });
 
+    await expect(participantListPage.paginationStatus).toContainText('Pozycji 0 z 0 dostępnych');
+
+
     await expect(participantListPage.noMatchingRows).toBeVisible();
   });
 
