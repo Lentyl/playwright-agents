@@ -1,0 +1,3912 @@
+Message-ID: <1898439586.1025.1790685688927.JavaMail.confluence@jiraprod>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1024_1834575978.1790685688923"
+
+------=_Part_1024_1834575978.1790685688923
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Przypadki testowe NN PTE</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Przypadki testowe NN PTE</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey" style=3D"text-align: center;" title=3D"Kolor t=C5=82a: Szary"><=
+strong title=3D"">ID</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey" style=3D"text-align: center;" title=3D"Kolor t=C5=82a: Szary"><=
+strong title=3D"">Opis</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey" style=3D"text-align: center;" title=3D"Kolor t=C5=82a: Szary"><=
+strong title=3D"">Warunki wst=C4=99pne</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey" style=3D"text-align: center;" title=3D"Kolor t=C5=82a: Szary"><=
+strong title=3D"">Kroki testowe</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey" style=3D"text-align: center;" title=3D"Kolor t=C5=82a: Szary"><=
+strong title=3D"">Oczekiwany rezultat</strong></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">1</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pierwsze logowanie=
+ do panelu pracodawcy lub instytucji finansowej - bez dodawania urz=C4=85dz=
+enia zaufanego</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik po=
+siada nowo utworzone konto, nie jest zalogowany</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik wpisuje sw=C3=B3j identyfikator otrzymany w mailu</li>
+<li>U=C5=BCytkownik wpisuje swoje has=C5=82o otrzymane w SMS</li>
+<li>U=C5=BCytkownik naciska przycisk "Zaloguj si=C4=99"</li>
+<li>U=C5=BCytkownik wpisuje kod potwierdzaj=C4=85cy otrzymany na numer tele=
+fonu</li>
+<li>U=C5=BCytkownik naciska przycisk "Potwierd=C5=BA"</li>
+<li>U=C5=BCytkownik naciska przycisk "Pomi=C5=84 dodawanie urz=C4=85dzenia"=
+ na ekranie dodawania urz=C4=85dzenia zaufanego</li>
+<li>Nast=C4=99puje przekierowanie do strony z formularzem zmiany has=C5=82a=
+</li>
+<li>U=C5=BCytkownik wprowadza nowe, w=C5=82asne has=C5=82o zgodnie z wy=C5=
+=9Bwietlonymi wymaganiami bezpiecze=C5=84stwa</li>
+<li>U=C5=BCytkownik naciska przycisk "Ustaw has=C5=82o"</li>
+<li>U=C5=BCytkownik naciska przycisk "Przejd=C5=BA do strony g=C5=82=C3=B3w=
+nej"</li>
+</ol></td>
+<td class=3D"confluenceTd">U=C5=BCytkownik zosta=C5=82 poprawnie zalogowany=
+.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">2</t=
+d>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">Popr=
+awne logowanie - bez dodania zaufanego urz=C4=85dzenia</td>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">U=C5=
+=BCytkownik posiada aktywne konto, nie jest zalogowany</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik wpisuje sw=C3=B3j identyfikator</li>
+<li>U=C5=BCytkownik wpisuje swoje has=C5=82o</li>
+<li>U=C5=BCytkownik naciska przycisk "Zaloguj si=C4=99"</li>
+<li>Nast=C4=99puje przekierowanie do strony z potwierdzeniem to=C5=BCsamo=
+=C5=9Bci za pomoc=C4=85 kodu SMS</li>
+<li>U=C5=BCytkownik wpisuje kod otrzymany na numer telefonu</li>
+<li>U=C5=BCytkownik naciska przycisk "Potwierd=C5=BA"</li>
+<li>U=C5=BCytkownik naciska przycisk "Pomi=C5=84"</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">U=C5=BCytkownik zosta=C5=82 popraw=
+nie zalogowany. Przy ka=C5=BCdej kolejnej pr=C3=B3bie logowania w ten spos=
+=C3=B3b u=C5=BCytkownik zostaje poproszony o podanie kodu SMS oraz zapytany=
+ o dodanie urz=C4=85dzenia do zaufanych.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">3</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dodawanie zaufaneg=
+o urz=C4=85dzenia</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik po=
+siada aktywne konto, nie jest zalogowany</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik wpisuje sw=C3=B3j identyfikator</li>
+<li>U=C5=BCytkownik wpisuje swoje has=C5=82o</li>
+<li>U=C5=BCytkownik naciska przycisk "Zaloguj si=C4=99"</li>
+<li>U=C5=BCytkownik wpisuje kod potwierdzaj=C4=85cy otrzymany na numer tele=
+fonu</li>
+<li>U=C5=BCytkownik naciska przycisk "Potwierd=C5=BA"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dodaj urz=C4=85dzenie"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>U=C5=BCytkownik zosta=C5=82 poprawnie zalogow=
+any. Przy nast=C4=99pnej pr=C3=B3bie aplikacja nie pyta o kod SMS ani o dod=
+anie tego samego urz=C4=85dzenia do zaufanych.</p><p>Urz=C4=85dzenie pojawi=
+ si=C4=99 w menu na li=C5=9Bcie zaufanych urz=C4=85dze=C5=84.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">4</t=
+d>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">Niep=
+oprawne logowanie</td>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">U=C5=
+=BCytkownik posiada aktywne konto, nie jest zalogowany</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik wpisuje sw=C3=B3j identyfikator lub has=C5=82o z b=C5=
+=82=C4=99dem</li>
+<li>U=C5=BCytkownik naciska przycisk "Zaloguj si=C4=99"</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">Na formularzu logowania pojawia si=
+=C4=99 komunikat "<em>Nieprawid=C5=82owy identyfikator lub has=C5=82o".</em=
+></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">5</t=
+d>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">Przy=
+pomnienie has=C5=82a</td>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">U=C5=
+=BCytkownik posiada aktywne konto, nie jest zalogowany, nie pami=C4=99ta sw=
+ojego has=C5=82a</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na odno=C5=9Bnik "Nie pami=C4=99tam has=C5=82a"=
+ na formularzu logowania</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz do przypomnienia has=C5=82a</l=
+i>
+<li>U=C5=BCytkownik naciska przycisk "Resetuj has=C5=82o"</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Pojawia si=C4=99 komunikat "<em=
+>Je=C5=9Bli wprowadzone dane by=C5=82y poprawne, informacja o nowym ha=C5=
+=9Ble zostanie wys=C5=82ana SMSem na numer telefonu przypisany do konta u=
+=C5=BCytkownika.</em>" oraz przycisk umo=C5=BCliwiaj=C4=85cy powr=C3=B3t do=
+ strony logowania.</p><p>U=C5=BCytkownik otrzymuje has=C5=82o tymczasowe w =
+wiadomo=C5=9Bci SMS.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">6</t=
+d>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd"><p>R=
+ejestracja umowy z linku zewn=C4=99trznego</p><p>(<a class=3D"external-link=
+" href=3D"https://test.moventum.com.pl/ppk-nnpte2/nnpte/PPKAccountOpen?mode=
+=3Dinit" rel=3D"nofollow">https://test.moventum.com.pl/ppk-nnpte2/nnpte/PPK=
+AccountOpen?mode=3Dinit</a>)</p></td>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">-</t=
+d>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz rejestracyjny</li>
+<li>U=C5=BCytkownik naciska przycisk "Akceptuj" na ostatnim kroku</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">Nowa umowa PPK zosta=C5=82a zareje=
+strowana. Do os=C3=B3b obs=C5=82uguj=C4=85cych zosta=C5=82 wys=C5=82any lin=
+k do potwierdzenia rejestracji umowy PPK. Zarejestrowana umowa jest widoczn=
+a w panelu instytucji finansowej ze statusem "Niepotwierdzone" .</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">7</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd"><p>Akceptacja umow=
+y z linku zewn=C4=99trznego</p></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">-</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik klika przycisk "Umowy" w otrzymanym mailu</li>
+<li>U=C5=BCytkownik przechodzi captcha i klika przycisk "Wy=C5=9Blij SMS"</=
+li>
+<li>U=C5=BCytkownik wprowadza kod z SMS</li>
+<li>U=C5=BCytkownik naciska przycisk "Zatwierd=C5=BA"</li>
+<li>U=C5=BCytkownik akceptuje o=C5=9Bwiadczenia na kroku z podsumowaniem</l=
+i>
+<li>U=C5=BCytkownik przechodzi captcha i klika przycisk "Wy=C5=9Blij SMS"</=
+li>
+<li>U=C5=BCytkownik wprowadza kod z SMS</li>
+<li>U=C5=BCytkownik naciska przycisk "Akceptuj"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>W przypadku akceptacji umowy przez obie osoby=
+ obs=C5=82uguj=C4=85ce status umowy zmienia si=C4=99 na "Do akceptacji IF".=
+</p><p>Do os=C3=B3b obs=C5=82uguj=C4=85cych zostaje wys=C5=82any mail z pot=
+wierdzeniem akceptacji umowy.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 100.0%;">
+</colgroup>
+<tbody>
+<tr>
+<th style=3D"text-align: center;" class=3D"confluenceTh">Panel pracodawcy</=
+th>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">8</t=
+d>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">Wgry=
+wanie pliku - poprawna pr=C3=B3ba</td>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">U=C5=
+=BCytkownik jest zalogowany w portalu pracodawcy</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Przekazanie plik=C3=B3w"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wybierz plik"</li>
+<li>U=C5=BCytkownik wybiera plik do przekazania</li>
+<li>U=C5=BCytkownik naciska przycisk "Prze=C5=9Blij plik"</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p title=3D"">Po przes=C5=82aniu p=
+liku pojawia si=C4=99 komunikat "Przesy=C5=82anie pliku zako=C5=84czone pow=
+odzeniem".</p><p title=3D""><span style=3D"color: rgb(51,51,51);">Je=C5=9Bl=
+i przes=C5=82any zosta=C5=82 plik zawieraj=C4=85cy sk=C5=82adk=C4=99 pracow=
+nika opr=C3=B3cz komunikacie o powodzeniu powinna pokaza=C4=87 si=C4=99 r=
+=C3=B3wnie=C5=BC suma sk=C5=82adek zawarta w pliku.</span></p><p title=3D""=
+>Je=C5=9Bli w pliku rejestracyjnym brakuje adresu e-mail lub numeru telefon=
+u uczestnika, dodatkowo pojawia si=C4=99 komunikat w formie pop-up o tre=C5=
+=9Bci "<span style=3D"color: rgb(65,65,65);">W przypadku&nbsp;X&nbsp;uczest=
+nik=C3=B3w brakuje numeru telefonu lub <span style=3D"color: rgb(51,51,51);=
+">adresu e-mail. Uzupe=C5=82nij dane, a dzi=C4=99ki temu uczestnicy =C5=82a=
+twiej aktywuj=C4=85 dost=C4=99p do Moje NN."</span></span></p><p title=3D""=
+><span style=3D"color: rgb(51,51,51);">Je=C5=9Bli przes=C5=82any zosta=C5=
+=82 plik zawieraj=C4=85cy sk=C5=82adk=C4=99 pracownika, w przypadku niezach=
+owania odpowiedniej proporcji sk=C5=82adek pojawia si=C4=99 komunikat w for=
+mie pop-up z informacj=C4=85, =C5=BCe<span style=3D"color: rgb(33,37,41);">=
+&nbsp;stosunek wp=C5=82aty pracodawcy do wp=C5=82aty pracownika powinien wy=
+nosi=C4=87 0,75, numerem kadrowym uczestnika, dla kt=C3=B3rego stosunek ten=
+ nie zosta=C5=82 zachowany oraz przyciskami do potwierdzenia lub odrzucenia=
+ przes=C5=82ania pliku pomimo niezachowanych proporcji sk=C5=82adki.</span>=
+</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">9</t=
+d>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">Wgry=
+wanie pliku - niepoprawna pr=C3=B3ba</td>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">U=C5=
+=BCytkownik jest zalogowany w portalu pracodawcy</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek&nbsp;"Przekazanie plik=C3=B3w"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wybierz plik"</li>
+<li>U=C5=BCytkownik wybiera plik do przekazania</li>
+<li>U=C5=BCytkownik naciska przycisk "Prze=C5=9Blij plik"</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">Pojawia si=C4=99 komunikat informu=
+j=C4=85cy o b=C5=82=C4=99dach zwi=C4=85zanych z rozszerzeniem lub zawarto=
+=C5=9Bci=C4=85 pliku. Plik nie zostaje przes=C5=82any.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">10</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Usuwanie przes=C5=
+=82anego pliku</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy, plik nie zosta=C5=82 przes=C5=82any p=
+=C3=B3=C5=BAniej ni=C5=BC 60 minut temu</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek&nbsp;"Przekazanie plik=C3=B3w"</li>
+<li>U=C5=BCytkownik naciska przycisk "Usu=C5=84" obok wybranego pliku na li=
+=C5=9Bcie pod wyszukwark=C4=85</li>
+<li>U=C5=BCytkownik&nbsp;naciska przycisk "Usu=C5=84 plik" w oknie pop-up</=
+li>
+</ol></td>
+<td class=3D"confluenceTd">Pod wyszukiwark=C4=85 pojawia si=C4=99 komunikat=
+ informuj=C4=85cy o usuni=C4=99ciu pliku.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">11</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d uczes=
+tnik=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Podgl=C4=85d uczestnik=C3=B3w"</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia filtry w rozwini=C4=99tej wyszukiwarce</=
+li>
+<li>U=C5=BCytkownik naciska przycisk "Wyszukaj"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 lista uczestnik=C3=B3w spe=
+=C5=82niaj=C4=85cych podane w filtrach kryteria wyszukiwania. Ka=C5=BCdy el=
+ement listy zawiera przycisk "Zlecenie", po kt=C3=B3rego klikni=C4=99ciu ro=
+zwija si=C4=99 lista dyspozycji mo=C5=BCliwych do wykonania bezpo=C5=9Bredn=
+io dla danego uczestnika.</p><p>Je=C5=BCeli =C5=BCaden uczestnik nie spe=C5=
+=82nia kryteri=C3=B3w wyszukiwania zamiast listy pokazuje si=C4=99 komunika=
+t "Nie znaleziono pasuj=C4=85cych pozycji"</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">12</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja zg=C5=
+=82oszenia pracownika</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zg=C5=82oszenie pracownika"</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz danymi pracownika</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 informacja o poprawnie z=C5=
+=82o=C5=BConej dyspozycji oraz przycisk powrotu do menu g=C5=82=C3=B3wnego.=
+</p><p>Dane pracownika zosta=C5=82y zapisane w postaci pliku xml w historii=
+ przekazanych plik=C3=B3w.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">19</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja zg=C5=
+=82oszenia wp=C5=82at (jeden uczestnik)</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zg=C5=82oszenie wp=C5=82at"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dodaj kolejn=C4=85 wp=C5=82at=C4=99"<=
+/li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wybierz" na pokazanym poni=C5=BCej el=
+emencie listy</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Tak" w komunikacie pop-up (opcjonalni=
+e je=C5=9Bli taki komunikat si=C4=99 pojawi=C5=82)</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Je=C5=BCeli w formularzu zosta=C5=82a wprowad=
+zona nieprawid=C5=82owa proporcja sk=C5=82adek, mi=C4=99dzy krokami 8 a 10 =
+pojawia si=C4=99 komunikat w formie pop-up z odpowiedni=C4=85 informacj=C4=
+=85 i numerem PESEL&nbsp;<span style=3D"color: rgb(51,51,51);"><span style=
+=3D"color: rgb(33,37,41);">uczestnika, dla kt=C3=B3rego stosunek ten nie zo=
+sta=C5=82 zachowany oraz przyciskami do potwierdzenia lub odrzucenia przes=
+=C5=82ania dyspozycji pomimo niezachowanych proporcji sk=C5=82adki.</span><=
+/span></p><p>Pojawia si=C4=99 informacja o poprawnie z=C5=82o=C5=BConej dys=
+pozycji oraz przycisk powrotu do menu g=C5=82=C3=B3wnego.</p><p>Dane sk=C5=
+=82adkowe dla poszczeg=C3=B3lnych uczestnik=C3=B3w zosta=C5=82y zapisane w =
+postaci pliku xml w historii przekazanych plik=C3=B3w.</p><p>(To=C5=BCsama =
+dyspozycja mo=C5=BCliwa do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC z poziomu p=
+odgl=C4=85du listy uczestnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">19</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja zg=C5=
+=82oszenia wp=C5=82at (kilku uczestnik=C3=B3w jednocze=C5=9Bnie)</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zg=C5=82oszenie wp=C5=82at"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dodaj kolejn=C4=85 wp=C5=82at=C4=99"<=
+/li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wybierz" na pokazanym poni=C5=BCej el=
+emencie listy</li>
+<li>U=C5=BCytkownik naciska przycisk "Dodaj kolejn=C4=85 wp=C5=82at=C4=99"<=
+/li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wybierz" na pokazanym poni=C5=BCej el=
+emencie listy</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Tak" w komunikacie pop-up (opcjonalni=
+e je=C5=9Bli taki komunikat si=C4=99 pojawi=C5=82)</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Je=C5=BCeli w formularzu zosta=C5=82a wprowad=
+zona nieprawid=C5=82owa proporcja sk=C5=82adek, mi=C4=99dzy krokami 12 a 14=
+ pojawia si=C4=99 komunikat w formie pop-up z odpowiedni=C4=85 informacj=C4=
+=85 i numerem PESEL&nbsp;<span style=3D"color: rgb(51,51,51);"><span style=
+=3D"color: rgb(33,37,41);">uczestnika, dla kt=C3=B3rego stosunek ten nie zo=
+sta=C5=82 zachowany oraz przyciskami do potwierdzenia lub odrzucenia przes=
+=C5=82ania dyspozycji pomimo niezachowanych proporcji sk=C5=82adki.</span><=
+/span></p><p>Pojawia si=C4=99 informacja o poprawnie z=C5=82o=C5=BConej dys=
+pozycji oraz przycisk powrotu do menu g=C5=82=C3=B3wnego.</p><p>Dane sk=C5=
+=82adkowe dla poszczeg=C3=B3lnych uczestnik=C3=B3w zosta=C5=82y zapisane w =
+postaci pliku xml w historii przekazanych plik=C3=B3w.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">19</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja zg=C5=
+=82oszenia wp=C5=82at - uczestnik z obni=C5=BCon=C4=85 wp=C5=82at=C4=85</td=
+>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zg=C5=82oszenie wp=C5=82at"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dodaj kolejn=C4=85 wp=C5=82at=C4=99"<=
+/li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wybierz" na pokazanym poni=C5=BCej el=
+emencie listy</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz</li>
+<li>U=C5=BCytkownik zaznacza checkbox w kolumnie "Uczestnik z obni=C5=BCon=
+=C4=85 wp=C5=82at=C4=85" obok danego uczestnika na li=C5=9Bcie wybranych</l=
+i>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Komunikat o nieprawid=C5=82owej proporcji sk=
+=C5=82adek nie pojawi si=C4=99 dla uczestnika, dla kt=C3=B3rego zaznaczono =
+checkbox =C5=9Bwiadcz=C4=85cy o obni=C5=BConej wp=C5=82acie.</p><p>Pojawia =
+si=C4=99 informacja o poprawnie z=C5=82o=C5=BConej dyspozycji oraz przycisk=
+ powrotu do menu g=C5=82=C3=B3wnego.</p><p>Dane sk=C5=82adkowe dla poszczeg=
+=C3=B3lnych uczestnik=C3=B3w zosta=C5=82y zapisane w postaci pliku xml w hi=
+storii przekazanych plik=C3=B3w.</p><p>(To=C5=BCsama dyspozycja mo=C5=BCliw=
+a do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC z poziomu podgl=C4=85du listy ucz=
+estnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">19</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja zg=C5=
+=82oszenia korekt do wp=C5=82at (jeden uczestnik)</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zg=C5=82oszenie korekt do wp=C5=82a=
+t"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dodaj kolejn=C4=85 korekt=C4=99"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wybierz" na pokazanym poni=C5=BCej el=
+emencie listy</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Tak" w komunikacie pop-up (opcjonalni=
+e je=C5=9Bli taki komunikat si=C4=99 pojawi=C5=82)</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Je=C5=BCeli w formularzu zosta=C5=82a wprowad=
+zona nieprawid=C5=82owa proporcja sk=C5=82adek, mi=C4=99dzy krokami 8 a 10 =
+pojawia si=C4=99 komunikat w formie pop-up z odpowiedni=C4=85 informacj=C4=
+=85 i numerem PESEL&nbsp;<span style=3D"color: rgb(51,51,51);"><span style=
+=3D"color: rgb(33,37,41);">uczestnika, dla kt=C3=B3rego stosunek ten nie zo=
+sta=C5=82 zachowany oraz przyciskami do potwierdzenia lub odrzucenia przes=
+=C5=82ania dyspozycji pomimo niezachowanych proporcji sk=C5=82adki.</span><=
+/span></p><p>Pojawia si=C4=99 informacja o poprawnie z=C5=82o=C5=BConej dys=
+pozycji oraz przycisk powrotu do menu g=C5=82=C3=B3wnego.</p><p>Dane sk=C5=
+=82adkowe dla poszczeg=C3=B3lnych uczestnik=C3=B3w zosta=C5=82y zapisane w =
+postaci pliku xml w historii przekazanych plik=C3=B3w.</p><p>(To=C5=BCsama =
+dyspozycja mo=C5=BCliwa do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC z poziomu p=
+odgl=C4=85du listy uczestnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">19</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja zg=C5=
+=82oszenia korekt do wp=C5=82at (kilku uczestnik=C3=B3w jednocze=C5=9Bnie)<=
+/td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zg=C5=82oszenie korekt do wp=C5=82a=
+t"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dodaj kolejn=C4=85 korekt=C4=99"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wybierz" na pokazanym poni=C5=BCej el=
+emencie listy</li>
+<li>U=C5=BCytkownik naciska przycisk "Dodaj kolejn=C4=85 korekt=C4=99"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wybierz" na pokazanym poni=C5=BCej el=
+emencie listy</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Tak" w komunikacie pop-up (opcjonalni=
+e je=C5=9Bli taki komunikat si=C4=99 pojawi=C5=82)</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Je=C5=BCeli w formularzu zosta=C5=82a wprowad=
+zona nieprawid=C5=82owa proporcja sk=C5=82adek, mi=C4=99dzy krokami 12 a 14=
+ pojawia si=C4=99 komunikat w formie pop-up z odpowiedni=C4=85 informacj=C4=
+=85 i numerem PESEL&nbsp;<span style=3D"color: rgb(51,51,51);"><span style=
+=3D"color: rgb(33,37,41);">uczestnika, dla kt=C3=B3rego stosunek ten nie zo=
+sta=C5=82 zachowany oraz przyciskami do potwierdzenia lub odrzucenia przes=
+=C5=82ania dyspozycji pomimo niezachowanych proporcji sk=C5=82adki.</span><=
+/span></p><p>Pojawia si=C4=99 informacja o poprawnie z=C5=82o=C5=BConej dys=
+pozycji oraz przycisk powrotu do menu g=C5=82=C3=B3wnego.</p><p>Dane sk=C5=
+=82adkowe dla poszczeg=C3=B3lnych uczestnik=C3=B3w zosta=C5=82y zapisane w =
+postaci pliku xml w historii przekazanych plik=C3=B3w.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">19</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja zg=C5=
+=82oszenia korekt do wp=C5=82at - uczestnik z obni=C5=BCon=C4=85 wp=C5=82at=
+=C4=85</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zg=C5=82oszenie korekt do wp=C5=82a=
+t"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dodaj kolejn=C4=85 korekt=C4=99"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wybierz" na pokazanym poni=C5=BCej el=
+emencie listy</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz</li>
+<li>U=C5=BCytkownik zaznacza checkbox w kolumnie "Uczestnik z obni=C5=BCon=
+=C4=85 wp=C5=82at=C4=85" obok danego uczestnika na li=C5=9Bcie wybranych</l=
+i>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Komunikat o nieprawid=C5=82owej proporcji sk=
+=C5=82adek nie pojawi si=C4=99 dla uczestnika, dla kt=C3=B3rego zaznaczono =
+checkbox =C5=9Bwiadcz=C4=85cy o obni=C5=BConej wp=C5=82acie.</p><p>Pojawia =
+si=C4=99 informacja o poprawnie z=C5=82o=C5=BConej dyspozycji oraz przycisk=
+ powrotu do menu g=C5=82=C3=B3wnego.</p><p>Dane sk=C5=82adkowe dla poszczeg=
+=C3=B3lnych uczestnik=C3=B3w zosta=C5=82y zapisane w postaci pliku xml w hi=
+storii przekazanych plik=C3=B3w.</p><p>(To=C5=BCsama dyspozycja mo=C5=BCliw=
+a do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC z poziomu podgl=C4=85du listy ucz=
+estnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">13</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja zmiany =
+danych uczestnika</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zmiana danych"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska element listy odpowiadaj=C4=85cy danemu uczestn=
+ikowi</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz nowymi danymi</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 informacja o poprawnie z=C5=
+=82o=C5=BConej dyspozycji, odno=C5=9Bnik do pobrania potwierdzenia PDF oraz=
+ przycisk przej=C5=9Bcia do podgl=C4=85du listy uczestnik=C3=B3w.</p><p>(To=
+=C5=BCsama dyspozycja mo=C5=BCliwa do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC =
+z poziomu podgl=C4=85du listy uczestnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">14</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja wyp=C5=
+=82aty transferowej&nbsp;do Nationale-Nederlanden</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Wyp=C5=82ata transferowado National=
+e-Nederlanden "</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska element listy odpowiadaj=C4=85cy danemu uczestn=
+ikowi</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz parametrami wyp=C5=82aty trans=
+ferowej</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 informacja o poprawnie z=C5=
+=82o=C5=BConej dyspozycji, odno=C5=9Bnik do pobrania potwierdzenia PDF oraz=
+ przycisk przej=C5=9Bcia do podgl=C4=85du listy uczestnik=C3=B3w.</p><p>(To=
+=C5=BCsama dyspozycja mo=C5=BCliwa do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC =
+z poziomu podgl=C4=85du listy uczestnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">14</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja wyp=C5=
+=82aty transferowej&nbsp;do Nationale-Nederlanden na obecny numer rachunku<=
+/td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Wyp=C5=82ata transferowado National=
+e-Nederlanden "</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska element listy odpowiadaj=C4=85cy danemu uczestn=
+ikowi</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz parametrami wyp=C5=82aty trans=
+ferowej</li>
+<li>W polu "<span style=3D"color: rgb(65,65,65);">Nr rachunku PPK w poprzed=
+niej instytucji finansowej" u=C5=BCytkownik wpisuje obecny numer rachunku t=
+ego uczestnika</span></li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pod polem&nbsp;"<span style=3D"color: rgb(65,=
+65,65);">Nr rachunku PPK w poprzedniej instytucji finansowej" pojawia si=C4=
+=99 komunikat "Rachunek PPK w poprzedniej instytucji finansowej powinien by=
+=C4=87 r=C3=B3=C5=BCny od obecnego"</span></p><p>(To=C5=BCsama dyspozycja m=
+o=C5=BCliwa do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC z poziomu podgl=C4=85du=
+ listy uczestnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">14</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja zako=C5=
+=84czenia lub wznowienia zatrudnienia</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zako=C5=84czenie lub wznowienie zat=
+rudnienia"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska element listy odpowiadaj=C4=85cy danemu uczestn=
+ikowi</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 informacja o poprawnie z=C5=
+=82o=C5=BConej dyspozycji, odno=C5=9Bnik do pobrania potwierdzenia PDF oraz=
+ przycisk przej=C5=9Bcia do podgl=C4=85du listy uczestnik=C3=B3w.</p><p>(To=
+=C5=BCsama dyspozycja mo=C5=BCliwa do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC =
+z poziomu podgl=C4=85du listy uczestnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">9</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja rezygna=
+cji z dokonywania wp=C5=82at</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Rezygnacja z odprowadzania wp=C5=82=
+at"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska element listy odpowiadaj=C4=85cy danemu uczestn=
+ikowi</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 informacja o poprawnie z=C5=
+=82o=C5=BConej dyspozycji, odno=C5=9Bnik do pobrania potwierdzenia PDF oraz=
+ przycisk przej=C5=9Bcia do podgl=C4=85du listy uczestnik=C3=B3w.</p><p>(To=
+=C5=BCsama dyspozycja mo=C5=BCliwa do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC =
+z poziomu podgl=C4=85du listy uczestnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">9</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja wznowie=
+nia odprowadzania wp=C5=82at</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Wznowienie odprowadzania wp=C5=82at=
+"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska element listy odpowiadaj=C4=85cy danemu uczestn=
+ikowi</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 informacja o poprawnie z=C5=
+=82o=C5=BConej dyspozycji, odno=C5=9Bnik do pobrania potwierdzenia PDF oraz=
+ przycisk przej=C5=9Bcia do podgl=C4=85du listy uczestnik=C3=B3w.</p><p>(To=
+=C5=BCsama dyspozycja mo=C5=BCliwa do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC =
+z poziomu podgl=C4=85du listy uczestnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">9</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja deklara=
+cji wp=C5=82aty dodatkowej pracownika</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Deklaracja wp=C5=82aty dodatkowej P=
+racownika"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska element listy odpowiadaj=C4=85cy danemu uczestn=
+ikowi</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia pole "Deklarowana wp=C5=82ata dodatkowa"=
+ warto=C5=9Bci=C4=85 mniejsz=C4=85 lub r=C3=B3wn=C4=85 2</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 informacja o poprawnie z=C5=
+=82o=C5=BConej dyspozycji, odno=C5=9Bnik do pobrania potwierdzenia PDF oraz=
+ przycisk przej=C5=9Bcia do podgl=C4=85du listy uczestnik=C3=B3w.</p><p>(To=
+=C5=BCsama dyspozycja mo=C5=BCliwa do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC =
+z poziomu podgl=C4=85du listy uczestnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 69.0px;">
+<col style=3D"width: 371.0px;">
+<col style=3D"width: 417.0px;">
+<col style=3D"width: 398.0px;">
+<col style=3D"width: 367.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">9</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja deklara=
+cji wp=C5=82aty dodatkowej pracownika - nieprawid=C5=82owa wysoko=C5=9B=C4=
+=87 wp=C5=82aty</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Deklaracja wp=C5=82aty dodatkowej P=
+racownika"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska element listy odpowiadaj=C4=85cy danemu uczestn=
+ikowi</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia pole "Deklarowana wp=C5=82ata dodatkowa"=
+ warto=C5=9Bci=C4=85 wi=C4=99ksz=C4=85 ni=C5=BC 2</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pod polem "Deklarowana wp=C5=82ata dodatkowa"=
+ pojawia si=C4=99 komunikat "Wp=C5=82ata dodatkowa nie mo=C5=BCe przekroczy=
+=C4=87 2% wynagrodzenia"</p><p>(To=C5=BCsama dyspozycja mo=C5=BCliwa do z=
+=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC z poziomu podgl=C4=85du listy uczestnik=
+=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">9</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja zmiany =
+wysoko=C5=9Bci wp=C5=82aty podstawowej pracownika</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zmiana wysoko=C5=9Bci wp=C5=82aty p=
+odstawowej Pracownika"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska element listy odpowiadaj=C4=85cy danemu uczestn=
+ikowi</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia pole "Deklarowana wp=C5=82ata podstawowa=
+" warto=C5=9Bci=C4=85 mniejsz=C4=85 lub r=C3=B3wn=C4=85 2</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 informacja o poprawnie z=C5=
+=82o=C5=BConej dyspozycji, odno=C5=9Bnik do pobrania potwierdzenia PDF oraz=
+ przycisk przej=C5=9Bcia do podgl=C4=85du listy uczestnik=C3=B3w.</p><p>(To=
+=C5=BCsama dyspozycja mo=C5=BCliwa do z=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC =
+z poziomu podgl=C4=85du listy uczestnik=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">9</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dyspozycja zmiany =
+wysoko=C5=9Bci wp=C5=82aty podstawowej pracownika</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dyspozycje"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zmiana wysoko=C5=9Bci wp=C5=82aty p=
+odstawowej Pracownika"</li>
+<li>U=C5=BCytkownik wprowadza w wyszukiwark=C4=99 kryteria definiuj=C4=85ce=
+ danego uczestnika lub pozostawia wszystkie pola puste</li>
+<li>U=C5=BCytkownik naciska przycisk "Szukaj"</li>
+<li>U=C5=BCytkownik naciska element listy odpowiadaj=C4=85cy danemu uczestn=
+ikowi</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia pole "Deklarowana wp=C5=82ata podstawowa=
+" warto=C5=9Bci=C4=85 wi=C4=99ksz=C4=85 ni=C5=BC 2</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pod polem "Deklarowana wp=C5=82ata podstawowa=
+" pojawia si=C4=99 komunikat "Wp=C5=82ata podstawowa nie mo=C5=BCe przekroc=
+zy=C4=87 2% wynagrodzenia"</p><p>(To=C5=BCsama dyspozycja mo=C5=BCliwa do z=
+=C5=82o=C5=BCenia r=C3=B3wnie=C5=BC z poziomu podgl=C4=85du listy uczestnik=
+=C3=B3w - przypadek nr 11)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">8</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d danyc=
+h dotycz=C4=85cych umowy i wp=C5=82at do PPK</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dane dotycz=C4=85ce umowy i wp=C5=
+=82at do PPK"</li>
+</ol></td>
+<td class=3D"confluenceTd">Pojawia si=C4=99 ekran z informacjami o podmioci=
+e zatrudniaj=C4=85cym i uczestnictwie w PPK.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">22</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu I=
+d EPPK uczestnik=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Pliki zwrotne od Nationale-Nederlan=
+den"</li>
+<li>U=C5=BCytkownik naciska kafelek "Raport Id EPPK uczestnik=C3=B3w"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 pobierania obok interesuj=C4=85cego =
+go raportu z listy plik=C3=B3w pod kafelkami</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku o przeds=
+tawionym na li=C5=9Bcie formacie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">23</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu w=
+yp=C5=82aty transferowej</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Pliki zwrotne od Nationale-Nederlan=
+den"</li>
+<li>U=C5=BCytkownik naciska kafelek "Raport wyp=C5=82ata transferowa"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 pobierania obok interesuj=C4=85cego =
+go raportu z listy plik=C3=B3w pod kafelkami</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku o przeds=
+tawionym na li=C5=9Bcie formacie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">25</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu w=
+yp=C5=82aty po 60 roku =C5=BCycia</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Pliki zwrotne od Nationale-Nederlan=
+den"</li>
+<li>U=C5=BCytkownik naciska kafelek "Raport wyp=C5=82ata 60 lat"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 pobierania obok interesuj=C4=85cego =
+go raportu z listy plik=C3=B3w pod kafelkami</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku o przeds=
+tawionym na li=C5=9Bcie formacie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">26</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu d=
+otycz=C4=85cego nierozliczonych wp=C5=82at</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Pliki zwrotne od Nationale-Nederlan=
+den"</li>
+<li>U=C5=BCytkownik naciska kafelek "Raport nierozliczonych wp=C5=82at"</li=
+>
+<li>U=C5=BCytkownik naciska ikon=C4=99 pobierania obok interesuj=C4=85cego =
+go raportu z listy plik=C3=B3w pod kafelkami</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku o przeds=
+tawionym na li=C5=9Bcie formacie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">27</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu z=
+ korekt</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Pliki zwrotne od Nationale-Nederlan=
+den"</li>
+<li>U=C5=BCytkownik naciska kafelek "Raport z korekt"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 pobierania obok interesuj=C4=85cego =
+go raportu z listy plik=C3=B3w pod kafelkami</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku o przeds=
+tawionym na li=C5=9Bcie formacie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">27</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu z=
+ b=C5=82=C4=99dnym stosunkiem wp=C5=82at</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Pliki zwrotne od Nationale-Nederlan=
+den"</li>
+<li>U=C5=BCytkownik naciska kafelek "Raport z b=C5=82=C4=99dnym stosunkiem =
+wp=C5=82at"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 pobierania obok interesuj=C4=85cego =
+go raportu z listy plik=C3=B3w pod kafelkami</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku o przeds=
+tawionym na li=C5=9Bcie formacie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">27</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu z=
+ odrzuconych zlece=C5=84 niefinansowych</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Pliki zwrotne od Nationale-Nederlan=
+den"</li>
+<li>U=C5=BCytkownik naciska kafelek "Raport z odrzuconych zlece=C5=84 niefi=
+nansowych"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 pobierania obok interesuj=C4=85cego =
+go raportu z listy plik=C3=B3w pod kafelkami</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku o przeds=
+tawionym na li=C5=9Bcie formacie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">27</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu z=
+ rozliczonych wp=C5=82at z rezygnacj=C4=85</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Pliki zwrotne od Nationale-Nederlan=
+den"</li>
+<li>U=C5=BCytkownik naciska kafelek "Raport z rozliczonych wp=C5=82at z rez=
+ygnacj=C4=85"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 pobierania obok interesuj=C4=85cego =
+go raportu z listy plik=C3=B3w pod kafelkami</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku o przeds=
+tawionym na li=C5=9Bcie formacie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">28</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Brak plik=C3=B3w d=
+o pobrania raportu</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Raporty b=C5=82=C4=99d=C3=B3w w zle=
+ceniach"</li>
+<li>U=C5=BCytkownik naciska dowolny kafelek z nazw=C4=85 raportu</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pod kafelkami pojawia si=C4=99 komunikat "Bra=
+k plik=C3=B3w do wy=C5=9Bwietlenia".</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">27</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu u=
+czestnik=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Raporty"</li>
+<li>U=C5=BCytkownik wybiera z listy rozwijanej "Raport Uczestnik=C3=B3w"</l=
+i>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">27</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu z=
+ rozliczania sk=C5=82adek</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Raporty"</li>
+<li>U=C5=BCytkownik wybiera z listy rozwijanej "Raport z rozliczania sk=C5=
+=82adek"</li>
+<li>U=C5=BCytkownik wybiera zakres dat</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">27</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu z=
+ historii zlece=C5=84 uczestnik=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Raporty"</li>
+<li>U=C5=BCytkownik wybiera z listy rozwijanej "Raport z historii zlece=C5=
+=84 Uczestnik=C3=B3w"</li>
+<li>U=C5=BCytkownik wybiera zakres dat</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">27</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu z=
+ historii wp=C5=82at uczestnik=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Raporty"</li>
+<li>U=C5=BCytkownik wybiera z listy rozwijanej "Raport z historii wp=C5=82a=
+t Uczestnik=C3=B3w"</li>
+<li>U=C5=BCytkownik wybiera zakres dat</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">27</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu z=
+ uczestnictwa w funduszach</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Raporty"</li>
+<li>U=C5=BCytkownik wybiera z listy rozwijanej "Raport z uczestnictwa w fun=
+duszach"</li>
+<li>U=C5=BCytkownik wybiera zakres dat</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">21</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d dokum=
+ent=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Dokumenty"</li>
+<li>U=C5=BCytkownik pobiera dowolny dokument lub wchodzi w odno=C5=9Bnik</l=
+i>
+</ol></td>
+<td class=3D"confluenceTd"><p>W zale=C5=BCno=C5=9Bci od dokumentu rozpoczyn=
+a si=C4=99 pobieranie pliku lub zostaje otwarty w nowej karcie lub nast=C4=
+=99puje przekierowanie na stron=C4=99 z danymi informacjami.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">21</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d mater=
+ia=C5=82=C3=B3w informacyjnych</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Materia=C5=82y informacyjne"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Otwiera si=C4=99 dokument PDF zawieraj=C4=85c=
+y informacj=C4=99 dotycz=C4=85ce udzia=C5=82u nowego pracownika w PPK.</p><=
+/td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">21</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Otwarcie strony ze=
+ szkoleniami</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Szkolenia"</li>
+</ol><p>lub</p>
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Autozapis"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Szkolenia"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Otwiera si=C4=99 zewn=C4=99trzna strona z ter=
+minami i opisem szkole=C5=84 Nationale - Nederlanden (<a class=3D"external-=
+link" href=3D"https://www.nn.pl/dla-firmy/ppk-dla-pracodawcy/szkolenia-z-pp=
+k" rel=3D"nofollow">https://www.nn.pl/dla-firmy/ppk-dla-pracodawcy/szkoleni=
+a-z-ppk</a>)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">29</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dodawanie u=C5=BCy=
+tkownika do panelu pracodawcy</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy, u=C5=BCytkownik ma nadane uprawnienia a=
+dministracyjne</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Uprawnienia"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dodaj u=C5=BCytkownika"</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz danymi oraz uprawnieniami nowe=
+go u=C5=BCytkownika</li>
+<li>U=C5=BCytkownik naciska przycisk "Zapisz u=C5=BCytkownika"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy u=C5=BCyt=
+kownik=C3=B3w. Nad ni=C4=85 pojawia si=C4=99 komunikat o prawid=C5=82owym d=
+odaniu nowego u=C5=BCytkownika.</p><p>Dane logowania zosta=C5=82y wys=C5=82=
+ane do dodanego u=C5=BCytkownika.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">30</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Edycja u=C5=BCytko=
+wnika panelu pracodawcy</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy, u=C5=BCytkownik ma nadane uprawnienia a=
+dministracyjne</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Uprawnienia"</li>
+<li>U=C5=BCytkownik naciska przycisk "Edytuj" przy danym u=C5=BCytkowniku</=
+li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz aktualnymi danymi oraz uprawni=
+eniami u=C5=BCytkownika</li>
+<li>U=C5=BCytkownik naciska przycisk "Zapisz u=C5=BCytkownika"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy u=C5=BCyt=
+kownik=C3=B3w. Nad ni=C4=85 pojawia si=C4=99 komunikat o&nbsp;prawid=C5=82o=
+wej edycji u=C5=BCytkownika.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">31</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Zmiana has=C5=82a =
+u=C5=BCytkownika panelu pracodawcy</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy, u=C5=BCytkownik ma nadane uprawnienia a=
+dministracyjne</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Uprawnienia"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zmie=C5=84 has=C5=82o" przy danym u=
+=C5=BCytkowniku</li>
+<li>U=C5=BCytkownik&nbsp;naciska przycisk "WY=C5=9ALIJ HAS=C5=81O"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy u=C5=BCyt=
+kownik=C3=B3w. Nad ni=C4=85 pojawia si=C4=99 komunikat o prawid=C5=82owym z=
+resetowaniu has=C5=82a.</p><p>Nowe tymczasowe has=C5=82o zosta=C5=82o wys=
+=C5=82ane do danego u=C5=BCytkownika.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">32</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Usuwanie u=C5=BCyt=
+kownika z panelu pracodawcy</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy, u=C5=BCytkownik ma nadane uprawnienia a=
+dministracyjne</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Uprawnienia"</li>
+<li>U=C5=BCytkownik naciska przycisk "Usu=C5=84"&nbsp;przy danym u=C5=BCytk=
+owniku</li>
+<li>U=C5=BCytkownik naciska przycisk "Usu=C5=84 u=C5=BCytkownika"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy u=C5=BCyt=
+kownik=C3=B3w. Nad ni=C4=85 pojawia si=C4=99 komunikat o prawid=C5=82owym u=
+suni=C4=99ciu u=C5=BCytkownika.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">32</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Odblokowanie dost=
+=C4=99pu u=C5=BCytkownikowi z zablokowanym kontem</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">W portalu pracodaw=
+cy jest zarejestrowanych przynajmniej 2 u=C5=BCytkownik=C3=B3w, jeden z nic=
+h ma zablokowane konto, drugi zalogowany u=C5=BCytkownik ma nadane uprawnie=
+nia administracyjne</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Uprawnienia"</li>
+<li>U=C5=BCytkownik naciska przycisk "Odblokuj dost=C4=99p" obok u=C5=BCytk=
+ownika z zablokowanym dost=C4=99pem</li>
+<li>U=C5=BCytkownik naciska przycisk "Odblokuj u=C5=BCytkownika"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy u=C5=BCyt=
+kownik=C3=B3w. Nad ni=C4=85 pojawia si=C4=99 komunikat o prawid=C5=82owym o=
+dblokowaniu dost=C4=99pu.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">35</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Wsp=C3=B3lne logow=
+anie</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Ustawienia"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Wsp=C3=B3lne logowanie"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">36</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Zmiana has=C5=82a<=
+/td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Ustawienia"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zmiana has=C5=82a"</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz</li>
+<li>U=C5=BCytkownik naciska przycisk "Zmie=C5=84 has=C5=82o"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 komunikat informuj=C4=85cy o=
+ pomy=C5=9Blnej zmianie has=C5=82a i przycisk umo=C5=BCliwiaj=C4=85cy przej=
+=C5=9Bcie do strony g=C5=82=C3=B3wnej.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">37</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pr=C3=B3ba zmiany =
+has=C5=82a bez spe=C5=82nionych wymaga=C5=84 bezpiecze=C5=84stwa</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Ustawienia"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zmiana has=C5=82a"</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz nowym has=C5=82em, kt=C3=B3re =
+nie spe=C5=82nia wymog=C3=B3w bezpiecze=C5=84stwa</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pole "Nowe has=C5=82o" pod=C5=9Bwietla si=C4=
+=99 na czerwono. Przycisk "Zmie=C5=84 has=C5=82o" jest nieaktywny.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">39</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Usuwanie urz=C4=85=
+dzenia z zaufanych</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy, na li=C5=9Bcie jest dodane przynajmniej=
+ jedno zaufane urz=C4=85dzenie</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Ustawienia"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Zaufane urz=C4=85dzenia"</li>
+<li>U=C5=BCytkownik naciska przycisk "Usu=C5=84" obok danego urz=C4=85dzeni=
+a</li>
+<li>U=C5=BCytkownik naciska przycisk "Usu=C5=84 urz=C4=85dzenie"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Zaufane urz=C4=85dzenie zostaje usuni=C4=99te=
+.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">39</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d uczes=
+tnik=C3=B3w obj=C4=99tych autozapisem</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Autozapis"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Podgl=C4=85d Uczestnik=C3=B3w obj=
+=C4=99tych autozapisem"</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia filtry w rozwini=C4=99tej wyszukiwarce</=
+li>
+<li>U=C5=BCytkownik naciska przycisk "Wyszukaj"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 lista uczestnik=C3=B3w spe=
+=C5=82niaj=C4=85cych podane w filtrach kryteria wyszukiwania. Ka=C5=BCdy el=
+ement listy zawiera przycisk "Zlecenie", po kt=C3=B3rego klikni=C4=99ciu ro=
+zwija si=C4=99 lista dyspozycji mo=C5=BCliwych do wykonania bezpo=C5=9Bredn=
+io dla danego uczestnika.</p><p>Je=C5=BCeli =C5=BCaden uczestnik nie spe=C5=
+=82nia kryteri=C3=B3w wyszukiwania zamiast listy pokazuje si=C4=99 komunika=
+t "Nie znaleziono pasuj=C4=85cych pozycji"</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">39</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d przew=
+odnika po autozapisie</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Autozapis"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Podgl=C4=85d Uczestnik=C3=B3w obj=
+=C4=99tych autozapisem"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje przekierowanie na zewn=C4=99tr=
+zn=C4=85 stron=C4=99:&nbsp;<a class=3D"external-link" href=3D"https://www.n=
+n.pl/dla-firmy/ppk-dla-pracodawcy/przewodnik-po-autozapisie" rel=3D"nofollo=
+w">https://www.nn.pl/dla-firmy/ppk-dla-pracodawcy/przewodnik-po-autozapisie=
+</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">39</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d mater=
+ia=C5=82=C3=B3w do pobrania</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Autozapis"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Materia=C5=82y do pobrania"</li>
+<li>U=C5=BCytkownik pobiera dowolny dokument lub wchodzi w odno=C5=9Bnik</l=
+i>
+</ol></td>
+<td class=3D"confluenceTd"><p>W zale=C5=BCno=C5=9Bci od dokumentu rozpoczyn=
+a si=C4=99 pobieranie pliku lub zostaje otwarty w nowej karcie lub nast=C4=
+=99puje przekierowanie na stron=C4=99 z danymi informacjami.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">39</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Zam=C3=B3wienie pl=
+akat=C3=B3w i ulotek</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na kafelek "Autozapis"</li>
+<li>U=C5=BCytkownik naciska na kafelek "Materia=C5=82y do pobrania"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zam=C3=B3w plakaty i ulotki"</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Z=C5=82=C3=B3=C5=BC zam=C3=B3wienie" =
+na kroku z podsumowaniem</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 komunikat w formie pop-up z =
+podzi=C4=99kowaniem za z=C5=82o=C5=BCenie zam=C3=B3wienia oraz przycisk "Za=
+mknij", po kt=C3=B3rego klikni=C4=99ciu nast=C4=99puje powr=C3=B3t do stron=
+y g=C5=82=C3=B3wnej.</p><p>Do <span style=3D"color: rgb(255,0,0);">administ=
+ratora?</span> zostaje wys=C5=82any mail ze szczeg=C3=B3=C5=82ami zam=C3=B3=
+wienia.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">39</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Wylogowanie z pane=
+lu pracodawcy</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w portalu pracodawcy</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska przycisk "Wyloguj" w prawym g=C3=B3rnym rogu na=
+ pasku menu g=C3=B3rnego</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do strony logowani=
+a. Na formularzu logowania pojawia si=C4=99 komunikat "<em>Zosta=C5=82e=C5=
+=9B prawid=C5=82owo wylogowany</em>".</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 100.0%;">
+</colgroup>
+<tbody>
+<tr>
+<th style=3D"text-align: center;" class=3D"confluenceTh">Panel instytucji f=
+inansowej</th>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">40</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Rejestracja umowy<=
+/td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Rejestracja umowy PP=
+K"</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz rejestracyjny</li>
+<li>U=C5=BCytkownik naciska przycisk "Akceptuj" na ostatnim kroku</li>
+</ol></td>
+<td class=3D"confluenceTd">Nowa umowa PPK zosta=C5=82a zarejestrowana. Do r=
+eprezentant=C3=B3w / pe=C5=82nomocnik=C3=B3w zosta=C5=82 login i has=C5=82o=
+ dost=C4=99pu do panelu pracodawcy. Zarejestrowana umowa jest widoczna w pa=
+nelu instytucji finansowej w zak=C5=82adce "Zaakceptowane"</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">41</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Anulowanie umowy o=
+czekuj=C4=85cej</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, w zak=C5=82adce "oczekuj=C4=
+=85ce" jest zarejestrowana przynajmniej jedna umowa, konto u=C5=BCytkownika=
+ ma nadane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zmiana" na dowolnym elemencie listy w=
+ umowach oczekuj=C4=85cych</li>
+<li>U=C5=BCytkownik naciska przycisk "Anuluj"</li>
+<li>U=C5=BCytkownik naciska przycisk "Anuluj umow=C4=99" na okienku z potwi=
+erdzeniem</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nad list=C4=85 pojawia si=C4=99 komunikat o p=
+omy=C5=9Blnym anulowaniu umowy. Umowa znika z listy oczekuj=C4=85cych i&nbs=
+p; pojawia si=C4=99 na li=C5=9Bcie w zak=C5=82adce "Anulowane".</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">42</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Zweryfikowanie umo=
+wy oczekuj=C4=85cej</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, Umowa oczekuj=C4=85ca ma stat=
+us "Do akceptacji IF", konto u=C5=BCytkownika ma nadane odpowiednie uprawni=
+enia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zmiana" na danym elemencie listy</li>
+<li>U=C5=BCytkownik naciska przycisk "Zweryfikuj"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zweryfikuj umow=C4=99" na okienku z p=
+otwierdzeniem</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nad list=C4=85 pojawia si=C4=99 komunikat o p=
+omy=C5=9Blnym zweryfikowaniu umowy. Umowa zmienia status na "Zweryfikowane"=
+.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">43</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Zaakceptowanie umo=
+wy oczekuj=C4=85cej</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, Umowa oczekuj=C4=85ca ma stat=
+us "Do akceptacji IF" lub "Zweryfikowane", konto u=C5=BCytkownika ma nadane=
+ odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zmiana" na danym elemencie listy</li>
+<li>U=C5=BCytkownik naciska przycisk "Akceptuj"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zaakceptuj umow=C4=99" na okienku z p=
+otwierdzeniem</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nad list=C4=85 pojawia si=C4=99 komunikat o p=
+omy=C5=9Blnym anulowaniu umowy. Umowa znika z listy oczekuj=C4=85cych i&nbs=
+p; pojawia si=C4=99 na li=C5=9Bcie w zak=C5=82adce "Zaakceptowane".</p><p>D=
+o reprezentant=C3=B3w wysy=C5=82any jest mail z linkiem do pobrania umowy, =
+mail z loginem do konta pracodawcy oraz sms z has=C5=82em jednorazowym.</p>=
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">44</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobieranie umowy z=
+ maila</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Umowa z=C5=82o=C5=
+=BCona przez link zewn=C4=99trzny zosta=C5=82a zaakceptowana w panelu insty=
+tucji finansowej</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>Reprezentant / pe=C5=82nomocnik otwiera maila wys=C5=82anego automatycz=
+nie po zaakceptowaniu umowy</li>
+<li>Reprezentant / pe=C5=82nomocnik naciska odno=C5=9Bnik "Pobierz umow=C4=
+=99" w tre=C5=9Bci maila</li>
+<li>Reprezentant / pe=C5=82nomocnik przechodzi captcha&nbsp; i naciska przy=
+cisk "Wy=C5=9Blij SMS" na automatycznie otwartej karcie przegl=C4=85darki</=
+li>
+<li>Reprezentant / pe=C5=82nomocnik wpisuje otrzymany na numer telefonu kod=
+ SMS</li>
+<li>Reprezentant / pe=C5=82nomocnik naciska przycisk "Zatwierd=C5=BA"</li>
+<li>Reprezentant / pe=C5=82nomocnik naciska na dowolny odno=C5=9Bnik w celu=
+ pobrania lub podgl=C4=85du dokumentu</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku PDF w pr=
+zypadku umowy o zarz=C4=85dzanie lub prowadzenie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">45</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d infor=
+macji o firmie</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, Umowa jest w kt=C3=B3rejkolwi=
+ek zak=C5=82adce na stronie g=C5=82=C3=B3wnej, konto u=C5=BCytkownika ma na=
+dane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 "+" przy nazwie danej firmy na li=C5=
+=9Bcie</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozwijaj=C4=85 si=C4=99 informacje og=C3=B3ln=
+e o firmie. Po lewej stronie pojawia si=C4=99 =C5=82=C4=85cznie 5 zak=C5=82=
+adek. Ka=C5=BCda z nich wskazuje jakiego typu informacje mo=C5=BCna z niej =
+uzyska=C4=87.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">46</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dodanie notatki</t=
+d>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, Umowa jest w kt=C3=B3rejkolwi=
+ek zak=C5=82adce na stronie g=C5=82=C3=B3wnej, konto u=C5=BCytkownika ma na=
+dane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 "+" przy nazwie danej firmy na li=C5=
+=9Bcie</li>
+<li>U=C5=BCytkownik naciska na pole tekstowe "Notatka"</li>
+<li>U=C5=BCytkownik wpisuje dowoln=C4=85 notatk=C4=99</li>
+<li>U=C5=BCytkownik naciska przycisk "Zapisz"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nad polem z notatk=C4=85 pojawia si=C4=99 kom=
+unikat o poprawnie zaktualizowanej notatce. Wprowadzony tekst jest widoczny=
+ w informacjach o firmie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">47</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Edycja kodu sprzed=
+awcy</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, Umowa jest w zak=C5=82adce "O=
+czekuj=C4=85ce" lub "Zaakceptowane", konto u=C5=BCytkownika ma nadane odpow=
+iednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 "+" przy nazwie danej firmy na li=C5=
+=9Bcie</li>
+<li>U=C5=BCytkownik naciska "Edytuj" przy polu "Kod sprzedawcy"</li>
+<li>U=C5=BCytkownik wpisuje poprawny kod sprzedawcy</li>
+<li>U=C5=BCytkownik naciska przycisk "Zapisz"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nad polem z notatk=C4=85 pojawia si=C4=99 kom=
+unikat o poprawnie zaktualizowanym kodzie sprzedawcy. Wpisany kod jest wido=
+czny w informacjach o firmie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">48</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Edycja kodu sprzed=
+awcy - niepoprawny kod</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, Umowa jest w zak=C5=82adce "O=
+czekuj=C4=85ce" lub "Zaakceptowane", konto u=C5=BCytkownika ma nadane odpow=
+iednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 "+" przy nazwie danej firmy na li=C5=
+=9Bcie</li>
+<li>U=C5=BCytkownik naciska "Edytuj" przy polu "Kod sprzedawcy"</li>
+<li>U=C5=BCytkownik wpisuje niepoprawny kod sprzedawcy</li>
+<li>U=C5=BCytkownik naciska przycisk "Zapisz"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nad polem z notatk=C4=85 pojawia si=C4=99 kom=
+unikat o niezaktualizowanym kodzie sprzedawcy. Wpisany kod nie jest widoczn=
+y w informacjach o firmie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">49</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Zmiana danych firm=
+y</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, Umowa jest w kt=C3=B3rejkolwi=
+ek zak=C5=82adce na stronie g=C5=82=C3=B3wnej, konto u=C5=BCytkownika ma na=
+dane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 "+" przy nazwie danej firmy na li=C5=
+=9Bcie</li>
+<li>U=C5=BCytkownik naciska kafelek "Dane firmy"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zmie=C5=84 dane"</li>
+<li>U=C5=BCytkownik aktualizuje formularz nowymi danymi</li>
+<li>U=C5=BCytkownik naciska przycisk "Dalej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zatwierd=C5=BA zmiany"</li>
+<li>U=C5=BCytkownik naciska "Tak" w oknie dialogowym</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 informacja o poprawnej zmian=
+ie danych pracodawcy oraz przycisk powrotu do listy um=C3=B3w oczekuj=C4=85=
+cych.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">50</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Ponowne wys=C5=82a=
+nie linku do akceptacji umowy</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, Umowa jest w zak=C5=82adce "O=
+czekuj=C4=85ce" i ma status "Niepotwierdzone", konto u=C5=BCytkownika ma na=
+dane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 "+" przy nazwie danej firmy na li=C5=
+=9Bcie</li>
+<li>U=C5=BCytkownik naciska kafelek "Reprezentanci/Pe=C5=82nomocnicy"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wy=C5=9Blij" obok danego reprezentant=
+a</li>
+<li>U=C5=BCytkownik naciska przycisk "Wy=C5=9Blij" w oknie dialogowym</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 informacja o poprawnej wysy=
+=C5=82ce maila z linkiem do akceptacji umowy.</p><p>Mail zostaje wys=C5=82a=
+ny do danego reprezentanta / pe=C5=82nomocnika.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">51</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobieranie dokumen=
+t=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, Umowa jest w kt=C3=B3rejkolwi=
+ek zak=C5=82adce na stronie g=C5=82=C3=B3wnej, konto u=C5=BCytkownika ma na=
+dane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 "+" przy nazwie danej firmy na li=C5=
+=9Bcie</li>
+<li>U=C5=BCytkownik naciska kafelek "Dokumenty"</li>
+<li>U=C5=BCytkownik naciska na nazw=C4=99 danego dokumentu</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie danego pliku.<=
+/p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">52</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dodawanie dokument=
+=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, Umowa jest w kt=C3=B3rejkolwi=
+ek zak=C5=82adce na stronie g=C5=82=C3=B3wnej, konto u=C5=BCytkownika ma na=
+dane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 "+" przy nazwie danej firmy na li=C5=
+=9Bcie</li>
+<li>U=C5=BCytkownik naciska kafelek "Dokumenty"</li>
+<li>U=C5=BCytkownik naciska na pole do dodawania pliku</li>
+<li>U=C5=BCytkownik wybiera plik do dodania</li>
+<li>U=C5=BCytkownik wybiera z listy w oknie dialogowym typ dodawanego dokum=
+entu</li>
+<li>U=C5=BCytkownik Naciska przycisk "Prze=C5=9Blij plik" w oknie dialogowy=
+m</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Przesy=C5=82any plik pojawia si=C4=99 w zak=
+=C5=82adce "Dokumenty".</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">53</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Wyszukiwanie firmy=
+ z listy</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, Zak=C5=82adka, w kt=C3=B3rej =
+odbywa si=C4=99 wyszukiwanie zawiera jakiekolwiek umowy, konto u=C5=BCytkow=
+nika ma nadane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik wybiera zak=C5=82adk=C4=99, w kt=C3=B3rej chce wyszuka=
+=C4=87 dan=C4=85 firm=C4=99</li>
+<li>U=C5=BCytkownik wpisuje jakiekolwiek warto=C5=9Bci w polu "Szukaj"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Na li=C5=9Bcie pozostaj=C4=85 jedynie te firm=
+y, kt=C3=B3rych nazwa pracodawcy, KRS, kod promotora, REGON, NIP lub data r=
+ejestracji spe=C5=82niaj=C4=85 wpisane kryteria.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">29</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dodawanie u=C5=BCy=
+tkownika do panelu instytucji finansowej</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "Uprawnienia" wybiera opcj=C4=99 "U=C5=BCytkow=
+nicy"</li>
+<li>U=C5=BCytkownik naciska przycisk "Dodaj u=C5=BCytkownika"</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz danymi oraz uprawnieniami nowe=
+go u=C5=BCytkownika</li>
+<li>U=C5=BCytkownik naciska przycisk "Zapisz u=C5=BCytkownika"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy u=C5=BCyt=
+kownik=C3=B3w. Nad ni=C4=85 pojawia si=C4=99 komunikat o prawid=C5=82owym d=
+odaniu nowego u=C5=BCytkownika.</p><p>Dane logowania zosta=C5=82y wys=C5=82=
+ane do dodanego u=C5=BCytkownika.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">30</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Edycja u=C5=BCytko=
+wnika&nbsp;panelu instytucji finansowej</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "Uprawnienia" wybiera opcj=C4=99 "U=C5=BCytkow=
+nicy"</li>
+<li>U=C5=BCytkownik naciska przycisk "Edytuj" przy danym u=C5=BCytkowniku</=
+li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz aktualnymi danymi oraz uprawni=
+eniami u=C5=BCytkownika</li>
+<li>U=C5=BCytkownik naciska przycisk "Zapisz u=C5=BCytkownika"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy u=C5=BCyt=
+kownik=C3=B3w. Nad ni=C4=85 pojawia si=C4=99 komunikat o&nbsp;prawid=C5=82o=
+wej edycji u=C5=BCytkownika.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">31</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Zmiana has=C5=82a =
+u=C5=BCytkownika&nbsp;panelu instytucji finansowej</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "Uprawnienia" wybiera opcj=C4=99 "U=C5=BCytkow=
+nicy"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zmie=C5=84 has=C5=82o" przy danym u=
+=C5=BCytkowniku</li>
+<li>U=C5=BCytkownik&nbsp;naciska przycisk "WYGENERUJ I WY=C5=9ALIJ HAS=C5=
+=81O"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy u=C5=BCyt=
+kownik=C3=B3w. Nad ni=C4=85 pojawia si=C4=99 komunikat o prawid=C5=82owym z=
+resetowaniu has=C5=82a.</p><p>Nowe tymczasowe has=C5=82o zosta=C5=82o wys=
+=C5=82ane do danego u=C5=BCytkownika.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">32</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Usuwanie u=C5=BCyt=
+kownika z&nbsp;panelu instytucji finansowej</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "Uprawnienia" wybiera opcj=C4=99 "U=C5=BCytkow=
+nicy"</li>
+<li>U=C5=BCytkownik naciska przycisk "Usu=C5=84"&nbsp;przy danym u=C5=BCytk=
+owniku</li>
+<li>U=C5=BCytkownik naciska przycisk "Usu=C5=84 u=C5=BCytkownika"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy u=C5=BCyt=
+kownik=C3=B3w. Nad ni=C4=85 pojawia si=C4=99 komunikat o prawid=C5=82owym u=
+suni=C4=99ciu u=C5=BCytkownika.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">32</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Odblokowanie dost=
+=C4=99pu u=C5=BCytkownikowi z zablokowanym kontem</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">W panelu instytucj=
+i finansowej jest zarejestrowanych przynajmniej 2 u=C5=BCytkownik=C3=B3w, j=
+eden z nich ma zablokowane konto, drugi zalogowany u=C5=BCytkownik ma nadan=
+e uprawnienia administracyjne</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "Uprawnienia" wybiera opcj=C4=99 "U=C5=BCytkow=
+nicy"</li>
+<li>U=C5=BCytkownik naciska przycisk "Odblokuj dost=C4=99p" obok u=C5=BCytk=
+ownika z zablokowanym dost=C4=99pem</li>
+<li>U=C5=BCytkownik naciska przycisk "Odblokuj u=C5=BCytkownika"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy u=C5=BCyt=
+kownik=C3=B3w. Nad ni=C4=85 pojawia si=C4=99 komunikat o prawid=C5=82owym o=
+dblokowaniu dost=C4=99pu.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">32</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Tworzenie nowej gr=
+upy uprawnie=C5=84</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "Uprawnienia" wybiera opcj=C4=99 "Grupy uprawn=
+ie=C5=84"</li>
+<li>U=C5=BCytkownik naciska przycisk "Utw=C3=B3rz now=C4=85 grup=C4=99 upra=
+wnie=C5=84"</li>
+<li>U=C5=BCytkownik wybiera poszczeg=C3=B3lne uprawnienia i nadaje nazw=C4=
+=99 utworzonej grupie</li>
+<li>U=C5=BCytkownik naciska przycisk "Zapisz grup=C4=99 uprawnie=C5=84"</li=
+>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy uprawnie=
+=C5=84. Nad ni=C4=85 pojawia si=C4=99 komunikat o prawid=C5=82owym dodaniu =
+nowej grupy.</p><p>(To=C5=BCsama czynno=C5=9B=C4=87 mo=C5=BCliwa jest do wy=
+konania r=C3=B3wnie=C5=BC z poziomu tworzenia lub edycji u=C5=BCytkownika</=
+p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">32</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Edycja grupy upraw=
+nie=C5=84</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "Uprawnienia" wybiera opcj=C4=99 "Grupy uprawn=
+ie=C5=84"</li>
+<li>U=C5=BCytkownik naciska przycisk "Edytuj" przy danej grupie uprawnie=C5=
+=84</li>
+<li>U=C5=BCytkownik modyfikuje grup=C4=99 uprawnie=C5=84</li>
+<li>U=C5=BCytkownik naciska przycisk "Zapisz grup=C4=99 uprawnie=C5=84"</li=
+>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy uprawnie=
+=C5=84. Nad ni=C4=85 pojawia si=C4=99 komunikat o prawid=C5=82owej edycji g=
+rupy.</p><p>U=C5=BCytkownikom, kt=C3=B3rzy mieli przypisan=C4=85 t=C4=99 gr=
+up=C4=99 zaktualizowa=C5=82y si=C4=99 uprawnienia.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">32</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Usuwanie grupy upr=
+awnie=C5=84</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "Uprawnienia" wybiera opcj=C4=99 "Grupy uprawn=
+ie=C5=84"</li>
+<li>U=C5=BCytkownik naciska przycisk "Usu=C5=84" przy danej grupie uprawnie=
+=C5=84</li>
+<li>U=C5=BCytkownik naciska przycisk "Usu=C5=84 grup=C4=99 uprawnie=C5=84"<=
+/li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nast=C4=99puje powr=C3=B3t do listy uprawnie=
+=C5=84. Nad ni=C4=85 pojawia si=C4=99 komunikat o prawid=C5=82owym usuni=C4=
+=99ciu grupy grupy.</p><p><span style=3D"color: rgb(255,0,0);">Co z u=C5=BC=
+ytkownikami kt=C3=B3rzy t=C4=99 grup=C4=99 mieli przypisan=C4=85?</span></p=
+></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">54</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d listy=
+ uczestnik=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Lista uczestnik=C3=
+=B3w"</li>
+<li>U=C5=BCytkownik naciska przycisk "Wi=C4=99cej"</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia filtry w rozwini=C4=99tej wyszukiwarce</=
+li>
+<li>U=C5=BCytkownik naciska przycisk "Wyszukaj"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 lista uczestnik=C3=B3w spe=
+=C5=82niaj=C4=85cych podane w filtrach kryteria wyszukiwania.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">55</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu u=
+m=C3=B3w PPK</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Raporty"</li>
+<li>U=C5=BCytkownik naciska na pole opisane "Nazwa raportu"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "Umowy PPK" z listy</li>
+<li>U=C5=BCytkownik wybiera zakres dat, z kt=C3=B3rego ma zosta=C4=87 wygen=
+erowany raport</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku. Zakres =
+dat w pliku jest zgodny z ustawionym na stronie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">56</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu u=
+=C5=BCytkownik=C3=B3w serwisu PPK</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Raporty"</li>
+<li>U=C5=BCytkownik naciska na pole opisane "Nazwa raportu"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "U=C5=BCytkownicy serwisu PPK" z lis=
+ty</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">56</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu z=
+ informacj=C4=85 o linkach</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Raporty"</li>
+<li>U=C5=BCytkownik naciska na pole opisane "Nazwa raportu"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "Raport z informacj=C4=85 o linkach"=
+ z listy</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">55</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu f=
+irm przesy=C5=82aj=C4=85cych korekty</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Raporty"</li>
+<li>U=C5=BCytkownik naciska na pole opisane "Nazwa raportu"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "Raport firm przesy=C5=82aj=C4=85cyc=
+h korekty" z listy</li>
+<li>U=C5=BCytkownik wybiera zakres dat, z kt=C3=B3rego ma zosta=C4=87 wygen=
+erowany raport</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku. Zakres =
+dat w pliku jest zgodny z ustawionym na stronie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">57</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie raportu z=
+ rozliczenia sk=C5=82adek</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik naciska na pole opisane "Nazwa raportu"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "Umowy z rozliczania sk=C5=82adek" z=
+ listy</li>
+<li>U=C5=BCytkownik wybiera zakres dat, z kt=C3=B3rego ma zosta=C4=87 wygen=
+erowany raport</li>
+<li>U=C5=BCytkownik podaje nazw=C4=99 lub REGON pracodawcy</li>
+<li>U=C5=BCytkownik wybiera odpowiedniego pracodawc=C4=99 z listy po przefi=
+ltrowaniu</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.&nbsp;Za=
+kres dat w pliku jest zgodny z ustawionym na stronie.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">58</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d infor=
+macji i dokument=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, konto u=C5=BCytkownika ma nad=
+ane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Informacje i dokumen=
+ty"</li>
+<li>U=C5=BCytkownik naciska na dowolny odno=C5=9Bnik</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>W nowej karcie otwiera si=C4=99 odpowiedni do=
+kument zgodnie z nazw=C4=85 odno=C5=9Bnika.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">59</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Zaakceptowanie ocz=
+ekuj=C4=85cego zlecenia&nbsp;</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, na li=C5=9Bcie jest przynajmn=
+iej jedno zlecenie oczekuj=C4=85ce, konto u=C5=BCytkownika ma nadane odpowi=
+ednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Zlecenia do akceptac=
+ji"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zmiana"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "Akceptuj" z listy rozwijanej</li>
+<li>U=C5=BCytkownik naciska przycisk "Akceptuj" w oknie dialogowym</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nad list=C4=85 zlece=C5=84 pojawia si=C4=99 k=
+omunikat informuj=C4=85cy o zaakceptowaniu zlecenia dla danego uczestnika.<=
+/p><p>Zlecenie znika z zak=C5=82adki "Oczekuj=C4=85ce" i przechodzi do zak=
+=C5=82adki "Zaakceptowane"</p><p><span style=3D"color: rgb(255,0,0);">Uczes=
+tnik otrzymuje maila z informacj=C4=85 o akceptacji zlecenia?</span></p></t=
+d>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">60</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Odrzucenie oczekuj=
+=C4=85cego zlecenia</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, na li=C5=9Bcie jest przynajmn=
+iej jedno zlecenie oczekuj=C4=85ce, konto u=C5=BCytkownika ma nadane odpowi=
+ednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Zlecenia do akceptac=
+ji"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zmiana"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "Odrzu=C4=87" z listy rozwijanej</li=
+>
+<li>U=C5=BCytkownik wpisuje pow=C3=B3d odrzucenia zlecenia</li>
+<li>U=C5=BCytkownik naciska przycisk "Odrzu=C4=87 zlecenie" w oknie dialogo=
+wym</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nad list=C4=85 zlece=C5=84 pojawia si=C4=99 k=
+omunikat informuj=C4=85cy o odrzuceniu zlecenia dla danego uczestnika do wy=
+ja=C5=9Bnienia.</p><p>Zlecenie znika z zak=C5=82adki "Oczekuj=C4=85ce" i pr=
+zechodzi do zak=C5=82adki "Odrzucone".</p><p>Uczestnik otrzymuje maila z in=
+formacj=C4=85 o odrzuceniu zlecenia.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Wyja=C5=9Bnienie o=
+czekuj=C4=85cego zlecenia</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, na li=C5=9Bcie jest przynajmn=
+iej jedno zlecenie oczekuj=C4=85ce, konto u=C5=BCytkownika ma nadane odpowi=
+ednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Zlecenia do akceptac=
+ji"</li>
+<li>U=C5=BCytkownik naciska przycisk "Zmiana"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "Wyja=C5=9Bnij" z listy rozwijanej</=
+li>
+<li>U=C5=BCytkownik wpisuje pow=C3=B3d wyja=C5=9Bnienia zlecenia</li>
+<li>U=C5=BCytkownik naciska przycisk "Wyja=C5=9Bnij zlecenie" w oknie dialo=
+gowym</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Nad list=C4=85 zlece=C5=84 pojawia si=C4=99 k=
+omunikat informuj=C4=85cy o przekazaniu zlecenia dla danego uczestnika do w=
+yja=C5=9Bnienia.</p><p>Zlecenie pozostaje w zak=C5=82adce "Oczekuj=C4=85ce"=
+.</p><p>Uczestnik otrzymuje maila z informacj=C4=85 o przekazaniu zlecenia =
+do wyja=C5=9Bnienia.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dodanie notatki do=
+ zlecenia</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, na li=C5=9Bcie jest przynajmn=
+iej jedno zlecenie w jakiejkolwiek zak=C5=82adce, konto u=C5=BCytkownika ma=
+ nadane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Zlecenia do akceptac=
+ji"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 w kolumnie "Notatka"</li>
+<li>U=C5=BCytkownik wpisuje tre=C5=9B=C4=87 notatki</li>
+<li>U=C5=BCytkownik naciska przycisk "Zapisz" w oknie dialogowym</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Notatka zostaje zapisana. Po ponownym klikni=
+=C4=99ciu w ikon=C4=99 w kolumnie "Notatka" przy tym samym zleceniu, zapisa=
+na tre=C5=9B=C4=87 jest widoczna nawet je=C5=9Bli zlecenie zmieni=C5=82o st=
+atus z powodu akceptacji b=C4=85d=C5=BA odrzucenia i przeskoczy=C5=82o do i=
+nnej zak=C5=82adki.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d dokum=
+entu do=C5=82=C4=85czonego do zlecenia</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, na li=C5=9Bcie jest przynajmn=
+iej jedno zlecenie w jakiejkolwiek zak=C5=82adce, konto u=C5=BCytkownika ma=
+ nadane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Zlecenia do akceptac=
+ji"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 w kolumnie "Dokumenty"</li>
+<li>U=C5=BCytkownik otwiera za=C5=82=C4=85cznik z listy dokument=C3=B3w w o=
+twartym oknie dialogowym</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Dodanie dodatkoweg=
+o dokumentu do zlecenia</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, na li=C5=9Bcie jest przynajmn=
+iej jedno zlecenie w jakiejkolwiek zak=C5=82adce, konto u=C5=BCytkownika ma=
+ nadane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Zlecenia do akceptac=
+ji"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 w kolumnie "Dokumenty"</li>
+<li>U=C5=BCytkownik naciska na pole do przekazywania pliku w otwartym oknie=
+ dialogowym</li>
+<li>U=C5=BCytkownik wybiera plik do dodania</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Plik zostaje dodany do listy dokument=C3=B3w =
+w oknie dialogowym.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Pobranie potwierdz=
+enia zlecenia</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, na li=C5=9Bcie jest przynajmn=
+iej jedno zlecenie w jakiejkolwiek zak=C5=82adce, konto u=C5=BCytkownika ma=
+ nadane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Zlecenia do akceptac=
+ji"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 w kolumnie "Zlecenie"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d powod=
+u odrzucenia zlecenia</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, na li=C5=9Bcie jest przynajmn=
+iej jedno zlecenie w zak=C5=82adce "Odrzucone", konto u=C5=BCytkownika ma n=
+adane odpowiednie uprawnienia</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Zlecenia do akceptac=
+ji"</li>
+<li>U=C5=BCytkownik przechodzi do zak=C5=82adki "Odrzucone"</li>
+<li>U=C5=BCytkownik naciska ikon=C4=99 w kolumnie "Pow=C3=B3d odrzucenia"</=
+li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Otwiera si=C4=99 okno z wpisanym wcze=C5=9Bni=
+ej powodem odrzucenia zlecenia.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Wypowiedzenie umow=
+y o zarz=C4=85dzanie</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej, zarejestrowana jest przynajmn=
+iej jedna umowa, konto u=C5=BCytkownika ma nadane odpowiednie uprawnienia</=
+td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska kafelek "Panel Instytucji Finansowej"</li>
+<li>U=C5=BCytkownik naciska przycisk "Menu"</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Wypowiedzenie UoZ"</=
+li>
+<li>U=C5=BCytkownik uzupe=C5=82nia filtry w wyszukiwarce pracodawcy</li>
+<li>U=C5=BCytkownik naciska przycisk "Wyszukaj"</li>
+<li>U=C5=BCytkownik wybiera dan=C4=85 firm=C4=99 z listy</li>
+<li>U=C5=BCytkownik uzupe=C5=82nia formularz wypowiedzenia</li>
+<li>U=C5=BCytkownik naciska przycisk "Zatwierd=C5=BA wypowiedzenie"</li>
+<li>U=C5=BCytkownik naciska przycisk "Tak" w oknie dialogowym</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Pojawia si=C4=99 komunikat o pomy=C5=9Blnym w=
+ypowiedzeniu UoZ. Odpowiednie osoby otrzyma=C5=82y wiadomo=C5=9B=C4=87 e-ma=
+il w zale=C5=BCno=C5=9Bci od sposobu uzupe=C5=82nienia formularza.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Zmiana has=C5=82a =
+- prawid=C5=82owa pr=C3=B3ba</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na ikon=C4=99 menu na g=C3=B3rnym pasku</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Wypowiedzenie UoZ"</=
+li>
+<li>U=C5=BCytkownik naciska na pole opisane "Nazwa raportu"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "U=C5=BCytkownicy serwisu PPK" z lis=
+ty</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Zmiana has=C5=82a =
+- has=C5=82o niespe=C5=82niaj=C4=85ce wymog=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na ikon=C4=99 menu na g=C3=B3rnym pasku</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Wypowiedzenie UoZ"</=
+li>
+<li>U=C5=BCytkownik naciska na pole opisane "Nazwa raportu"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "U=C5=BCytkownicy serwisu PPK" z lis=
+ty</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Usuwanie urz=C4=85=
+dzenia z zaufanych</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na ikon=C4=99 menu na g=C3=B3rnym pasku</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Wypowiedzenie UoZ"</=
+li>
+<li>U=C5=BCytkownik naciska na pole opisane "Nazwa raportu"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "U=C5=BCytkownicy serwisu PPK" z lis=
+ty</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Wysy=C5=82ka formu=
+larza kontaktowego</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na ikon=C4=99 menu na g=C3=B3rnym pasku</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Wypowiedzenie UoZ"</=
+li>
+<li>U=C5=BCytkownik naciska na pole opisane "Nazwa raportu"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "U=C5=BCytkownicy serwisu PPK" z lis=
+ty</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Zmiana has=C5=82a =
+- prawid=C5=82owa pr=C3=B3ba</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na ikon=C4=99 menu na g=C3=B3rnym pasku</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Wypowiedzenie UoZ"</=
+li>
+<li>U=C5=BCytkownik naciska na pole opisane "Nazwa raportu"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "U=C5=BCytkownicy serwisu PPK" z lis=
+ty</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable">
+<colgroup>
+<col style=3D"width: 4.26943%;">
+<col style=3D"width: 22.8467%;">
+<col style=3D"width: 25.714%;">
+<col style=3D"width: 24.5562%;">
+<col style=3D"width: 22.6138%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">61</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Podgl=C4=85d praco=
+dawc=C3=B3w</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">U=C5=BCytkownik je=
+st zalogowany w panelu instytucji finansowej</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>U=C5=BCytkownik naciska na ikon=C4=99 menu na g=C3=B3rnym pasku</li>
+<li>U=C5=BCytkownik z sekcji "PPK" wybiera opcj=C4=99 "Wypowiedzenie UoZ"</=
+li>
+<li>U=C5=BCytkownik naciska na pole opisane "Nazwa raportu"</li>
+<li>U=C5=BCytkownik wybiera opcj=C4=99 "U=C5=BCytkownicy serwisu PPK" z lis=
+ty</li>
+<li>U=C5=BCytkownik naciska przycisk "Generuj raport"</li>
+</ol></td>
+<td class=3D"confluenceTd"><p>Rozpoczyna si=C4=99 pobieranie pliku.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_1024_1834575978.1790685688923--
