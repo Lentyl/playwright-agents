@@ -10,12 +10,6 @@ setup('authenticate financial institution', async ({ page }) => {
 
   await loginPage.open();
   await loginPage.login(credentials.financialInstitution.login, credentials.financialInstitution.password);
-  await page.waitForURL(new RegExp(`${APP_PATH}/(?:manager/login/fork|passwordExpirationReminder)$`));
-
-  if (page.url().endsWith('/passwordExpirationReminder')) {
-    await page.getByRole('link', { name: 'Pomiń' }).click();
-  }
-
   await expect(page).toHaveURL(new RegExp(`${APP_PATH}/manager/login/fork$`));
   await page.context().storageState({ path: storageStatePath });
 });

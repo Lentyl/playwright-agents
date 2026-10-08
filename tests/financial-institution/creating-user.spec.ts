@@ -137,26 +137,26 @@ test.describe('TC-FI — Financial Institution authentication', () => {
 
     test('TC006-CU - Create User', async ({
         loginAsFinancialInstitution,
-        userAdminPage,
+        employerUserAdminPage,
     }) => {
 
         await loginAsFinancialInstitution();
 
-        await userAdminPage.openMenu();
-        await userAdminPage.menuLink('Użytkownicy').click();
-        await userAdminPage.addUserLink.click();
+        await employerUserAdminPage.openMenu();
+        await employerUserAdminPage.menuLink('Użytkownicy').click();
+        await employerUserAdminPage.addUserLink.click();
 
-        await userAdminPage.loginInput.fill('test.user');
+        await employerUserAdminPage.loginInput.fill('test.user');
 
-        await userAdminPage.nameInput.fill('Jan Kowalski');
+        await employerUserAdminPage.nameInput.fill('Jan Kowalski');
 
-        await userAdminPage.emailInput.fill('jan.kowalski@test.pl');
+        await employerUserAdminPage.emailInput.fill('jan.kowalski@test.pl');
 
-        await userAdminPage.phoneInput.fill('500123456');
+        await employerUserAdminPage.phoneInput.fill('500123456');
 
-        await userAdminPage.permissionGroupSelect.selectOption('automation-group');
+        await employerUserAdminPage.permissionGroupSelect.selectOption('automation-group');
 
-        await expect(userAdminPage.permissionsList).toMatchAriaSnapshot(`
+        await expect(employerUserAdminPage.permissionsList).toMatchAriaSnapshot(`
     - list:
       - listitem: Akceptacja umowy
       - listitem: Dezaktywacja użytkowników
@@ -189,21 +189,21 @@ test.describe('TC-FI — Financial Institution authentication', () => {
       - listitem: Dodanie notatek
     `);
         await expect(
-            userAdminPage.permissionsList.getByText(
+            employerUserAdminPage.permissionsList.getByText(
                 'Brakuje pasujacej grupy uprawnień? Utwórz nową grupę uprawnień'
             )
         ).toBeVisible();
 
-        await userAdminPage.saveUserButton.click();
-        await userAdminPage.tableSearch.fill('Jan Kowalski');
-        await expect(userAdminPage.userCell('Jan Kowalski')).toBeVisible();
-        await expect(userAdminPage.userCell('test.user')).toBeVisible();
-        await expect(userAdminPage.userCell('jan.kowalski@test.pl')).toBeVisible();
-        await userAdminPage.deleteLink.click();
-        await expect(userAdminPage.deletionPrompt).toBeVisible();
-        await expect(userAdminPage.deletionHeading).toBeVisible();
-        await userAdminPage.deleteUserButton.click();
-        await expect(userAdminPage.userDeletedMessage).toBeVisible();
+        await employerUserAdminPage.saveUserButton.click();
+        await employerUserAdminPage.tableSearch.fill('Jan Kowalski');
+        await expect(employerUserAdminPage.userCell('Jan Kowalski')).toBeVisible();
+        await expect(employerUserAdminPage.userCell('test.user')).toBeVisible();
+        await expect(employerUserAdminPage.userCell('jan.kowalski@test.pl')).toBeVisible();
+        await employerUserAdminPage.deleteLink.click();
+        await expect(employerUserAdminPage.deletionPrompt).toBeVisible();
+        await expect(employerUserAdminPage.deletionHeading).toBeVisible();
+        await employerUserAdminPage.deleteUserButton.click();
+        await expect(employerUserAdminPage.userDeletedMessage).toBeVisible();
     });
 
 

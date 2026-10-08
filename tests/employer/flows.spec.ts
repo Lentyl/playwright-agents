@@ -1,28 +1,28 @@
 import { test, expect, credentials, testData } from '../../fixtures/pagesFixtures';
 import { APP_PATH } from '../../pages/BasePage';
-import { DISPOSITION_ENTRIES, CONTRIBUTION_CANCEL_PATH } from '../../pages/DispositionsPage';
+import { DISPOSITION_ENTRIES, CONTRIBUTION_CANCEL_PATH } from '../../pages/employer/EmployerDispositionsPage';
 
 // TC-FLOW — End-to-end scenarios (Employer role)
 test.describe('TC-FLOW — Full flows', () => {
-  test('TC-FLOW-001 login → dashboard → participant list → logout → protected route blocked', async ({ loginPage, dashboardPage, participantListPage, page }) => {
+  test('TC-FLOW-001 login → dashboard → participant list → logout → protected route blocked', async ({ loginPage, employerDashboardPage, employerParticipantListPage, page }) => {
     await loginPage.open();
     await loginPage.login(credentials.employer.login, credentials.employer.password);
     await expect(page).toHaveURL(new RegExp(`${APP_PATH}/employer$`));
 
-    await dashboardPage.cardLink('Podgląd Uczestników').click();
-    await expect(participantListPage.heading).toBeVisible();
+    await employerDashboardPage.cardLink('Podgląd Uczestników').click();
+    await expect(employerParticipantListPage.heading).toBeVisible();
 
-    await dashboardPage.logout();
+    await employerDashboardPage.logout();
     await expect(loginPage.logoutMessage).toBeVisible();
 
     // Protected route is not accessible after logout: the participant list is
     // not rendered (app shows an error page rather than redirecting — KI-3).
     await page.goto(`${APP_PATH}/employer/customer/list`);
-    await expect(participantListPage.heading).toBeHidden();
-    await expect(dashboardPage.logoutButton).toBeHidden();
+    await expect(employerParticipantListPage.heading).toBeHidden();
+    await expect(employerDashboardPage.logoutButton).toBeHidden();
   });
 
-  test.only('TC-FLOW-002 invalid login then successful recovery', async ({ loginPage, dashboardPage, page }) => {
+  test('TC-FLOW-002 invalid login then successful recovery', async ({ loginPage, employerDashboardPage, page }) => {
     await loginPage.open();
     await loginPage.login(credentials.employer.login, testData.invalid.password);
     await expect(page).toHaveURL(/login\?error=true/);
@@ -30,20 +30,20 @@ test.describe('TC-FLOW — Full flows', () => {
 
     await loginPage.login(credentials.employer.login, credentials.employer.password);
     await expect(page).toHaveURL(new RegExp(`${APP_PATH}/employer$`));
-    await expect(dashboardPage.companyName).toHaveText(testData.employer.companyName);
+    await expect(employerDashboardPage.companyName).toHaveText(testData.employer.companyName);
   });
 
-  test('TC-FLOW-005 access-control probe across all Dyspozycje entry points (fresh session)', async ({ loginAsEmployer, dispositionsPage, page }) => {
+  test('TC-FLOW-005 access-control probe across all Dyspozycje entry points (fresh session)', async ({ loginAsEmployer, employerDispositionsPage, page }) => {
     await loginAsEmployer();
 
     for (const entry of DISPOSITION_ENTRIES) {
-      const response = await dispositionsPage.gotoDisposition(entry.path);
+      const response = await employerDispositionsPage.gotoDisposition(entry.path);
       expect(response?.status(), `expected ${entry.label} to load`).toBeLessThan(400);
-      await expect(dispositionsPage.heading(entry.heading)).toBeVisible();
+      await expect(employerDispositionsPage.heading(entry.heading)).toBeVisible();
     }
 
-    const denied = await dispositionsPage.gotoDisposition(CONTRIBUTION_CANCEL_PATH);
+    const denied = await employerDispositionsPage.gotoDisposition(CONTRIBUTION_CANCEL_PATH);
     expect(denied?.status()).toBe(403);
-    await expect(dispositionsPage.accessDeniedHeading).toBeVisible();
+    await expect(employerDispositionsPage.accessDeniedHeading).toBeVisible();
   });
 });

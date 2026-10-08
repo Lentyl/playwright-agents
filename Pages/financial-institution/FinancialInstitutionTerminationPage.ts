@@ -1,0 +1,29 @@
+import { Locator, Page } from '@playwright/test';
+import BasePage, { APP_PATH } from '../BasePage';
+
+export default class FinancialInstitutionTerminationPage extends BasePage {
+  readonly heading: Locator;
+  readonly employerNameFilter: Locator;
+  readonly krsFilter: Locator;
+  readonly regonFilter: Locator;
+  readonly nipFilter: Locator;
+  readonly searchButton: Locator;
+  readonly resultsTable: Locator;
+  readonly validationMessage: Locator;
+
+  constructor(page: Page) {
+    super(page);
+    this.heading = page.getByRole('heading', { level: 1, name: 'Wypowiedzenie UoZ' });
+    this.employerNameFilter = page.getByRole('textbox', { name: 'Nazwa Pracodawcy' });
+    this.krsFilter = page.getByRole('spinbutton', { name: 'KRS' });
+    this.regonFilter = page.getByRole('spinbutton', { name: 'REGON' });
+    this.nipFilter = page.getByRole('spinbutton', { name: 'NIP' });
+    this.searchButton = page.getByRole('button', { name: 'Wyszukaj' });
+    this.resultsTable = page.getByRole('table');
+    this.validationMessage = page.locator('.invalid-feedback:visible, [role="alert"]:visible');
+  }
+
+  async open(): Promise<void> {
+    await this.goto(`${APP_PATH}/manager/contract/termination/search`);
+  }
+}

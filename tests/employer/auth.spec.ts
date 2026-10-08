@@ -5,12 +5,12 @@ test.use({ storageState: { cookies: [], origins: [] } });
 
 // TC-AUTH — Login, Logout, Session (new app, Employer role)
 test.describe('TC-AUTH — Authentication', () => {
-  test('TC-AUTH-001 successful employer login reaches the dashboard', async ({ loginPage, dashboardPage, page }) => {
+  test('TC-AUTH-001 successful employer login reaches the dashboard', async ({ loginPage, employerDashboardPage, page }) => {
     await loginPage.open();
     await loginPage.login(credentials.employer.login, credentials.employer.password);
 
     await expect(page).toHaveURL(new RegExp(`${APP_PATH}/employer$`));
-    await expect(dashboardPage.companyName).toHaveText(testData.employer.companyName);
+    await expect(employerDashboardPage.companyName).toHaveText(testData.employer.companyName);
   });
 
   test('TC-AUTH-002 invalid password shows error and does not authenticate', async ({ loginPage, page }) => {
@@ -29,12 +29,12 @@ test.describe('TC-AUTH — Authentication', () => {
     await expect(loginPage.identifier).toBeVisible();
   });
 
-  test('TC-AUTH-006 logout ends the session and protects employer routes', async ({ loginPage, dashboardPage, page }) => {
+  test('TC-AUTH-006 logout ends the session and protects employer routes', async ({ loginPage, employerDashboardPage, page }) => {
     await loginPage.open();
     await loginPage.login(credentials.employer.login, credentials.employer.password);
     await expect(page).toHaveURL(new RegExp(`${APP_PATH}/employer$`));
 
-    await dashboardPage.logout();
+    await employerDashboardPage.logout();
     await expect(page).toHaveURL(/login\?logout/);
     await expect(loginPage.logoutMessage).toBeVisible();
 
@@ -43,8 +43,8 @@ test.describe('TC-AUTH — Authentication', () => {
     // page instead (defect KI-3). Either way, the authenticated dashboard
     // (company header / Wyloguj) must not be rendered.
     await page.goto(`${APP_PATH}/employer`);
-    await expect(dashboardPage.logoutButton).toBeHidden();
-    await expect(dashboardPage.companyName).toBeHidden();
+    await expect(employerDashboardPage.logoutButton).toBeHidden();
+    await expect(employerDashboardPage.companyName).toBeHidden();
   });
 
   test('TC-AUTH-007 visiting /login while authenticated still renders the login form (KI-1)', async ({ loginPage, page }) => {

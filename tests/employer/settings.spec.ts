@@ -6,23 +6,23 @@ test.describe('TC-SETTINGS — Account Settings', () => {
     await loginAsEmployer();
   });
 
-  test('TC-SETTINGS-001 contract data screen is readable', async ({ contractDataPage }) => {
-    await contractDataPage.open();
-    await expect(contractDataPage.heading).toBeVisible();
-    await expect(contractDataPage.generalDataSection).toBeVisible();
-    await expect(contractDataPage.employerNameLabel).toBeVisible();
+  test('TC-SETTINGS-001 contract data screen is readable', async ({ employerContractDataPage }) => {
+    await employerContractDataPage.open();
+    await expect(employerContractDataPage.heading).toBeVisible();
+    await expect(employerContractDataPage.generalDataSection).toBeVisible();
+    await expect(employerContractDataPage.employerNameLabel).toBeVisible();
   });
 
-  test('TC-SETTINGS-002 related users screen shows the current Superlogin', async ({ relatedUsersPage }) => {
-    await relatedUsersPage.open();
-    await expect(relatedUsersPage.heading).toBeVisible();
-    await expect(relatedUsersPage.superloginInfo).toContainText(credentials.employer.login);
+  test('TC-SETTINGS-002 related users screen shows the current Superlogin', async ({ employerRelatedUsersPage }) => {
+    await employerRelatedUsersPage.open();
+    await expect(employerRelatedUsersPage.heading).toBeVisible();
+    await expect(employerRelatedUsersPage.superloginInfo).toContainText(credentials.employer.login);
   });
 
-  test('TC-SETTINGS-003 trusted devices screen exposes table controls', async ({ trustedDevicesPage }) => {
-    await trustedDevicesPage.open();
-    await expect(trustedDevicesPage.heading).toBeVisible();
-    await expect(trustedDevicesPage.pageSizeSelect).toBeVisible();
-    await expect(trustedDevicesPage.tableSearch).toBeVisible();
+  test('TC-SETTINGS-003 trusted devices screen exposes table controls', async ({ employerTrustedDevicesPage }) => {
+    await employerTrustedDevicesPage.open();
+    await expect(employerTrustedDevicesPage.heading).toBeVisible();
+    await expect(employerTrustedDevicesPage.pageSizeSelect).toBeVisible();
+    await expect(employerTrustedDevicesPage.tableSearch).toBeVisible();
   });
 });

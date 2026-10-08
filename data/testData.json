@@ -6,7 +6,11 @@
         "password": "Start.123",
         "companyName": "\"INTERFOOD-IDEA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
     },
-       "financialInstitution": {
+    "sharedLoginUser": {
+        "login": "mariusz.testowy1984",
+        "password": "Mariusz674b28!42"
+    },
+    "financialInstitution": {
         "login": "ppknnpte",
         "password": "Start.123"
     },
@@ -21,9 +25,12 @@
     "passwords": {
         "tooShort": "Nn2026!Secu",
         "tooLong": "Nn2026!SecureExtraExtra123",
-        "noSpecial": "Nn20261234567",
+        "noSpecial": "Nnn202612345",
         "oneDigit": "NnSecure!Pass2",
         "noUppercase": "nn2026!secure",
+        "noLowercase": "ABCD2026!EFG",
+        "fewerThanThreeLetters": "Nn202612345!",
+        "noDigits": "Nabcdefghi!Z",
         "tripleRepeat": "Nn2026!!!Secure"
     },
     "pesel": {
@@ -61,27 +68,55 @@
         "Raport z błędnym stosunkiem wpłat",
         "Raport z odrzuconych zleceń niefinansowych",
         "Raport rozliczonych wpłat z rezygnacją"
-    ], 
-   "aggremantUser": {
-    "companyName": "Test Company Ltd",
-    "krs": "2869263918",
-    "firstName": "John",
-  "lastName": "Smith",
-  "email": "john.smith@testmail.com",
-  "phoneNumber": "+48500123456",
-  "dateOfBirth": "1990-06-15",
-  "gender": "Male",
-  "address": {
-    "street": "123 Main Street",
-    "city": "Warsaw",
-    "postalCode": "00-001",
-    "country": "Poland"
-  },
-  "username": "johnsmith90",
-  "password": "Test@12345",
-  "company": "Test Company Ltd",
-  "jobTitle": "QA Engineer",
-  "website": "https://www.test-company.com",
-  "newsletterConsent": true
-}
+    ],
+    "employerAdminCase": {
+        "users": [
+            {
+                "loginPrefix": "tc40oa",
+                "name": "Test Operacyjny Administracyjny Wszystkie",
+                "emailPrefix": "tc40oa",
+                "phone": "500600701",
+                "permissionGroup": "Operacyjne i administracyjne łącznie",
+                "contributionList": "Listy wpłat wszystkich użytkowników aplikacji"
+            },
+            {
+                "loginPrefix": "tc40ow",
+                "name": "Test Operacyjny Administracyjny Własne",
+                "emailPrefix": "tc40ow",
+                "phone": "500600702",
+                "permissionGroup": "Operacyjne i administracyjne łącznie",
+                "contributionList": "Listy wpłat własne"
+            },
+            {
+                "loginPrefix": "tc40o",
+                "name": "Test Operacyjny Wszystkie",
+                "emailPrefix": "tc40o",
+                "phone": "500600703",
+                "permissionGroup": "Operacyjne",
+                "contributionList": "Listy wpłat wszystkich użytkowników aplikacji"
+            }
+        ]
+    },
+    "aggremantUser": {
+        "companyName": "Test Company Ltd",
+        "krs": "2869263918",
+        "firstName": "John",
+        "lastName": "Smith",
+        "email": "john.smith@testmail.com",
+        "phoneNumber": "+48500123456",
+        "dateOfBirth": "1990-06-15",
+        "gender": "Male",
+        "address": {
+            "street": "123 Main Street",
+            "city": "Warsaw",
+            "postalCode": "00-001",
+            "country": "Poland"
+        },
+        "username": "johnsmith90",
+        "password": "Test@12345",
+        "company": "Test Company Ltd",
+        "jobTitle": "QA Engineer",
+        "website": "https://www.test-company.com",
+        "newsletterConsent": true
+    }
 }

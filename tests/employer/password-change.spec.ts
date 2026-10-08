@@ -15,14 +15,14 @@ test.describe('TC-PWD — Password Change', () => {
     await loginAsEmployer();
   });
 
-  test('TC-PWD form fields and policy requirements are present', async ({ passwordChangePage }) => {
-    await passwordChangePage.open();
-    await expect(passwordChangePage.heading).toBeVisible();
-    await expect(passwordChangePage.oldPassword).toBeVisible();
-    await expect(passwordChangePage.newPassword).toBeVisible();
-    await expect(passwordChangePage.repeatPassword).toBeVisible();
-    await expect(passwordChangePage.submitButton).toBeVisible();
-    await expect(passwordChangePage.requirementsHeading).toBeVisible();
+  test('TC-PWD form fields and policy requirements are present', async ({ employerPasswordChangePage }) => {
+    await employerPasswordChangePage.open();
+    await expect(employerPasswordChangePage.heading).toBeVisible();
+    await expect(employerPasswordChangePage.oldPassword).toBeVisible();
+    await expect(employerPasswordChangePage.newPassword).toBeVisible();
+    await expect(employerPasswordChangePage.repeatPassword).toBeVisible();
+    await expect(employerPasswordChangePage.submitButton).toBeVisible();
+    await expect(employerPasswordChangePage.requirementsHeading).toBeVisible();
   });
 
   const violations: Array<{ id: string; password: string }> = [
@@ -35,14 +35,14 @@ test.describe('TC-PWD — Password Change', () => {
   ];
 
   for (const { id, password } of violations) {
-    test(`TC-PWD-002 policy violation is rejected: ${id}`, async ({ passwordChangePage, page }) => {
-      await passwordChangePage.open();
-      await passwordChangePage.attemptChange(credentials.employer.password, password);
+    test(`TC-PWD-002 policy violation is rejected: ${id}`, async ({ employerPasswordChangePage, page }) => {
+      await employerPasswordChangePage.open();
+      await employerPasswordChangePage.attemptChange(credentials.employer.password, password);
 
       // The invalid password is rejected: still on the change screen with an
       // inline error, so the account password is unchanged.
       await expect(page).toHaveURL(new RegExp(`${APP_PATH}/passwordChange`));
-      await expect(passwordChangePage.invalidFeedback.first()).toBeVisible();
+      await expect(employerPasswordChangePage.invalidFeedback.first()).toBeVisible();
     });
   }
 });

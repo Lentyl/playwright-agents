@@ -6,40 +6,40 @@ test.describe('TC-REPORT — Reports', () => {
     await loginAsEmployer();
   });
 
-  test('TC-REPORT-001 selecting a report reveals the generate action', async ({ reportsPage, page }) => {
-    await reportsPage.open();
-    await expect(reportsPage.heading).toBeVisible();
+  test('TC-REPORT-001 selecting a report reveals the generate action', async ({ employerReportsPage, page }) => {
+    await employerReportsPage.open();
+    await expect(employerReportsPage.heading).toBeVisible();
 
     for (const name of testData.reports) {
-      await expect(reportsPage.reportSelect.getByRole('option', { name })).toHaveCount(1);
+      await expect(employerReportsPage.reportSelect.getByRole('option', { name })).toHaveCount(1);
     }
 
-    await reportsPage.selectReport('Raport Uczestników');
+    await employerReportsPage.selectReport('Raport Uczestników');
     await expect(page).toHaveURL(/employer\/report\/0/);
-    await expect(reportsPage.generateButton).toBeVisible();
+    await expect(employerReportsPage.generateButton).toBeVisible();
   });
 
   for (let i = 0; i < 5; i++) {
-    test(`TC-REPORT-002 generate action appears for report option index ${i}`, async ({ reportsPage }) => {
-      await reportsPage.open();
-      await reportsPage.selectReport(testData.reports[i]);
-      await expect(reportsPage.generateButton).toBeVisible();
+    test(`TC-REPORT-002 generate action appears for report option index ${i}`, async ({ employerReportsPage }) => {
+      await employerReportsPage.open();
+      await employerReportsPage.selectReport(testData.reports[i]);
+      await expect(employerReportsPage.generateButton).toBeVisible();
     });
   }
 
-  test('TC-REPORT-003 returned-files cards are all present', async ({ returnedFilesPage }) => {
-    await returnedFilesPage.open();
+  test('TC-REPORT-003 returned-files cards are all present', async ({ employerReturnedFilesPage }) => {
+    await employerReturnedFilesPage.open();
     for (const name of testData.returnedFileReports) {
-      await expect(returnedFilesPage.reportCard(name)).toBeVisible();
+      await expect(employerReturnedFilesPage.reportCard(name)).toBeVisible();
     }
   });
 
-  test('TC-REPORT-004 returned-files page throws the datetimepicker JS error (KI-2)', async ({ returnedFilesPage, page }) => {
+  test('TC-REPORT-004 returned-files page throws the datetimepicker JS error (KI-2)', async ({ employerReturnedFilesPage, page }) => {
     const errors: string[] = [];
     page.on('pageerror', (err) => errors.push(err.message));
 
-    await returnedFilesPage.open();
-    await expect(returnedFilesPage.reportCard(testData.returnedFileReports[0])).toBeVisible();
+    await employerReturnedFilesPage.open();
+    await expect(employerReturnedFilesPage.reportCard(testData.returnedFileReports[0])).toBeVisible();
 
     // Confirms the known defect: the date-range widget fails to initialize.
     expect(errors.some((m) => m.includes('datetimepicker is not a function'))).toBe(true);
