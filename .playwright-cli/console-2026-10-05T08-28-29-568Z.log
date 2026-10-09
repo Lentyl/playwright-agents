@@ -1,0 +1,2 @@
+[      -6ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.nn.pl/dla-firmy/ppk-dla-pracodawcy/przewodnik-po-autozapisie:0
+[    4010ms] [WARNING] The resource https://www.nn.pl/_next/static/css/9f1ebb92e81cb567.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nn.pl/dla-firmy/ppk-dla-pracodawcy/przewodnik-po-autozapisie:0

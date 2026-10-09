@@ -14,6 +14,13 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.62.1",
+    "@testdino/playwright": "^2.7.8",
     "@types/node": "^26.1.2"
+  },
+  "dependencies": {
+    "jszip": "^3.10.2",
+    "mammoth": "^1.12.3",
+    "pdf-parse": "^2.4.5",
+    "xlsx": "^0.18.5"
   }
 }

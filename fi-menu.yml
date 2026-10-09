@@ -1,0 +1,129 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /ppk-nnpte2/nnpte/manager/login/fork
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Menu" [expanded] [active] [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - generic [ref=e14]: Koniec sesji za 14:49
+            - generic [ref=e15]: "Ostatnia udana próba logowania: 30-09-2026 15:56"
+            - generic [ref=e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+          - button "Wyloguj" [ref=e17] [cursor=pointer]
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - heading "Uprawnienia" [level=3] [ref=e50]
+            - list [ref=e51]:
+              - listitem [ref=e52]:
+                - link "Użytkownicy" [ref=e53] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/admin/users
+              - listitem [ref=e54]:
+                - link "Grupy uprawnień" [ref=e55] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/admin/roles
+          - generic [ref=e56]:
+            - heading "PPK" [level=3] [ref=e57]
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Rejestracja umowy PPK" [ref=e60] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/registration?mode=init
+              - listitem [ref=e61]:
+                - link "Umowy PPK - nowe" [ref=e62] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/contract/list/awaiting
+              - listitem [ref=e63]:
+                - link "Umowy PPK - zaakceptowane" [ref=e64] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/contract/list/accepted
+              - listitem [ref=e65]:
+                - link "Lista uczestników" [ref=e66] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/customer/list
+              - listitem [ref=e67]:
+                - link "Raporty" [ref=e68] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/report
+              - listitem [ref=e69]:
+                - link "Informacje i dokumenty" [ref=e70] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/documents
+              - listitem [ref=e71]:
+                - link "Zlecenia do akceptacji" [ref=e72] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/reqtrade/list/awaiting
+              - listitem [ref=e73]:
+                - link "Wypowiedzenie UoZ" [ref=e74] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/contract/termination/search
+          - generic [ref=e75]:
+            - heading "Dyspozycje" [level=3] [ref=e76]
+            - list [ref=e77]:
+              - listitem [ref=e78]:
+                - link "Dodanie osób uprawnionych" [ref=e79] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e80]:
+                - link "Konwersja" [ref=e81] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/exchange
+              - listitem [ref=e82]:
+                - link "Zwrot" [ref=e83] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/manager/redemption?mode=init
+              - listitem [ref=e84]:
+                - link "Poważne zachorowanie" [ref=e85] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e86]:
+                - link "Wkład własny" [ref=e87] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e88]:
+                - link "Wypłata po osiągnięciu 60 lat" [ref=e89] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e90]:
+                - link "Zmiana liczby rat do wypłaty" [ref=e91] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e92]:
+                - link "Wypłata transferowa" [ref=e93] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e94]:
+                - link "Świadczenie małżeńskie" [ref=e95] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e96]:
+            - heading "Ustawienia" [level=3] [ref=e97]
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Zmiana hasła" [ref=e100] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/passwordChange
+              - listitem [ref=e101]:
+                - link "Zaufane urządzenia" [ref=e102] [cursor=pointer]:
+                  - /url: /ppk-nnpte2/nnpte/trusted-devices
+            - generic [ref=e104]:
+              - heading "Kontakt" [level=3] [ref=e105]
+              - list [ref=e106]:
+                - listitem [ref=e107]:
+                  - link "Formularz kontaktowy" [ref=e108] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/contact
+                - listitem [ref=e109]:
+                  - heading "22 541 77 57" [level=2] [ref=e110]
+        - list [ref=e113]:
+          - listitem [ref=e114]: "Ostatnia udana próba logowania: 2026-09-30 15:56"
+          - listitem [ref=e115]: "Ostatnia nieudana próba logowania: 2026-08-24 11:24"
+  - generic [ref=e20]:
+    - link [ref=e22] [cursor=pointer]:
+      - /url: /ppk-nnpte2/nnpte/manager/contract/list/awaiting
+      - heading "Panel Instytucji Finansowej" [level=5] [ref=e25]
+    - link [ref=e27] [cursor=pointer]:
+      - /url: /ppk-nnpte2/nnpte/manager/employer/list
+      - heading "Podgląd Pracodawców" [level=5] [ref=e30]
+  - contentinfo [ref=e31]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=e36]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - link "Bezpieczeństwo" [ref=e40] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=e41]:
+          - link "Polityka cookies" [ref=e42] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=e43]:
+          - link "Kontakt" [ref=e44] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=e45]:
+          - link "Regulamin" [ref=e46] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

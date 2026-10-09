@@ -1,0 +1,75 @@
+- generic [active] [ref=f7e1]:
+  - banner [ref=f7e2]:
+    - navigation [ref=f7e4]:
+      - link [ref=f7e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=f7e7]:
+        - listitem [ref=f7e8]:
+          - link "Menu" [ref=f7e9] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=f7e12]:
+        - generic [ref=f7e13]:
+          - generic [ref=f7e14]: Koniec sesji za 14:57
+          - generic [ref=f7e15]: "Ostatnia udana próba logowania: 30-09-2026 15:56"
+          - generic [ref=f7e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+        - button "Wyloguj" [ref=f7e17] [cursor=pointer]
+  - navigation "breadcrumb" [ref=f7e19]:
+    - list [ref=f7e20]:
+      - listitem [ref=f7e21]:
+        - link "Home" [ref=f7e22] [cursor=pointer]:
+          - /url: /ppk-nnpte2/nnpte/
+      - listitem [ref=f7e23]: / Kontakt
+  - heading [level=2] [ref=f7e27]:
+    - paragraph [ref=f7e28]: Kontakt
+  - generic [ref=f7e32]:
+    - generic [ref=f7e33]:
+      - generic [ref=f7e34]: Jeśli masz pytania dotyczące Pracowniczego Planu Kapitałowego zadzwoń na infolinię lub skorzystaj z poniższego formularza kontaktowego.
+      - generic [ref=f7e36]:
+        - generic [ref=f7e37]:
+          - generic [ref=f7e38]:
+            - generic [ref=f7e39]: Imię i nazwisko *
+            - textbox [ref=f7e40]
+          - generic [ref=f7e41]:
+            - generic [ref=f7e42]: Nazwa pracodawcy
+            - textbox [ref=f7e43]
+          - generic [ref=f7e44]:
+            - generic [ref=f7e45]: Temat wiadomości *
+            - textbox [ref=f7e46]
+          - generic [ref=f7e47]:
+            - generic [ref=f7e48]: Adres e-mail *
+            - textbox [ref=f7e49]
+          - generic [ref=f7e50]:
+            - generic [ref=f7e51]: Treść wiadomości *
+            - textbox "Treść wiadomości" [ref=f7e52]
+            - paragraph [ref=f7e54]: "* Pole wymagane"
+        - iframe [ref=f7e59]:
+          - generic [ref=f8e1]:
+            - generic [ref=f8e2]: This reCAPTCHA is for testing purposes only. Please report to the site admin if you are seeing this.
+            - generic [ref=f8e3]:
+              - generic [ref=f8e4]:
+                - checkbox "Nie jestem robotem" [ref=f8e8]
+                - generic [ref=f8e10]: Nie jestem robotem
+              - generic [ref=f8e13]: reCAPTCHA
+        - button "Wyślij pytanie" [ref=f7e61] [cursor=pointer]
+    - generic [ref=f7e63]:
+      - generic [ref=f7e66]: Infolinia Agenta Transferowego
+      - generic [ref=f7e67]: 22 541 77 57
+      - generic [ref=f7e68]: Masz pytania? Potrzebujesz pomocy? Konsultanci są do Twojej dyspozycji od poniedziałku do piątku w godzinach 9:00 - 17:00.
+  - contentinfo [ref=f7e69]:
+    - generic [ref=f7e71]:
+      - generic [ref=f7e72]:
+        - paragraph [ref=f7e73]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f7e74]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f7e76]:
+        - listitem [ref=f7e77]:
+          - link "Bezpieczeństwo" [ref=f7e78] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f7e79]:
+          - link "Polityka cookies" [ref=f7e80] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f7e81]:
+          - link "Kontakt" [ref=f7e82] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f7e83]:
+          - link "Regulamin" [ref=f7e84] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

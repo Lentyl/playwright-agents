@@ -1,0 +1,90 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - navigation [ref=f2e4]:
+      - link [ref=f2e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer
+      - paragraph [ref=f2e6]: "\"INTERFOOD-IDEA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+      - generic [ref=f2e9]:
+        - generic [ref=f2e10]:
+          - generic [ref=f2e11]: Koniec sesji za 15:00
+          - generic [ref=f2e12]: "Ostatnia udana próba logowania: 05-10-2026 10:22"
+          - generic [ref=f2e13]: "Ostatnia nieudana próba logowania: 02-10-2026 15:08"
+        - button "Wyloguj" [ref=f2e14] [cursor=pointer]
+  - generic [ref=f2e16]:
+    - navigation "breadcrumb" [ref=f2e17]:
+      - list [ref=f2e18]:
+        - listitem [ref=f2e19]:
+          - link "Home" [ref=f2e20] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/employer
+        - listitem [ref=f2e21]:
+          - text: /
+          - link "Autozapis" [ref=f2e22] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/employer/dashboard?autosign=1
+        - listitem [ref=f2e23]: / Materiały do pobrania
+    - heading "Materiały do pobrania" [level=1] [ref=f2e24]
+    - generic [ref=f2e26]:
+      - strong [ref=f2e27]: Pliki
+      - list [ref=f2e28]:
+        - listitem [ref=f2e29]:
+          - link " Plakat o autozapisie 2027" [ref=f2e30] [cursor=pointer]:
+            - /url: https://www.nn.pl/
+            - generic [ref=f2e31]: 
+            - text: Plakat o autozapisie 2027
+        - listitem [ref=f2e32]:
+          - link " Ulotka o autozapisie 2027" [ref=f2e33] [cursor=pointer]:
+            - /url: https://www.nn.pl/
+            - generic [ref=f2e34]: 
+            - text: Ulotka o autozapisie 2027
+        - listitem [ref=f2e35]:
+          - link " Ulotka o autozapisie 2027 (wersja jednostronna)" [ref=f2e36] [cursor=pointer]:
+            - /url: https://www.nn.pl/
+            - generic [ref=f2e37]: 
+            - text: Ulotka o autozapisie 2027 (wersja jednostronna)
+      - generic [ref=f2e38]:
+        - strong [ref=f2e39]: Wideo
+        - list [ref=f2e40]:
+          - listitem [ref=f2e41]:
+            - link [ref=f2e42] [cursor=pointer]:
+              - /url: https://www.nn.pl/
+              - img "video" [ref=f2e43]
+              - text: Wideo o autozapisie 2027
+          - listitem [ref=f2e44]:
+            - link [ref=f2e45] [cursor=pointer]:
+              - /url: https://www.nn.pl/
+              - img "video" [ref=f2e46]
+              - text: Wideo o PPK
+      - strong [ref=f2e47]: Formularze
+      - list [ref=f2e48]:
+        - listitem [ref=f2e49]:
+          - link " Rezygnacja z dokonywania wpłat do PPK" [ref=f2e50] [cursor=pointer]:
+            - /url: https://www.nn.pl/
+            - generic [ref=f2e51]: 
+            - text: Rezygnacja z dokonywania wpłat do PPK
+        - listitem [ref=f2e52]:
+          - link " Wznowienie wpłat do PPK" [ref=f2e53] [cursor=pointer]:
+            - /url: https://www.nn.pl/
+            - generic [ref=f2e54]: 
+            - text: Wznowienie wpłat do PPK
+        - listitem [ref=f2e55]:
+          - link " Dane kontaktowe PPK" [ref=f2e56] [cursor=pointer]:
+            - /url: https://www.nn.pl/
+            - generic [ref=f2e57]: 
+            - text: Dane kontaktowe PPK
+  - contentinfo [ref=f2e58]:
+    - generic [ref=f2e60]:
+      - generic [ref=f2e61]:
+        - paragraph [ref=f2e62]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f2e63]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f2e65]:
+        - listitem [ref=f2e66]:
+          - link "Bezpieczeństwo" [ref=f2e67] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f2e68]:
+          - link "Polityka cookies" [ref=f2e69] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f2e70]:
+          - link "Kontakt" [ref=f2e71] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f2e72]:
+          - link "Regulamin" [ref=f2e73] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

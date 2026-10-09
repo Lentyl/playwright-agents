@@ -71,6 +71,13 @@ This repository contains Playwright automation for the application configured th
 - Avoid defining new locators and complex UI logic directly inside test files.
 - All Assertions should be performed in relevant test files (tests/**/*.spec.ts) rather than in Page Object classes.
 
+## Downloaded files
+
+- Save every file downloaded from the application to `data/doc/download-files/`.
+- Use Playwright's `Download.saveAs()` with the filename returned by `download.suggestedFilename()` (or the application-provided filename); do not leave application downloads only in Playwright's temporary directory.
+- Keep download handling in Page Objects or shared helpers. Tests should assert the download and the saved file path/content through those APIs.
+- Do not commit downloaded files unless the task explicitly requires a fixture or evidence artifact.
+
 ## Change hygiene
 
 - For structural changes, update tests, data, and documentation together.

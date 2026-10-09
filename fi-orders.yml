@@ -1,0 +1,360 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - navigation [ref=f3e4]:
+      - link [ref=f3e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=f3e7]:
+        - listitem [ref=f3e8]:
+          - link "Menu" [ref=f3e9] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=f3e12]:
+        - generic [ref=f3e13]:
+          - generic [ref=f3e14]: Koniec sesji za 14:59
+          - generic [ref=f3e15]: "Ostatnia udana próba logowania: 30-09-2026 15:56"
+          - generic [ref=f3e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+        - button "Wyloguj" [ref=f3e17] [cursor=pointer]
+  - generic [ref=f3e19]:
+    - navigation "breadcrumb" [ref=f3e20]:
+      - list [ref=f3e21]:
+        - listitem [ref=f3e22]:
+          - link "Home" [ref=f3e23] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/login/fork
+        - listitem [ref=f3e24]: / Zlecenia do akceptacji
+    - heading "Zlecenia do akceptacji" [level=1] [ref=f3e25]
+    - generic [ref=f3e27]:
+      - list [ref=f3e28]:
+        - listitem [ref=f3e29]:
+          - link "Oczekujące" [ref=f3e30] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f3e31]:
+          - link "Zaakceptowane" [ref=f3e32] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/reqtrade/list/accepted
+        - listitem [ref=f3e33]:
+          - link "Odrzucone" [ref=f3e34] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/reqtrade/list/canceled
+      - text: 
+      - generic [ref=f3e35]:
+        - generic [ref=f3e36]:
+          - generic [ref=f3e39]:
+            - text: Pokaż
+            - combobox "Pokaż pozycji" [ref=f3e40]:
+              - option "10" [selected]
+              - option "25"
+              - option "50"
+              - option "100"
+            - text: pozycji
+          - generic [ref=f3e42]:
+            - generic [ref=f3e43]: "Szukaj:"
+            - searchbox "Szukaj:" [ref=f3e44]
+        - generic [ref=f3e46]:
+          - text: 
+          - table [ref=f3e50]:
+            - rowgroup [ref=f3e63]:
+              - row [ref=f3e64]:
+                - 'columnheader "Imię Imię: Activate to sort" [ref=f3e65] [cursor=pointer]':
+                  - generic [ref=f3e66]:
+                    - generic [ref=f3e67]: Imię
+                    - 'button "Imię: Activate to sort" [ref=f3e68]'
+                - 'columnheader "Nazwisko Nazwisko: Activate to sort" [ref=f3e69] [cursor=pointer]':
+                  - generic [ref=f3e70]:
+                    - generic [ref=f3e71]: Nazwisko
+                    - 'button "Nazwisko: Activate to sort" [ref=f3e72]'
+                - 'columnheader "Pesel Pesel: Activate to sort" [ref=f3e73] [cursor=pointer]':
+                  - generic [ref=f3e74]:
+                    - generic [ref=f3e75]: Pesel
+                    - 'button "Pesel: Activate to sort" [ref=f3e76]'
+                - 'columnheader "Dokument tożsamości Dokument tożsamości: Activate to sort" [ref=f3e77] [cursor=pointer]':
+                  - generic [ref=f3e78]:
+                    - generic [ref=f3e79]: Dokument tożsamości
+                    - 'button "Dokument tożsamości: Activate to sort" [ref=f3e80]'
+                - 'columnheader "Data zlecenia Data zlecenia: Activate to remove sorting" [ref=f3e81] [cursor=pointer]':
+                  - generic [ref=f3e82]:
+                    - generic [ref=f3e83]: Data zlecenia
+                    - 'button "Data zlecenia: Activate to remove sorting" [ref=f3e84]'
+                - 'columnheader "Typ zlecenia Typ zlecenia: Activate to sort" [ref=f3e85] [cursor=pointer]':
+                  - generic [ref=f3e86]:
+                    - generic [ref=f3e87]: Typ zlecenia
+                    - 'button "Typ zlecenia: Activate to sort" [ref=f3e88]'
+                - 'columnheader "Nr rachunku PPK Nr rachunku PPK: Activate to sort" [ref=f3e89] [cursor=pointer]':
+                  - generic [ref=f3e90]:
+                    - generic [ref=f3e91]: Nr rachunku PPK
+                    - 'button "Nr rachunku PPK: Activate to sort" [ref=f3e92]'
+                - columnheader "Dokumenty" [ref=f3e93]
+                - columnheader "Zlecenie" [ref=f3e96]
+                - columnheader "Notatka" [ref=f3e99]
+                - columnheader [ref=f3e102]
+            - rowgroup [ref=f3e103]:
+              - row [ref=f3e122]:
+                - cell "NGNIKTOX" [ref=f3e123]
+                - cell "WTMFQS" [ref=f3e124]
+                - cell "51111771044" [ref=f3e125]
+                - cell [ref=f3e126]
+                - cell "2025-08-29 10:52:00" [ref=f3e127]
+                - cell "Wypłata w przypadku poważnej choroby" [ref=f3e128]
+                - cell "01014561" [ref=f3e129]
+                - cell [ref=f3e130]:
+                  - link [ref=f3e131] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f3e132]: 
+                - cell [ref=f3e133]:
+                  - link [ref=f3e134] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/0/download
+                    - generic [ref=f3e135]:
+                      - text: 
+                      - generic [ref=f3e136]: D
+                - cell [ref=f3e137]:
+                  - generic [ref=f3e138] [cursor=pointer]: 
+                - cell [ref=f3e140]:
+                  - generic [ref=f3e141]:
+                    - button "Zmiana" [ref=f3e142] [cursor=pointer]
+                    - text:   
+              - row [ref=f3e143]:
+                - cell "JFTOFGPHWV" [ref=f3e144]
+                - cell "RMZIUXJPSBB" [ref=f3e145]
+                - cell "84031819420" [ref=f3e146]
+                - cell [ref=f3e147]
+                - cell "2025-03-05 15:34:09" [ref=f3e148]
+                - cell "Wypłata na wkład własny" [ref=f3e149]
+                - cell "01635670" [ref=f3e150]
+                - cell [ref=f3e151]:
+                  - link [ref=f3e152] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f3e153]: 
+                - cell [ref=f3e154]:
+                  - link [ref=f3e155] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/1/download
+                    - generic [ref=f3e156]:
+                      - text: 
+                      - generic [ref=f3e157]: D
+                - cell [ref=f3e158]:
+                  - generic [ref=f3e159] [cursor=pointer]: 
+                - cell [ref=f3e161]:
+                  - generic [ref=f3e162]:
+                    - button "Zmiana" [ref=f3e163] [cursor=pointer]
+                    - text:   
+              - row [ref=f3e164]:
+                - cell "KTZRAFOQ" [ref=f3e165]
+                - cell "GXOAMZZAUWJ" [ref=f3e166]
+                - cell "99020758763" [ref=f3e167]
+                - cell [ref=f3e168]
+                - cell "2025-03-03 15:12:02" [ref=f3e169]
+                - cell "Wypłata w przypadku poważnej choroby" [ref=f3e170]
+                - cell "01635745" [ref=f3e171]
+                - cell [ref=f3e172]:
+                  - link [ref=f3e173] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f3e174]: 
+                - cell [ref=f3e175]:
+                  - link [ref=f3e176] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/2/download
+                    - generic [ref=f3e177]:
+                      - text: 
+                      - generic [ref=f3e178]: D
+                - cell [ref=f3e179]:
+                  - generic [ref=f3e180] [cursor=pointer]: 
+                - cell [ref=f3e182]:
+                  - generic [ref=f3e183]:
+                    - button "Zmiana" [ref=f3e184] [cursor=pointer]
+                    - text:   
+              - row [ref=f3e185]:
+                - cell "EYCFGI" [ref=f3e186]
+                - cell "LWYBEEMN" [ref=f3e187]
+                - cell "73070680311" [ref=f3e188]
+                - cell [ref=f3e189]
+                - cell "2025-03-03 14:39:05" [ref=f3e190]
+                - cell "Wypłata w przypadku poważnej choroby" [ref=f3e191]
+                - cell "01635234" [ref=f3e192]
+                - cell [ref=f3e193]:
+                  - link [ref=f3e194] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f3e195]: 
+                - cell [ref=f3e196]:
+                  - link [ref=f3e197] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/3/download
+                    - generic [ref=f3e198]:
+                      - text: 
+                      - generic [ref=f3e199]: D
+                - cell [ref=f3e200]:
+                  - generic [ref=f3e201] [cursor=pointer]: 
+                - cell [ref=f3e203]:
+                  - generic [ref=f3e204]:
+                    - button "Zmiana" [ref=f3e205] [cursor=pointer]
+                    - text:   
+              - row [ref=f3e206]:
+                - cell "GDMCM" [ref=f3e207]
+                - cell "LXKEMVXAPS" [ref=f3e208]
+                - cell "71111821914" [ref=f3e209]
+                - cell [ref=f3e210]
+                - cell "2025-03-03 12:23:28" [ref=f3e211]
+                - cell "Wypłata w przypadku poważnej choroby" [ref=f3e212]
+                - cell "01636349" [ref=f3e213]
+                - cell [ref=f3e214]:
+                  - link [ref=f3e215] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f3e216]: 
+                - cell [ref=f3e217]:
+                  - link [ref=f3e218] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/4/download
+                    - generic [ref=f3e219]:
+                      - text: 
+                      - generic [ref=f3e220]: D
+                - cell [ref=f3e221]:
+                  - generic [ref=f3e222] [cursor=pointer]: 
+                - cell [ref=f3e224]:
+                  - generic [ref=f3e225]:
+                    - button "Zmiana" [ref=f3e226] [cursor=pointer]
+                    - text:   
+              - row [ref=f3e227]:
+                - cell "WSTWO" [ref=f3e228]
+                - cell "TCB" [ref=f3e229]
+                - cell "84080632315" [ref=f3e230]
+                - cell [ref=f3e231]
+                - cell "2025-03-03 10:29:46" [ref=f3e232]
+                - cell "Wypłata w przypadku poważnej choroby" [ref=f3e233]
+                - cell "01635176" [ref=f3e234]
+                - cell [ref=f3e235]:
+                  - link [ref=f3e236] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f3e237]: 
+                - cell [ref=f3e238]:
+                  - link [ref=f3e239] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/5/download
+                    - generic [ref=f3e240]:
+                      - text: 
+                      - generic [ref=f3e241]: D
+                - cell [ref=f3e242]:
+                  - generic [ref=f3e243] [cursor=pointer]: 
+                - cell [ref=f3e245]:
+                  - generic [ref=f3e246]:
+                    - button "Zmiana" [ref=f3e247] [cursor=pointer]
+                    - text:   
+              - row [ref=f3e248]:
+                - cell "ZUZANNA" [ref=f3e249]
+                - cell "KRUPA" [ref=f3e250]
+                - cell "81042918562" [ref=f3e251]
+                - cell [ref=f3e252]
+                - cell "2025-01-14 16:40:53" [ref=f3e253]
+                - cell "Wypłata w przypadku poważnej choroby" [ref=f3e254]
+                - cell "01023991" [ref=f3e255]
+                - cell [ref=f3e256]:
+                  - link [ref=f3e257] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f3e258]: 
+                - cell [ref=f3e259]:
+                  - link [ref=f3e260] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/6/download
+                    - generic [ref=f3e261]:
+                      - text: 
+                      - generic [ref=f3e262]: D
+                - cell [ref=f3e263]:
+                  - generic [ref=f3e264] [cursor=pointer]: 
+                - cell [ref=f3e266]:
+                  - generic [ref=f3e267]:
+                    - button "Zmiana" [ref=f3e268] [cursor=pointer]
+                    - text:   
+              - row [ref=f3e269]:
+                - cell "Kewin" [ref=f3e270]
+                - cell "Jakubowski" [ref=f3e271]
+                - cell "83051483637" [ref=f3e272]
+                - cell [ref=f3e273]
+                - cell "2024-12-16 15:26:10" [ref=f3e274]
+                - cell "Wypłata na wkład własny" [ref=f3e275]
+                - cell "01027515" [ref=f3e276]
+                - cell [ref=f3e277]:
+                  - link [ref=f3e278] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f3e279]: 
+                - cell [ref=f3e280]:
+                  - link [ref=f3e281] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/7/download
+                    - generic [ref=f3e282]:
+                      - text: 
+                      - generic [ref=f3e283]: D
+                - cell [ref=f3e284]:
+                  - generic [ref=f3e285] [cursor=pointer]: 
+                - cell [ref=f3e287]:
+                  - generic [ref=f3e288]:
+                    - button "Zmiana" [ref=f3e289] [cursor=pointer]
+                    - text:   
+              - row [ref=f3e290]:
+                - cell "Andrzej" [ref=f3e291]
+                - cell "Szymczak" [ref=f3e292]
+                - cell "99111499193" [ref=f3e293]
+                - cell [ref=f3e294]
+                - cell "2024-12-11 13:41:37" [ref=f3e295]
+                - cell "Wypłata na wkład własny" [ref=f3e296]
+                - cell "01011459" [ref=f3e297]
+                - cell [ref=f3e298]:
+                  - link [ref=f3e299] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f3e300]: 
+                - cell [ref=f3e301]:
+                  - link [ref=f3e302] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/8/download
+                    - generic [ref=f3e303]:
+                      - text: 
+                      - generic [ref=f3e304]: D
+                - cell [ref=f3e305]:
+                  - generic [ref=f3e306] [cursor=pointer]: 
+                - cell [ref=f3e308]:
+                  - generic [ref=f3e309]:
+                    - button "Zmiana" [ref=f3e310] [cursor=pointer]
+                    - text:   
+              - row [ref=f3e311]:
+                - cell "KORNELIUSZ" [ref=f3e312]
+                - cell "PRZYBYLSKI" [ref=f3e313]
+                - cell "58030221517" [ref=f3e314]
+                - cell [ref=f3e315]
+                - cell "2024-12-11 11:40:51" [ref=f3e316]
+                - cell "Wypłata w przypadku poważnej choroby" [ref=f3e317]
+                - cell "01023805" [ref=f3e318]
+                - cell [ref=f3e319]:
+                  - link [ref=f3e320] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f3e321]: 
+                - cell [ref=f3e322]:
+                  - link [ref=f3e323] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/9/download
+                    - generic [ref=f3e324]:
+                      - text: 
+                      - generic [ref=f3e325]: D
+                - cell [ref=f3e326]:
+                  - generic [ref=f3e327] [cursor=pointer]: 
+                - cell [ref=f3e329]:
+                  - generic [ref=f3e330]:
+                    - button "Zmiana" [ref=f3e331] [cursor=pointer]
+                    - text:   
+        - generic [ref=f3e332]:
+          - status [ref=f3e334]: Pozycje od 1 do 10 z 35 łącznie
+          - navigation "pagination" [ref=f3e337]:
+            - list [ref=f3e338]:
+              - listitem [ref=f3e339]:
+                - link "Previous" [disabled]: Poprzednia
+              - listitem [ref=f3e340]:
+                - link "1" [ref=f3e341] [cursor=pointer]
+              - listitem [ref=f3e342]:
+                - link "2" [ref=f3e343] [cursor=pointer]
+              - listitem [ref=f3e344]:
+                - link "3" [ref=f3e345] [cursor=pointer]
+              - listitem [ref=f3e346]:
+                - link "4" [ref=f3e347] [cursor=pointer]
+              - listitem [ref=f3e348]:
+                - link "Next" [ref=f3e349] [cursor=pointer]: Następna
+  - contentinfo [ref=f3e106]:
+    - generic [ref=f3e108]:
+      - generic [ref=f3e109]:
+        - paragraph [ref=f3e110]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f3e111]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f3e113]:
+        - listitem [ref=f3e114]:
+          - link "Bezpieczeństwo" [ref=f3e115] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f3e116]:
+          - link "Polityka cookies" [ref=f3e117] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f3e118]:
+          - link "Kontakt" [ref=f3e119] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f3e120]:
+          - link "Regulamin" [ref=f3e121] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

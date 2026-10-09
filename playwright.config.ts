@@ -27,9 +27,10 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: [['html', { outputFolder: 'playwright-report', open: 'never' }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    ignoreHTTPSErrors: true,
     /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: 'https://test.moventum.com.pl/ppk-nnpte2/nnpte/login',
     headless: false,
@@ -44,8 +45,7 @@ export default defineConfig({
       testMatch: /auth\.employer\.setup\.ts/,
       use: {
         ...devices['Desktop Chrome'],
-        channel: 'chrome',
-        viewport: { width: 1500, height: 900 },
+        viewport: { width: 1700, height: 1000 },
       },
     },
     {
@@ -53,18 +53,16 @@ export default defineConfig({
       testMatch: /auth\.financial-institution\.setup\.ts/,
       use: {
         ...devices['Desktop Chrome'],
-        channel: 'chrome',
         viewport: { width: 1500, height: 900 },
       },
     },
     {
       name: 'Employer',
       testIgnore: /auth\..*\.setup\.ts/,
-      testMatch: /^employer\/.*\.spec\.ts/,
+      testMatch: /employer\/.*\.spec\.ts/,
       dependencies: ['setup-employer'],
       use: {
         ...devices['Desktop Chrome'],
-        channel: 'chrome',
         viewport: { width: 1500, height: 900 },
         storageState: employerStorageState,
       },
@@ -72,35 +70,20 @@ export default defineConfig({
     {
       name: 'Financial Institution',
       testIgnore: /auth\..*\.setup\.ts/,
-      testMatch: /^financial-institution\/.*\.spec\.ts/,
+      testMatch: /financial-institution\/.*\.spec\.ts/,
       dependencies: ['setup-financial-institution'],
       use: {
         ...devices['Desktop Chrome'],
-        channel: 'chrome',
-        viewport: { width: 1700, height: 1000 },
-        storageState: financialInstitutionStorageState,
-      },
-    },
-    {
-      name: 'Document employer cases',
-      testMatch: /przypadki-doc\/employer\/.*\.spec\.ts/,
-      dependencies: ['setup-employer'],
-      use: {
-        ...devices['Desktop Chrome'],
-        channel: 'chrome',
         viewport: { width: 1500, height: 900 },
-        storageState: employerStorageState,
+        storageState: financialInstitutionStorageState,
       },
     },
     {
-      name: 'Document financial institution cases',
-      testMatch: /przypadki-doc\/financial-institution\/.*\.spec\.ts/,
-      dependencies: ['setup-financial-institution'],
+      name: 'Authentication',
+      testMatch: /przypadki-doc\/authentication\/.*\.spec\.ts/,
       use: {
         ...devices['Desktop Chrome'],
-        channel: 'chrome',
-        viewport: { width: 1700, height: 1000 },
-        storageState: financialInstitutionStorageState,
+        viewport: { width: 1500, height: 900 },
       },
     },
 

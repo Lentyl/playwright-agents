@@ -1,0 +1,126 @@
+- generic [active] [ref=f6e1]:
+  - banner [ref=f6e2]:
+    - navigation [ref=f6e4]:
+      - link [ref=f6e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=f6e7]:
+        - listitem [ref=f6e8]:
+          - link "Menu" [ref=f6e9] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=f6e12]:
+        - generic [ref=f6e13]:
+          - generic [ref=f6e14]: Koniec sesji za 15:00
+          - generic [ref=f6e15]: "Ostatnia udana próba logowania: 30-09-2026 15:56"
+          - generic [ref=f6e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+        - button "Wyloguj" [ref=f6e17] [cursor=pointer]
+  - generic [ref=f6e19]:
+    - navigation "breadcrumb" [ref=f6e20]:
+      - list [ref=f6e21]:
+        - listitem [ref=f6e22]:
+          - link "Home" [ref=f6e23] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/login/fork
+        - listitem [ref=f6e24]:
+          - text: /
+          - link "Ustawienia" [ref=f6e25] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/crm/dashboard?settings=1
+        - listitem [ref=f6e26]: / Zaufane urządzenia
+    - heading "Zaufane urządzenia" [level=1] [ref=f6e27]
+    - generic [ref=f6e31]:
+      - generic [ref=f6e32]:
+        - generic [ref=f6e35]:
+          - text: Pokaż
+          - combobox "Pokaż pozycji" [ref=f6e36]:
+            - option "10" [selected]
+            - option "25"
+            - option "50"
+            - option "100"
+          - text: pozycji
+        - generic [ref=f6e38]:
+          - generic [ref=f6e39]: "Szukaj:"
+          - searchbox "Szukaj:" [ref=f6e40]
+      - table [ref=f6e43]:
+        - rowgroup [ref=f6e50]:
+          - row [ref=f6e51]:
+            - 'columnheader "Id Id: Activate to invert sorting" [ref=f6e52] [cursor=pointer]':
+              - generic [ref=f6e53]:
+                - generic [ref=f6e54]: Id
+                - 'button "Id: Activate to invert sorting" [ref=f6e55]'
+            - 'columnheader "Urządzenie Urządzenie: Activate to sort" [ref=f6e56] [cursor=pointer]':
+              - generic [ref=f6e57]:
+                - generic [ref=f6e58]: Urządzenie
+                - 'button "Urządzenie: Activate to sort" [ref=f6e59]'
+            - 'columnheader "Data dodania Data dodania: Activate to sort" [ref=f6e60] [cursor=pointer]':
+              - generic [ref=f6e61]:
+                - generic [ref=f6e62]: Data dodania
+                - 'button "Data dodania: Activate to sort" [ref=f6e63]'
+            - 'columnheader "Ostatnie logowanie Ostatnie logowanie: Activate to sort" [ref=f6e64] [cursor=pointer]':
+              - generic [ref=f6e65]:
+                - generic [ref=f6e66]: Ostatnie logowanie
+                - 'button "Ostatnie logowanie: Activate to sort" [ref=f6e67]'
+            - columnheader [ref=f6e68]
+        - rowgroup [ref=f6e69]:
+          - row [ref=f6e70]:
+            - cell "1" [ref=f6e71]
+            - cell "Desktop Windows Firefox 154" [ref=f6e72]
+            - cell "26-08-2026" [ref=f6e73]
+            - cell "26-08-2026 09:25:13" [ref=f6e74]
+            - cell [ref=f6e75]:
+              - group "Basic example" [ref=f6e76]:
+                - link "Usuń" [ref=f6e77] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=f6e78]: 
+                  - text: Usuń
+          - row [ref=f6e79]:
+            - cell "2" [ref=f6e80]
+            - cell "Desktop Windows Chrome 151" [ref=f6e81]
+            - cell "26-08-2026" [ref=f6e82]
+            - cell "26-08-2026 15:18:21" [ref=f6e83]
+            - cell [ref=f6e84]:
+              - group "Basic example" [ref=f6e85]:
+                - link "Usuń" [ref=f6e86] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=f6e87]: 
+                  - text: Usuń
+          - row [ref=f6e88]:
+            - cell "3" [ref=f6e89]
+            - cell "Desktop Windows Chrome 151" [ref=f6e90]
+            - cell "26-08-2026" [ref=f6e91]
+            - cell "26-08-2026 16:37:27" [ref=f6e92]
+            - cell [ref=f6e93]:
+              - group "Basic example" [ref=f6e94]:
+                - link "Usuń" [ref=f6e95] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=f6e96]: 
+                  - text: Usuń
+      - generic [ref=f6e97]:
+        - status [ref=f6e99]: Pozycje od 1 do 3 z 3 łącznie
+        - navigation "pagination" [ref=f6e102]:
+          - list [ref=f6e103]:
+            - listitem [ref=f6e104]:
+              - link "First" [disabled]: Pierwsza
+            - listitem [ref=f6e105]:
+              - link "Previous" [disabled]: Poprzednia
+            - listitem [ref=f6e106]:
+              - link "1" [ref=f6e107] [cursor=pointer]
+            - listitem [ref=f6e108]:
+              - link "Next" [disabled]: Następna
+            - listitem [ref=f6e109]:
+              - link "Last" [disabled]: Ostatnia
+  - contentinfo [ref=f6e110]:
+    - generic [ref=f6e112]:
+      - generic [ref=f6e113]:
+        - paragraph [ref=f6e114]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f6e115]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f6e117]:
+        - listitem [ref=f6e118]:
+          - link "Bezpieczeństwo" [ref=f6e119] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f6e120]:
+          - link "Polityka cookies" [ref=f6e121] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f6e122]:
+          - link "Kontakt" [ref=f6e123] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f6e124]:
+          - link "Regulamin" [ref=f6e125] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

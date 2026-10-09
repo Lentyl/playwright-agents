@@ -1,0 +1,60 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - navigation [ref=f3e4]:
+      - link [ref=f3e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/employer
+      - paragraph [ref=f3e6]: "\"INTERFOOD-IDEA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+      - generic [ref=f3e9]:
+        - generic [ref=f3e10]:
+          - generic [ref=f3e11]: Koniec sesji za 15:00
+          - generic [ref=f3e12]: "Ostatnia udana próba logowania: 05-10-2026 10:22"
+          - generic [ref=f3e13]: "Ostatnia nieudana próba logowania: 02-10-2026 15:08"
+        - button "Wyloguj" [ref=f3e14] [cursor=pointer]
+  - generic [ref=f3e15]:
+    - text: / /
+    - generic [ref=f3e17]:
+      - navigation "breadcrumb" [ref=f3e20]:
+        - list [ref=f3e21]:
+          - listitem [ref=f3e22]:
+            - link "Home" [ref=f3e23] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e24]: / Autozapis
+      - generic [ref=f3e27]:
+        - link [ref=f3e29] [cursor=pointer]:
+          - /url: /ppk-nnpte2/nnpte/employer/customer/autosignList
+          - generic [ref=f3e31]:
+            - heading "Podgląd Uczestników objętych autozapisem" [level=5] [ref=f3e32]
+            - text: Tu zobaczysz uczestników, którzy podlegają autozapisowi w 2027 roku.
+        - link [ref=f3e34] [cursor=pointer]:
+          - /url: https://www.nn.pl/dla-firmy/ppk-dla-pracodawcy/przewodnik-po-autozapisie
+          - generic [ref=f3e36]:
+            - heading "Przewodnik po autozapisie dla kadr i płac" [level=5] [ref=f3e37]
+            - text: Tu znajdziesz materiał interaktywny, który przeprowadzi Cię przez cały proces autozapisu
+        - link [ref=f3e39] [cursor=pointer]:
+          - /url: /ppk-nnpte2/nnpte/employer/customer/autosignMaterials
+          - generic [ref=f3e41]:
+            - heading "Materiały do pobrania" [level=5] [ref=f3e42]
+            - text: Tu pobierzesz materiały informacyjne o autozapisie dla pracowników oraz przydatne formularze.
+        - link [ref=f3e44] [cursor=pointer]:
+          - /url: https://www.nn.pl/dla-firmy/ppk-dla-pracodawcy/szkolenia-z-ppk
+          - generic [ref=f3e46]:
+            - heading "Szkolenia" [level=5] [ref=f3e47]
+            - text: Tu znajdziesz terminy i linki do szkoleń o autozapisie PPK dla Ciebie i Twoich pracowników.
+  - contentinfo [ref=f3e48]:
+    - generic [ref=f3e50]:
+      - generic [ref=f3e51]:
+        - paragraph [ref=f3e52]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f3e53]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f3e55]:
+        - listitem [ref=f3e56]:
+          - link "Bezpieczeństwo" [ref=f3e57] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f3e58]:
+          - link "Polityka cookies" [ref=f3e59] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f3e60]:
+          - link "Kontakt" [ref=f3e61] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f3e62]:
+          - link "Regulamin" [ref=f3e63] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

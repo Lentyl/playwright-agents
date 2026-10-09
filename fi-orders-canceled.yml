@@ -1,0 +1,360 @@
+- generic [active] [ref=f21e1]:
+  - banner [ref=f21e2]:
+    - navigation [ref=f21e4]:
+      - link [ref=f21e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=f21e7]:
+        - listitem [ref=f21e8]:
+          - link "Menu" [ref=f21e9] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=f21e12]:
+        - generic [ref=f21e13]:
+          - generic [ref=f21e14]: Koniec sesji za 14:59
+          - generic [ref=f21e15]: "Ostatnia udana próba logowania: 30-09-2026 15:56"
+          - generic [ref=f21e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+        - button "Wyloguj" [ref=f21e17] [cursor=pointer]
+  - generic [ref=f21e19]:
+    - navigation "breadcrumb" [ref=f21e20]:
+      - list [ref=f21e21]:
+        - listitem [ref=f21e22]:
+          - link "Home" [ref=f21e23] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/login/fork
+        - listitem [ref=f21e24]: / Zlecenia do akceptacji
+    - heading "Zlecenia do akceptacji" [level=1] [ref=f21e25]
+    - generic [ref=f21e27]:
+      - list [ref=f21e28]:
+        - listitem [ref=f21e29]:
+          - link "Oczekujące" [ref=f21e30] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/reqtrade/list/awaiting
+        - listitem [ref=f21e31]:
+          - link "Zaakceptowane" [ref=f21e32] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/reqtrade/list/accepted
+        - listitem [ref=f21e33]:
+          - link "Odrzucone" [ref=f21e34] [cursor=pointer]:
+            - /url: "#"
+      - text: 
+      - generic [ref=f21e35]:
+        - generic [ref=f21e36]:
+          - generic [ref=f21e39]:
+            - text: Pokaż
+            - combobox "Pokaż pozycji" [ref=f21e40]:
+              - option "10" [selected]
+              - option "25"
+              - option "50"
+              - option "100"
+            - text: pozycji
+          - generic [ref=f21e42]:
+            - generic [ref=f21e43]: "Szukaj:"
+            - searchbox "Szukaj:" [ref=f21e44]
+        - generic [ref=f21e46]:
+          - text: 
+          - table [ref=f21e50]:
+            - rowgroup [ref=f21e65]:
+              - row [ref=f21e134]:
+                - 'columnheader "Imię Imię: Activate to sort" [ref=f21e67] [cursor=pointer]':
+                  - generic [ref=f21e68]:
+                    - generic [ref=f21e69]: Imię
+                    - 'button "Imię: Activate to sort" [ref=f21e70]'
+                - 'columnheader "Nazwisko Nazwisko: Activate to sort" [ref=f21e71] [cursor=pointer]':
+                  - generic [ref=f21e72]:
+                    - generic [ref=f21e73]: Nazwisko
+                    - 'button "Nazwisko: Activate to sort" [ref=f21e74]'
+                - 'columnheader "Pesel Pesel: Activate to sort" [ref=f21e75] [cursor=pointer]':
+                  - generic [ref=f21e76]:
+                    - generic [ref=f21e77]: Pesel
+                    - 'button "Pesel: Activate to sort" [ref=f21e78]'
+                - 'columnheader "Dokument tożsamości Dokument tożsamości: Activate to sort" [ref=f21e79] [cursor=pointer]':
+                  - generic [ref=f21e80]:
+                    - generic [ref=f21e81]: Dokument tożsamości
+                    - 'button "Dokument tożsamości: Activate to sort" [ref=f21e82]'
+                - 'columnheader "Data zlecenia Data zlecenia: Activate to remove sorting" [ref=f21e83] [cursor=pointer]':
+                  - generic [ref=f21e84]:
+                    - generic [ref=f21e85]: Data zlecenia
+                    - 'button "Data zlecenia: Activate to remove sorting" [ref=f21e86]'
+                - 'columnheader "Data odrzucenia Data odrzucenia: Activate to sort" [ref=f21e87] [cursor=pointer]':
+                  - generic [ref=f21e88]:
+                    - generic [ref=f21e89]: Data odrzucenia
+                    - 'button "Data odrzucenia: Activate to sort" [ref=f21e90]'
+                - 'columnheader "Nr rachunku PPK Nr rachunku PPK: Activate to sort" [ref=f21e95] [cursor=pointer]':
+                  - generic [ref=f21e96]:
+                    - generic [ref=f21e97]: Nr rachunku PPK
+                    - 'button "Nr rachunku PPK: Activate to sort" [ref=f21e98]'
+                - 'columnheader "Osoba odrzucająca Osoba odrzucająca: Activate to sort" [ref=f21e99] [cursor=pointer]':
+                  - generic [ref=f21e100]:
+                    - generic [ref=f21e101]: Osoba odrzucająca
+                    - 'button "Osoba odrzucająca: Activate to sort" [ref=f21e102]'
+                - columnheader "Dokumenty" [ref=f21e103]
+                - columnheader "Zlecenie" [ref=f21e106]
+                - columnheader "Powód odrzucenia" [ref=f21e109]
+                - columnheader "Notatka" [ref=f21e112]
+            - rowgroup [ref=f21e115]:
+              - row [ref=f21e135]:
+                - cell "RZSSL" [ref=f21e136]
+                - cell "BDZMRXWF" [ref=f21e137]
+                - cell "95121356781" [ref=f21e138]
+                - cell [ref=f21e139]
+                - cell "2026-09-21 13:07:42" [ref=f21e140]
+                - cell "2026-09-21 13:09:14" [ref=f21e141]
+                - cell "01635684" [ref=f21e142]
+                - cell "Anna Lusawa-Siennicka" [ref=f21e143]
+                - cell [ref=f21e144]:
+                  - link [ref=f21e145] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f21e146]: 
+                - cell [ref=f21e147]:
+                  - link [ref=f21e148] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/0/download
+                    - generic [ref=f21e149]:
+                      - text: 
+                      - generic [ref=f21e150]: D
+                - cell [ref=f21e151]:
+                  - generic [ref=f21e152] [cursor=pointer]: 
+                - cell [ref=f21e154]:
+                  - generic [ref=f21e155] [cursor=pointer]: 
+              - row [ref=f21e157]:
+                - cell "WQXCDNV" [ref=f21e158]
+                - cell "GVWYMDJ" [ref=f21e159]
+                - cell "93031290654" [ref=f21e160]
+                - cell [ref=f21e161]
+                - cell "2026-09-18 14:43:32" [ref=f21e162]
+                - cell "2026-09-18 14:46:14" [ref=f21e163]
+                - cell "01636420" [ref=f21e164]
+                - cell "Anna Lusawa-Siennicka" [ref=f21e165]
+                - cell [ref=f21e166]:
+                  - link [ref=f21e167] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f21e168]: 
+                - cell [ref=f21e169]:
+                  - link [ref=f21e170] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/1/download
+                    - generic [ref=f21e171]:
+                      - text: 
+                      - generic [ref=f21e172]: D
+                - cell [ref=f21e173]:
+                  - generic [ref=f21e174] [cursor=pointer]: 
+                - cell [ref=f21e176]:
+                  - generic [ref=f21e177] [cursor=pointer]: 
+              - row [ref=f21e179]:
+                - cell "WQXCDNV" [ref=f21e180]
+                - cell "GVWYMDJ" [ref=f21e181]
+                - cell "93031290654" [ref=f21e182]
+                - cell [ref=f21e183]
+                - cell "2026-09-18 14:36:14" [ref=f21e184]
+                - cell "2026-09-18 14:38:16" [ref=f21e185]
+                - cell "01636420" [ref=f21e186]
+                - cell "Anna Lusawa-Siennicka" [ref=f21e187]
+                - cell [ref=f21e188]:
+                  - link [ref=f21e189] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f21e190]: 
+                - cell [ref=f21e191]:
+                  - link [ref=f21e192] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/2/download
+                    - generic [ref=f21e193]:
+                      - text: 
+                      - generic [ref=f21e194]: D
+                - cell [ref=f21e195]:
+                  - generic [ref=f21e196] [cursor=pointer]: 
+                - cell [ref=f21e198]:
+                  - generic [ref=f21e199] [cursor=pointer]: 
+              - row [ref=f21e201]:
+                - cell "WQXCDNV" [ref=f21e202]
+                - cell "GVWYMDJ" [ref=f21e203]
+                - cell "93031290654" [ref=f21e204]
+                - cell [ref=f21e205]
+                - cell "2026-09-18 14:25:26" [ref=f21e206]
+                - cell "2026-09-18 14:33:06" [ref=f21e207]
+                - cell "01636420" [ref=f21e208]
+                - cell "Anna Lusawa-Siennicka" [ref=f21e209]
+                - cell [ref=f21e210]:
+                  - link [ref=f21e211] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f21e212]: 
+                - cell [ref=f21e213]:
+                  - link [ref=f21e214] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/3/download
+                    - generic [ref=f21e215]:
+                      - text: 
+                      - generic [ref=f21e216]: D
+                - cell [ref=f21e217]:
+                  - generic [ref=f21e218] [cursor=pointer]: 
+                - cell [ref=f21e220]:
+                  - generic [ref=f21e221] [cursor=pointer]: 
+              - row [ref=f21e223]:
+                - cell "ULZCZJD" [ref=f21e224]
+                - cell "CSILBR" [ref=f21e225]
+                - cell "94100268521" [ref=f21e226]
+                - cell [ref=f21e227]
+                - cell "2026-09-16 15:19:24" [ref=f21e228]
+                - cell "2026-09-16 15:55:54" [ref=f21e229]
+                - cell "01635497" [ref=f21e230]
+                - cell "Anna Lusawa-Siennicka" [ref=f21e231]
+                - cell [ref=f21e232]:
+                  - link [ref=f21e233] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f21e234]: 
+                - cell [ref=f21e235]:
+                  - link [ref=f21e236] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/4/download
+                    - generic [ref=f21e237]:
+                      - text: 
+                      - generic [ref=f21e238]: D
+                - cell [ref=f21e239]:
+                  - generic [ref=f21e240] [cursor=pointer]: 
+                - cell [ref=f21e242]:
+                  - generic [ref=f21e243] [cursor=pointer]: 
+              - row [ref=f21e245]:
+                - cell "PBONG" [ref=f21e246]
+                - cell "MDLUSBOR" [ref=f21e247]
+                - cell "40101382210" [ref=f21e248]
+                - cell [ref=f21e249]
+                - cell "2026-08-27 08:52:45" [ref=f21e250]
+                - cell "2026-08-31 13:38:32" [ref=f21e251]
+                - cell "01000095" [ref=f21e252]
+                - cell "bartek_manager" [ref=f21e253]
+                - cell [ref=f21e254]:
+                  - link [ref=f21e255] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f21e256]: 
+                - cell [ref=f21e257]:
+                  - link [ref=f21e258] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/5/download
+                    - generic [ref=f21e259]:
+                      - text: 
+                      - generic [ref=f21e260]: D
+                - cell [ref=f21e261]:
+                  - generic [ref=f21e262] [cursor=pointer]: 
+                - cell [ref=f21e264]:
+                  - generic [ref=f21e265] [cursor=pointer]: 
+              - row [ref=f21e267]:
+                - cell "Zofia" [ref=f21e268]
+                - cell "Rutkowska" [ref=f21e269]
+                - cell "98100136781" [ref=f21e270]
+                - cell [ref=f21e271]
+                - cell "2026-08-26 17:26:49" [ref=f21e272]
+                - cell "2026-08-26 17:33:19" [ref=f21e273]
+                - cell "01033646" [ref=f21e274]
+                - cell "Anna Lusawa-Siennicka" [ref=f21e275]
+                - cell [ref=f21e276]:
+                  - link [ref=f21e277] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f21e278]: 
+                - cell [ref=f21e279]:
+                  - link [ref=f21e280] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/6/download
+                    - generic [ref=f21e281]:
+                      - text: 
+                      - generic [ref=f21e282]: D
+                - cell [ref=f21e283]:
+                  - generic [ref=f21e284] [cursor=pointer]: 
+                - cell [ref=f21e286]:
+                  - generic [ref=f21e287] [cursor=pointer]: 
+              - row [ref=f21e289]:
+                - cell "Zofia" [ref=f21e290]
+                - cell "Rutkowska" [ref=f21e291]
+                - cell "98100136781" [ref=f21e292]
+                - cell [ref=f21e293]
+                - cell "2026-08-26 17:17:04" [ref=f21e294]
+                - cell "2026-08-26 17:22:34" [ref=f21e295]
+                - cell "01033646" [ref=f21e296]
+                - cell "Anna Lusawa-Siennicka" [ref=f21e297]
+                - cell [ref=f21e298]:
+                  - link [ref=f21e299] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f21e300]: 
+                - cell [ref=f21e301]:
+                  - link [ref=f21e302] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/7/download
+                    - generic [ref=f21e303]:
+                      - text: 
+                      - generic [ref=f21e304]: D
+                - cell [ref=f21e305]:
+                  - generic [ref=f21e306] [cursor=pointer]: 
+                - cell [ref=f21e308]:
+                  - generic [ref=f21e309] [cursor=pointer]: 
+              - row [ref=f21e311]:
+                - cell "RYVJCH" [ref=f21e312]
+                - cell "QAIJY" [ref=f21e313]
+                - cell "67012646453" [ref=f21e314]
+                - cell [ref=f21e315]
+                - cell "2026-08-26 12:11:33" [ref=f21e316]
+                - cell "2026-08-26 12:23:39" [ref=f21e317]
+                - cell "01551023" [ref=f21e318]
+                - cell "bartek_manager" [ref=f21e319]
+                - cell [ref=f21e320]:
+                  - link [ref=f21e321] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f21e322]: 
+                - cell [ref=f21e323]:
+                  - link [ref=f21e324] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/8/download
+                    - generic [ref=f21e325]:
+                      - text: 
+                      - generic [ref=f21e326]: D
+                - cell [ref=f21e327]:
+                  - generic [ref=f21e328] [cursor=pointer]: 
+                - cell [ref=f21e330]:
+                  - generic [ref=f21e331] [cursor=pointer]: 
+              - row [ref=f21e333]:
+                - cell "OUVCLX" [ref=f21e334]
+                - cell "MVKLEUVCTS" [ref=f21e335]
+                - cell "88080503134" [ref=f21e336]
+                - cell [ref=f21e337]
+                - cell "2026-08-26 11:48:48" [ref=f21e338]
+                - cell "2026-08-26 12:02:04" [ref=f21e339]
+                - cell "02366122" [ref=f21e340]
+                - cell "bartek_manager" [ref=f21e341]
+                - cell [ref=f21e342]:
+                  - link [ref=f21e343] [cursor=pointer]:
+                    - /url: javascript:void();
+                    - generic [ref=f21e344]: 
+                - cell [ref=f21e345]:
+                  - link [ref=f21e346] [cursor=pointer]:
+                    - /url: /ppk-nnpte2/nnpte/manager/reqtrade/confirmation/9/download
+                    - generic [ref=f21e347]:
+                      - text: 
+                      - generic [ref=f21e348]: D
+                - cell [ref=f21e349]:
+                  - generic [ref=f21e350] [cursor=pointer]: 
+                - cell [ref=f21e352]:
+                  - generic [ref=f21e353] [cursor=pointer]: 
+        - generic [ref=f21e355]:
+          - status [ref=f21e357]: Pozycje od 1 do 10 z 389 łącznie
+          - navigation "pagination" [ref=f21e360]:
+            - list [ref=f21e361]:
+              - listitem [ref=f21e362]:
+                - link "Previous" [disabled]: Poprzednia
+              - listitem [ref=f21e363]:
+                - link "1" [ref=f21e364] [cursor=pointer]
+              - listitem [ref=f21e365]:
+                - link "2" [ref=f21e366] [cursor=pointer]
+              - listitem [ref=f21e367]:
+                - link "3" [ref=f21e368] [cursor=pointer]
+              - listitem [ref=f21e369]:
+                - link "4" [ref=f21e370] [cursor=pointer]
+              - listitem [ref=f21e371]:
+                - link "5" [ref=f21e372] [cursor=pointer]
+              - listitem [ref=f21e373]:
+                - link "…" [ref=f21e374] [cursor=pointer]
+              - listitem [ref=f21e375]:
+                - link "39" [ref=f21e376] [cursor=pointer]
+              - listitem [ref=f21e377]:
+                - link "Next" [ref=f21e378] [cursor=pointer]: Następna
+  - contentinfo [ref=f21e118]:
+    - generic [ref=f21e120]:
+      - generic [ref=f21e121]:
+        - paragraph [ref=f21e122]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f21e123]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f21e125]:
+        - listitem [ref=f21e126]:
+          - link "Bezpieczeństwo" [ref=f21e127] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f21e128]:
+          - link "Polityka cookies" [ref=f21e129] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f21e130]:
+          - link "Kontakt" [ref=f21e131] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f21e132]:
+          - link "Regulamin" [ref=f21e133] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

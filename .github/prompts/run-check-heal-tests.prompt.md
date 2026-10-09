@@ -36,10 +36,6 @@ If required inputs are missing, ask only for missing essentials before continuin
 
 ## Workflow
 
-1. Use dedicated agent to run and implement requested test scope and check and update failures.
-2. Read instructions.md files in instructions/. directory for relevant guidance.
-3. Read only the name and description of each skill file in `skills/`.
-4. If description in skills files are relevant to the requested scope, read the skill and apply it to the workflow.
 5. Confirm scope.
 6. Run tests for that scope.
 7. First check if user can be logged in to the application; if not, fix it first and then run the rest of the test cases to get the full scope of failures.

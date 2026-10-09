@@ -1,0 +1,122 @@
+- generic [active] [ref=f21e1]:
+  - banner [ref=f21e2]:
+    - navigation [ref=f21e4]:
+      - link [ref=f21e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=f21e7]:
+        - listitem [ref=f21e8]:
+          - link "Menu" [ref=f21e9] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=f21e12]:
+        - generic [ref=f21e13]:
+          - generic [ref=f21e14]: Koniec sesji za 15:00
+          - generic [ref=f21e15]: "Ostatnia udana próba logowania: 30-09-2026 15:56"
+          - generic [ref=f21e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+        - button "Wyloguj" [ref=f21e17] [cursor=pointer]
+  - generic [ref=f21e19]:
+    - navigation "breadcrumb" [ref=f21e20]:
+      - list [ref=f21e21]:
+        - listitem [ref=f21e22]:
+          - link "Home" [ref=f21e23] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/login/fork
+        - listitem [ref=f21e24]: / Zlecenia do akceptacji
+    - heading "Zlecenia do akceptacji" [level=1] [ref=f21e25]
+    - generic [ref=f21e27]:
+      - list [ref=f21e28]:
+        - listitem [ref=f21e29]:
+          - link "Oczekujące" [ref=f21e30] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/reqtrade/list/awaiting
+        - listitem [ref=f21e31]:
+          - link "Zaakceptowane" [ref=f21e32] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/reqtrade/list/accepted
+        - listitem [ref=f21e33]:
+          - link "Odrzucone" [ref=f21e34] [cursor=pointer]:
+            - /url: "#"
+      - text: 
+      - generic [ref=f21e35]:
+        - generic [ref=f21e36]:
+          - generic [ref=f21e39]:
+            - text: Pokaż
+            - combobox "Pokaż pozycji" [ref=f21e40]:
+              - option "10" [selected]
+              - option "25"
+              - option "50"
+              - option "100"
+            - text: pozycji
+          - generic [ref=f21e42]:
+            - generic [ref=f21e43]: "Szukaj:"
+            - searchbox "Szukaj:" [ref=f21e44]
+        - generic [ref=f21e46]:
+          - status [ref=f21e47]:
+            - generic [ref=f21e48]: 
+            - generic [ref=f21e49]: Loading...
+          - table [ref=f21e50]:
+            - rowgroup [ref=f21e65]:
+              - row [ref=f21e66]:
+                - 'columnheader "Imię Imię: Activate to sort" [ref=f21e67] [cursor=pointer]':
+                  - generic [ref=f21e68]:
+                    - generic [ref=f21e69]: Imię
+                    - 'button "Imię: Activate to sort" [ref=f21e70]'
+                - 'columnheader "Nazwisko Nazwisko: Activate to sort" [ref=f21e71] [cursor=pointer]':
+                  - generic [ref=f21e72]:
+                    - generic [ref=f21e73]: Nazwisko
+                    - 'button "Nazwisko: Activate to sort" [ref=f21e74]'
+                - 'columnheader "Pesel Pesel: Activate to sort" [ref=f21e75] [cursor=pointer]':
+                  - generic [ref=f21e76]:
+                    - generic [ref=f21e77]: Pesel
+                    - 'button "Pesel: Activate to sort" [ref=f21e78]'
+                - 'columnheader "Dokument tożsamości Dokument tożsamości: Activate to sort" [ref=f21e79] [cursor=pointer]':
+                  - generic [ref=f21e80]:
+                    - generic [ref=f21e81]: Dokument tożsamości
+                    - 'button "Dokument tożsamości: Activate to sort" [ref=f21e82]'
+                - 'columnheader "Data zlecenia Data zlecenia: Activate to remove sorting" [ref=f21e83] [cursor=pointer]':
+                  - generic [ref=f21e84]:
+                    - generic [ref=f21e85]: Data zlecenia
+                    - 'button "Data zlecenia: Activate to remove sorting" [ref=f21e86]'
+                - 'columnheader "Data odrzucenia Data odrzucenia: Activate to sort" [ref=f21e87] [cursor=pointer]':
+                  - generic [ref=f21e88]:
+                    - generic [ref=f21e89]: Data odrzucenia
+                    - 'button "Data odrzucenia: Activate to sort" [ref=f21e90]'
+                - 'columnheader "Typ zlecenia Typ zlecenia: Activate to sort" [ref=f21e91] [cursor=pointer]':
+                  - generic [ref=f21e92]:
+                    - generic [ref=f21e93]: Typ zlecenia
+                    - 'button "Typ zlecenia: Activate to sort" [ref=f21e94]'
+                - 'columnheader "Nr rachunku PPK Nr rachunku PPK: Activate to sort" [ref=f21e95] [cursor=pointer]':
+                  - generic [ref=f21e96]:
+                    - generic [ref=f21e97]: Nr rachunku PPK
+                    - 'button "Nr rachunku PPK: Activate to sort" [ref=f21e98]'
+                - 'columnheader "Osoba odrzucająca Osoba odrzucająca: Activate to sort" [ref=f21e99] [cursor=pointer]':
+                  - generic [ref=f21e100]:
+                    - generic [ref=f21e101]: Osoba odrzucająca
+                    - 'button "Osoba odrzucająca: Activate to sort" [ref=f21e102]'
+                - columnheader "Dokumenty" [ref=f21e103]
+                - columnheader "Zlecenie" [ref=f21e106]
+                - columnheader "Powód odrzucenia" [ref=f21e109]
+                - columnheader "Notatka" [ref=f21e112]
+            - rowgroup [ref=f21e115]:
+              - row [ref=f21e116]:
+                - cell "Wczytywanie..." [ref=f21e117]
+        - generic:
+          - generic:
+            - status
+          - generic:
+            - generic:
+              - navigation "pagination"
+  - contentinfo [ref=f21e118]:
+    - generic [ref=f21e120]:
+      - generic [ref=f21e121]:
+        - paragraph [ref=f21e122]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f21e123]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f21e125]:
+        - listitem [ref=f21e126]:
+          - link "Bezpieczeństwo" [ref=f21e127] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f21e128]:
+          - link "Polityka cookies" [ref=f21e129] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f21e130]:
+          - link "Kontakt" [ref=f21e131] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f21e132]:
+          - link "Regulamin" [ref=f21e133] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

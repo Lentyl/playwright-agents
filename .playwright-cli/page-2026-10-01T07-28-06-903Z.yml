@@ -1,0 +1,5 @@
+- generic [active] [ref=f25e1]:
+  - heading "Whitelabel Error Page" [level=1] [ref=f25e2]
+  - paragraph [ref=f25e3]: This application has no explicit mapping for /error, so you are seeing this as a fallback.
+  - generic [ref=f25e4]: "null"
+  - generic [ref=f25e5]: There was an unexpected error (type=null, status=null).

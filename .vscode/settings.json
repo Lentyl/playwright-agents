@@ -2,6 +2,33 @@
     "chat.tools.terminal.autoApprove": {
         "npx tsc": true,
         "npx playwright": true,
-        "playwright-cli": true
+        "playwright-cli": true,
+        "/^python -m pip install --user pypdf$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python -c \"from pypdf import PdfReader; r=PdfReader\\(r'data/doc/FM-PrzypadkitestoweNNPTE-300926-1602-170\\.pdf'\\); print\\('\\\\n\\\\n'\\.join\\(f'===== PAGE \\{i\\+1\\} =====\\\\n\\{r\\.pages\\[i\\]\\.extract_text\\(\\)\\}' for i in range\\(min\\(12,len\\(r\\.pages\\)\\)\\)\\)\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python -c \"from pypdf import PdfReader; r=PdfReader\\(r'data/doc/FM-PrzypadkitestoweNNPTE-300926-1602-170\\.pdf'\\); print\\('pages=',len\\(r\\.pages\\)\\); \\[print\\('===== PAGE '\\+str\\(i\\+1\\)\\+' =====\\\\n'\\+\\(r\\.pages\\[i\\]\\.extract_text\\(\\) or ''\\)\\) for i in range\\(len\\(r\\.pages\\)\\)\\]\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "ForEach-Object": true,
+        "/^node -e \"const XLSX=require\\('xlsx'\\); const fs=require\\('fs'\\); const path=fs\\.readdirSync\\('data/doc/download-files'\\)\\.find\\(name=>name\\.endsWith\\('\\.xlsx'\\)\\); const workbook=XLSX\\.readFile\\('data/doc/download-files/'\\+path\\); const sheet=workbook\\.Sheets\\[workbook\\.SheetNames\\[0\\]\\]; console\\.log\\(JSON\\.stringify\\(XLSX\\.utils\\.sheet_to_json\\(sheet,\\{header:1,defval:''\\}\\)\\.slice\\(0,7\\),null,2\\)\\);\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "npm install": true,
+        "/^node -e \"const pdfParse=require\\('pdf-parse'\\); console\\.log\\(Object\\.keys\\(pdfParse\\)\\);\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^node -e \"const \\{PDFParse\\}=require\\('pdf-parse'\\); console\\.log\\(Object\\.getOwnPropertyNames\\(PDFParse\\.prototype\\)\\);\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "docker pull": true
     }
 }

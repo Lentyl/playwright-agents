@@ -1,0 +1,105 @@
+- generic [active] [ref=f14e1]:
+  - banner [ref=f14e2]:
+    - navigation [ref=f14e4]:
+      - link [ref=f14e5] [cursor=pointer]:
+        - /url: /ppk-nnpte2/nnpte/manager/login/fork
+      - list [ref=f14e7]:
+        - listitem [ref=f14e8]:
+          - link "Menu" [ref=f14e9] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=f14e12]:
+        - generic [ref=f14e13]:
+          - generic [ref=f14e14]: Koniec sesji za 14:58
+          - generic [ref=f14e15]: "Ostatnia udana próba logowania: 30-09-2026 15:56"
+          - generic [ref=f14e16]: "Ostatnia nieudana próba logowania: 24-08-2026 11:24"
+        - button "Wyloguj" [ref=f14e17] [cursor=pointer]
+  - generic [ref=f14e19]:
+    - navigation "breadcrumb" [ref=f14e20]:
+      - list [ref=f14e21]:
+        - listitem [ref=f14e22]:
+          - link "Home" [ref=f14e23] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/manager/login/fork
+        - listitem [ref=f14e24]: / Podgląd pracodawców
+    - heading "Podgląd Pracodawców" [level=1] [ref=f14e25]
+    - generic [ref=f14e27]:
+      - generic [ref=f14e31]:
+        - generic [ref=f14e32]:
+          - generic [ref=f14e33]:
+            - generic [ref=f14e34]: Nazwa Pracodawcy
+            - textbox "Nazwa Pracodawcy" [ref=f14e35]
+          - generic [ref=f14e36]:
+            - generic [ref=f14e37]: KRS
+            - spinbutton "KRS" [ref=f14e38]
+        - generic [ref=f14e39]:
+          - generic [ref=f14e40]:
+            - generic [ref=f14e41]: REGON
+            - spinbutton "REGON" [ref=f14e42]
+          - generic [ref=f14e43]:
+            - generic [ref=f14e44]: NIP
+            - spinbutton "NIP" [ref=f14e45]
+        - button "Wyszukaj" [ref=f14e46] [cursor=pointer]
+      - generic [ref=f14e47]:
+        - generic [ref=f14e48]:
+          - generic [ref=f14e51]:
+            - text: Pokaż
+            - combobox "Pokaż pozycji" [ref=f14e52]:
+              - option "10" [selected]
+              - option "25"
+              - option "50"
+              - option "100"
+            - text: pozycji
+          - generic [ref=f14e54]:
+            - generic [ref=f14e55]: "Szukaj:"
+            - searchbox "Szukaj:" [ref=f14e56]
+        - generic [ref=f14e58]:
+          - text: 
+          - table [ref=f14e59] [cursor=pointer]:
+            - rowgroup [ref=f14e66]:
+              - row [ref=f14e67]:
+                - columnheader "Lp." [ref=f14e68]
+                - 'columnheader "Nazwa Pracodawcy Nazwa Pracodawcy: Activate to sort" [ref=f14e72]':
+                  - generic [ref=f14e73]:
+                    - generic [ref=f14e74]: Nazwa Pracodawcy
+                    - 'button "Nazwa Pracodawcy: Activate to sort" [ref=f14e75]'
+                - 'columnheader "KRS KRS: Activate to sort" [ref=f14e76]':
+                  - generic [ref=f14e77]:
+                    - generic [ref=f14e78]: KRS
+                    - 'button "KRS: Activate to sort" [ref=f14e79]'
+                - 'columnheader "REGON REGON: Activate to sort" [ref=f14e80]':
+                  - generic [ref=f14e81]:
+                    - generic [ref=f14e82]: REGON
+                    - 'button "REGON: Activate to sort" [ref=f14e83]'
+                - 'columnheader "NIP NIP: Activate to sort" [ref=f14e84]':
+                  - generic [ref=f14e85]:
+                    - generic [ref=f14e86]: NIP
+                    - 'button "NIP: Activate to sort" [ref=f14e87]'
+            - rowgroup [ref=f14e88]:
+              - row [ref=f14e89]:
+                - cell "Wczytywanie..." [ref=f14e90]
+        - generic [ref=f14e91]:
+          - status [ref=f14e93]: Pozycji 0 z 0 dostępnych
+          - navigation "pagination" [ref=f14e96]:
+            - list [ref=f14e97]:
+              - listitem [ref=f14e98]:
+                - link "Previous" [disabled]: Poprzednia
+              - listitem [ref=f14e99]:
+                - link "Next" [disabled]: Następna
+      - text:   
+  - contentinfo [ref=f14e100]:
+    - generic [ref=f14e102]:
+      - generic [ref=f14e103]:
+        - paragraph [ref=f14e104]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f14e105]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f14e107]:
+        - listitem [ref=f14e108]:
+          - link "Bezpieczeństwo" [ref=f14e109] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f14e110]:
+          - link "Polityka cookies" [ref=f14e111] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f14e112]:
+          - link "Kontakt" [ref=f14e113] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f14e114]:
+          - link "Regulamin" [ref=f14e115] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf

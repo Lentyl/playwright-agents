@@ -36,10 +36,6 @@ If required inputs are missing, ask only for the missing essentials before conti
 
 ## Workflow
 
-1. Use dedicated agent to run and implement requested test scope and check and update failures.
-2. Read instructions.md files in instructions/. directory for relevant guidance.
-3. Read only the name and description of each skill file in `skills/`.
-4. If description in skills files are relevant to the requested scope, read the skill and apply it to the workflow.
 5. Confirm scope.
 6. Investigate test plan document that is defined in `ai-output/` for the requested scope and identify missing or incomplete test cases.
 7. Based on test plan and Page Objects, generate or update test cases in `tests/` for the requested scope.

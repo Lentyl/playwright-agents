@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "tests"
+		},
+		{
+			"path": ".auth"
+		},
+		{
+			"path": ".claude"
+		},
+		{
+			"path": ".github"
+		},
+		{
+			"path": ".playwright-cli"
+		},
+		{
+			"path": ".vscode"
+		},
+		{
+			"path": "ai-output"
+		},
+		{
+			"path": "data"
+		},
+		{
+			"path": "fixtures"
+		},
+		{
+			"path": "NN-PTE-AT"
+		},
+		{
+			"path": "node_modules"
+		},
+		{
+			"path": "pages"
+		},
+		{
+			"path": "playwright-report"
+		},
+		{
+			"path": "test-results"
+		}
+	]
+}

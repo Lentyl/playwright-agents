@@ -1,0 +1,22 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e5]:
+    - heading "Brak dostępu!" [level=1] [ref=f4e6]
+    - paragraph [ref=f4e7]: Nie posiadasz uprawnień do żądanej treści, skontaktuj się ze swoim administratorem w celu uzgodnienia uprawnień.
+  - contentinfo [ref=f4e8]:
+    - generic [ref=f4e10]:
+      - generic [ref=f4e11]:
+        - paragraph [ref=f4e12]: Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.
+        - paragraph [ref=f4e13]: ul. Topiel 12, 00-342 Warszawa
+      - list [ref=f4e15]:
+        - listitem [ref=f4e16]:
+          - link "Bezpieczeństwo" [ref=f4e17] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/security
+        - listitem [ref=f4e18]:
+          - link "Polityka cookies" [ref=f4e19] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/help/cookies
+        - listitem [ref=f4e20]:
+          - link "Kontakt" [ref=f4e21] [cursor=pointer]:
+            - /url: /ppk-nnpte2/nnpte/contact
+        - listitem [ref=f4e22]:
+          - link "Regulamin" [ref=f4e23] [cursor=pointer]:
+            - /url: https://www.nn.pl/dam/jcr:5a1bf4dc-262d-4ac4-ad48-39cda0bc6b3c/Regulamin%20portalu%20PPK.pdf
